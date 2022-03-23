@@ -1,0 +1,8 @@
+.tutorial{
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1pt solid #d8d8d8;
+  background: #ffffff 5px center/3em no-repeat;
+    background-image: url("https://github.com/rstudio-education/datascience-box/raw/main/css/tutorial.png");
+}

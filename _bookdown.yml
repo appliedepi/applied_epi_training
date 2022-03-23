@@ -1,0 +1,24 @@
+output_dir: "html_outputs"
+#book_filename: "hbk_files"   # name of folder in output_dir
+language:
+  ui:
+    chapter_name: ""
+description: "Training materials for using R in applied epidemiology and public health"
+delete_merged_file: FALSE
+
+rmd_files: [
+  # INTRO & CONTRIBUTORS
+  "index.Rmd",                                        # objectives, how to read, authors, acknowledgements
+
+  # Applied epi courses
+  "pages/cat_applied_epi.Rmd",                        # start of new section (sepparator)
+  "pages/01-appliedepi-intro-to-r.Rmd",               # Our basic course
+
+  # EPIET courses
+  "pages/cat_epiet.Rmd",                              # start of new section (sepparator)
+  "pages/02-epiet-outbreak-stegen-case-study.Rmd"     # An example of FETP case study
+
+]
+
+#new_session: yes
+

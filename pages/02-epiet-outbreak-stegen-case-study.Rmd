@@ -1,0 +1,7 @@
+# Outbreak Investigation Module: Stegen case study {} 
+
+<!-- ======================================================= -->
+## Overview {  }
+
+This page would host the content for a case study which is part of the outbreak
+investigations module - currently hosted on [github](https://github.com/EPIET/OutbreakInvestigation). 

@@ -1,0 +1,43 @@
+bookdown::gitbook:
+  config:
+    toc:
+      collapse: subsection
+      before: |
+        <li><strong><a href="./">R training for Epis</a></strong></li>
+      after: |
+        <li><a href="https://github.com/appliedepi/applied_epi_training" target="blank">Source Github repository</a></li>
+    sharing: no
+  split_by: "none"
+  self_contained: TRUE
+  params:
+    run_page_ind: FALSE
+
+
+
+bookdown::html_document2:
+  title:  |
+    ![]("https://github.com/appliedepi/applied_epi_website_airspace/raw/main/assets/images/hex-sidebyside.png")
+  author: "Version 1.0.0"
+  date: "Produced `r format(Sys.time(), '%A %d %B %Y')`"
+  code_folding: show
+  highlight: zenburn
+  number_sections: no
+  theme: sandstone
+  toc: yes
+  toc_collapse: no
+  toc_depth: 3
+  toc_float: yes
+  params:
+    run_page_ind: FALSE
+
+
+bookdown::bs4_book:
+  includes:
+    in_header: [google_tag.html]
+  theme:
+    primary: "#1E5C65"  # datascience-box green
+  css: [css/style_bs4.css, css/appliedepi.css]
+  split_by: "none"
+  params:
+    run_page_ind: FALSE
+  #download: ["pages/handbook_combined.html"]
