@@ -1,5 +1,5 @@
 
-# Introduciton to R {} 
+# Introduction to R {} 
 
 <!-- ======================================================= -->
 ## Overview {  }
