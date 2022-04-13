@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>13 Introduction to R | Applied Epi Training</title>
+<meta name="author" content="Applied Epi">
+<meta name="description" content="13.1 Overview This page hosts training materials for the Applied EpiTM “Introduction to R for Applied Epidemiology”. This course teaches the fundamentals of R for applied epidemiologists and...">
+<meta name="generator" content="bookdown 0.25 with bs4_book()">
+<meta property="og:title" content="13 Introduction to R | Applied Epi Training">
+<meta property="og:type" content="book">
+<meta property="og:description" content="13.1 Overview This page hosts training materials for the Applied EpiTM “Introduction to R for Applied Epidemiology”. This course teaches the fundamentals of R for applied epidemiologists and...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="13 Introduction to R | Applied Epi Training">
+<meta name="twitter:description" content="13.1 Overview This page hosts training materials for the Applied EpiTM “Introduction to R for Applied Epidemiology”. This course teaches the fundamentals of R for applied epidemiologists and...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-QXDW878QLX"></script><script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QXDW878QLX');
+        </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="css/style_bs4.css">
+<link rel="stylesheet" href="css/appliedepi.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Applied Epi Training</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"></a></li>
+<li class="book-part">Intro to R for Applied Epidemiology (LIVE)</li>
+<li><a class="" href="r-setup-syntax-and-data-import.html"><span class="header-section-number">1</span> R setup, syntax, and data import</a></li>
+<li><a class="" href="data-cleaning.html"><span class="header-section-number">2</span> Data cleaning</a></li>
+<li><a class="" href="grouping-data-and-summary-tables.html"><span class="header-section-number">3</span> Grouping data and summary tables</a></li>
+<li><a class="" href="data-visualization-with-ggplot2.html"><span class="header-section-number">4</span> Data visualization with {ggplot2}</a></li>
+<li><a class="" href="transforming-data-with-joins-and-pivots.html"><span class="header-section-number">5</span> Transforming data with joins and pivots</a></li>
+<li><a class="" href="data-viz-for-public-health.html"><span class="header-section-number">6</span> Data viz for public health</a></li>
+<li><a class="" href="r-markdown-reports.html"><span class="header-section-number">7</span> R Markdown reports</a></li>
+<li><a class="" href="final-exercise-and-code-review.html"><span class="header-section-number">8</span> Final exercise and code review</a></li>
+<li class="book-part">Case studies</li>
+<li><a class="" href="introduction-to-r.html"><span class="header-section-number">9</span> Introduction to R</a></li>
+<li><a class="" href="introduction-to-r-1.html"><span class="header-section-number">10</span> Introduction to R</a></li>
+<li><a class="" href="introduction-to-r-2.html"><span class="header-section-number">11</span> Introduction to R</a></li>
+<li><a class="" href="introduction-to-r-3.html"><span class="header-section-number">12</span> Introduction to R</a></li>
+<li><a class="active" href="introduction-to-r-4.html"><span class="header-section-number">13</span> Introduction to R</a></li>
+<li class="book-part">Case studies</li>
+<li><a class="" href="outbreak-investigation-module-stegen-case-study.html"><span class="header-section-number">14</span> Outbreak Investigation Module: Stegen case study</a></li>
+<li><a class="" href="outbreak-investigation-module-stegen-case-study-1.html"><span class="header-section-number">15</span> Outbreak Investigation Module: Stegen case study</a></li>
+<li><a class="" href="outbreak-investigation-module-stegen-case-study-2.html"><span class="header-section-number">16</span> Outbreak Investigation Module: Stegen case study</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="introduction-to-r-4" class="section level1" number="13">
+<h1>
+<span class="header-section-number">13</span> Introduction to R<a class="anchor" aria-label="anchor" href="#introduction-to-r-4"><i class="fas fa-link"></i></a>
+</h1>
+<!-- ======================================================= -->
+<div id="overview-12" class="section level2" number="13.1">
+<h2>
+<span class="header-section-number">13.1</span> Overview<a class="anchor" aria-label="anchor" href="#overview-12"><i class="fas fa-link"></i></a>
+</h2>
+<p>This page hosts training materials for the Applied Epi<sup>TM</sup> “Introduction to R for Applied Epidemiology”.
+This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.</p>
+<!-- ======================================================= -->
+</div>
+<div id="module-12" class="section level2" number="13.2">
+<h2>
+<span class="header-section-number">13.2</span> Module<a class="anchor" aria-label="anchor" href="#module-12"><i class="fas fa-link"></i></a>
+</h2>
+<p>Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.<br>
+Clicking on the tutorial link will launch a new window with interactive exercises.</p>
+<div class="tutorial">
+<p><strong>Module 1: Introduction to R</strong></p>
+<p>We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.</p>
+<ul>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html">Slides: Welcome, course logistics, RStudio, and basic R syntax</a></p></li>
+<li><p>Live demonstration (<a href="https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html">instructor guide</a>)</p></li>
+</ul>
+<p><a href="https://aspina.shinyapps.io/basics/">[Tutorial]</a> <a href="https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics">[Source]</a></p>
+</div>
+<div class="tutorial">
+<p><strong>Module 4: Data visualization with {ggplot2}</strong></p>
+<p>Using the {ggplot2} package to maximum effect rests upon understanding how to apply its “grammar of graphics” to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.</p>
+<ul>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html">Slides: Data visualization with ggplot2</a></p></li>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html">Slides: Scales, themes, and labels</a></p></li>
+</ul>
+<p><a href="https://aspina.shinyapps.io/ggplot_basics/">[Tutorial]</a> <a href="https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics">[Source]</a></p>
+</div>
+
+</div>
+</div>
+
+
+
+<div class="chapter-nav">
+<div class="prev"><a href="introduction-to-r-3.html"><span class="header-section-number">12</span> Introduction to R</a></div>
+<div class="next"><a href="outbreak-investigation-module-stegen-case-study.html"><span class="header-section-number">14</span> Outbreak Investigation Module: Stegen case study</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#introduction-to-r-4"><span class="header-section-number">13</span> Introduction to R</a></li>
+<li><a class="nav-link" href="#overview-12"><span class="header-section-number">13.1</span> Overview</a></li>
+<li><a class="nav-link" href="#module-12"><span class="header-section-number">13.2</span> Module</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+</div>
+  
+
+  
+
+</div>
+ <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Applied Epi Training</strong>" was written by Applied Epi. It was last built on 2022-04-13.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

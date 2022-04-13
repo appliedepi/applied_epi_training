@@ -11,12 +11,31 @@ rmd_files: [
   "index.Rmd",                                        # objectives, how to read, authors, acknowledgements
 
   # Applied epi courses
-  "pages/cat_applied_epi.Rmd",                        # start of new section (sepparator)
-  "pages/01-appliedepi-intro-to-r.Rmd",               # Our basic course
+  "pages/cat_live_intro.Rmd",                        # start of new section (sepparator)
+  "pages/live_00_course-overview.Rmd",               # Our basic course
+  "pages/live_01_setup-syntax.Rmd",                  # Our basic course
+  "pages/live_02_cleaning.Rmd",                      # Our basic course
+  "pages/live_03_summary-tables.Rmd",                # Our basic course
+  "pages/live_04_ggplot-intro.Rmd",                  # Our basic course
+  "pages/live_05_join-pivot.Rmd",                    # Our basic course
+  "pages/live_06_ggplot-epi.Rmd",                    # Our basic course
+  "pages/live_07_rmarkdown.Rmd",                     # Our basic course
+  "pages/live_08_final_ex.Rmd",                      # Our basic course
 
-  # EPIET courses
-  "pages/cat_epiet.Rmd",                              # start of new section (sepparator)
-  "pages/02-epiet-outbreak-stegen-case-study.Rmd"     # An example of FETP case study
+  # Self-paced tutorials
+  "pages/cat_tutorials.Rmd",                        # start of new section (sepparator)
+  "pages/tutorials_00_overview.Rmd",             #
+  "pages/tutorials_01_basics.Rmd",             #
+  "pages/tutorials_02_cleaning.Rmd",             #
+  "pages/tutorials_03_ggplot-intro.Rmd",             #
+  "pages/tutorials_04_join-pivot.Rmd",             #
+  "pages/tutorials_05_ggplot-epi.Rmd",             #
+
+  # Case studies
+  "pages/cat_case_studies.Rmd",                       # start of new section (sepparator)
+  "pages/case-study_01_epiet-stegen.Rmd",     # An example of FETP case study
+  "pages/case-study_02_gis.Rmd",              # An example of FETP case study
+  "pages/case-study_03_time-series.Rmd"                     # An example of FETP case study
 
 ]
 
