@@ -1,10 +1,4 @@
 educational-approach
-our-pedagogical-approach
-we-are-focused-on-frontline-practitioners
-we-are-curators-on-your-behalf
-thoughtful-and-deliberate-curriculum
-building-confidence-to-tinker
-setting-you-up-to-actually-use-r
 intro-to-r-for-applied-epidemiology
 intro-to-r-for-team-leaders
 gis-mapping-in-r
