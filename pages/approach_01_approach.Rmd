@@ -1,0 +1,49 @@
+# Educational approach {} 
+
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/approach/moz-banner.png"))
+```
+
+<!-- ======================================================= -->
+## Our pedagogical approach {  }
+
+Applied Epi training materials are constructed with the following principles:  
+
+## We are focused on frontline practitioners  
+
+Our efforts are focused on improving the lives of ground-level public health practitioners and applied epidemiologists - the vast workforce at local and national health agencies, NGOs, and healthcare systems.  
+
+While complex causal modeling and machine-learning algorithms have a role to play, we believe that most actionable public health intelligence derives from the frontline workforce. They have the most to benefit from R adoption, and their needs have historically been underserved by R developers.  
+
+Therefore, our course content focus on the tasks, visualizations, and analyses most common in practical, applied epidemiology and public health.  
+
+
+
+## We are curators on your behalf  
+
+We have leveraged our decades of experience using R and working in frontline epidemiology in order to *distill the vast universe of R packages and functions into the most easy and relevant approaches for beginners in public health practice*.  
+
+R is notorious for having many ways to do the same thing. We've reviewed the options, and have chosen the easiest and best ones for you.  
+
+
+
+### Thoughtful and deliberate curriculum  
+
+We are intentional with our vocabulary, choice of terms, methodological consistency, and the progression of skills that we introduce (to reduce your mental load and speed up learning).  
+
+
+### Building confidence to "tinker"  
+
+The best (perhaps only) way to learn a new language like R is to "tinker", or to experiment and learn via trial and error. We build this into our courses by progressively encouraging you to write original code and understand R documentation and error messages.  
+
+
+### Setting you up to actually use R  
+
+Some R courses have you work only in a virtual environment, because it is less hassle for their instructors.  
+
+In our live courses, we embrace the challenges of setting up R on *your computer*. This means dedicating time to work through the complications posed by employer security restrictions, other software such as OneDrive, VPNs, and previous R installations.  
+
+Our self-paced tutorials are intended for larger audiences and cannot include the personal attention to troubleshoot R setup on your computer. Nevertheless, we focus on building coding skills within the tutorial, address R setup when possible, and offer "office hours" sessions for assistance.  
+
+ 

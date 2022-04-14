@@ -23,7 +23,7 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 ## Training materials for applied epidemiology and public health {.unnumbered}
 
-**This website strives to:**
+**This website :**
 
 -   Serve as a home for Applied Epi^TM^ training materials\
 -   Provide problem-based teaching to address common epidemiological
@@ -32,19 +32,32 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 -   Be accessible in settings with low internet-connectivity via offline
     versions
 
-## Upcoming live courses
+## About Applied Epi {.unnumbered}
 
-Register for a live course by completing this [**reservation form**]().
+[**Applied Epi**](http://www.appliedepi.org) is a nonprofit
+organization and grassroots movement that provides tools, training, and support to frontline epidemiologists and public health practitioners around the world. Your encouragement and feedback is most welcome:
 
-| Course                              | Dates                                               | Time zones | Prerequisites                                                                      | Price per person |
-|---------------|---------------|---------------|---------------|---------------|
-| Intro to R for applied epidemiology | June 6, 8, 13, 15, 20, 22, 27, 29 and July 4, and 6 | TBD        | Prior experience with code-based statistical software (e.g. SAS, Stata, or Python) | \$1200           |
-| Intro to R for applied epidemiology | August 2022                                         | TBD        | Prior experience with code-based statistical software (e.g. SAS, Stata, or Python) | \$1200           |
-| Intro to R for applied epidemiology | October                                             | TBD        | Prior experience with code-based statistical software (e.g. SAS, Stata, or Python) | \$1200           |
+-   Visit our [**main website**](http://www.appliedepi.org) and [**join our
+    contact list**](https://forms.gle/9awNd8syypTSYUsn7)\
+-   Email
+    [**contact\@appliedepi.org**](mailto:contact@appliedepi.org){.email}\
+-   Tweet [**\@epiRhandbook**](https://twitter.com/epirhandbook) or
+    [**\@appliedepi**](https://twitter.com/appliedepi)
+-   Submit issues to our [**Github
+    repository**](https://github.com/appliedepi/applied_epi_training)
 
-: Click [here] to read details about our live course policies.
 
-## About Applied Epi
+
+<form target="_blank" action="https://www.paypal.com/donate" method="post" target="_top">
+
+<input type="hidden" name="hosted_button_id" value="YTEZELC8VBXV6" />
+<input type="image" src="https://github.com/appliedepi/epiRhandbook_eng/raw/master/images/donate_button_long.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img src="https://www.paypal.com/en_US/i/scr/pixel.gif" border="0"/>
+
+</form>
+
+
+## Our suite of services for frontline public health {.unnumbered}
 
 ::: {style="display: flex;"}
 <div>
@@ -52,6 +65,8 @@ Register for a live course by completing this [**reservation form**]().
 ```{r, out.width = "75%", fig.align = "center", echo=F}
 knitr::include_graphics("images/index/tools_icon.png")
 ```
+
+**Tools**
 
 -   [**Epi R Handbook**](www.epiRhandbook.com)
 -   [**R packages**](https://appliedepi.org/tools/)
@@ -70,10 +85,11 @@ a column separator -->
 knitr::include_graphics("images/index/teaching_icon.png")
 ```
 
+**Training**  
+
 -   [**Live R training courses**](www.training.appliedepi.org)
 -   [**Self-paced R tutorials**](https://training.appliedepi.org)
--   [**YouTube
-    channel**](https://www.youtube.com/channel/UCgXBQIFJ_Rmq3UhWL_yrkxQ)
+-   [**Case studies**](www.training.appliedepi.org)
 
 </div>
 
@@ -88,63 +104,36 @@ a column separator -->
 knitr::include_graphics("images/index/QA_icon.png")
 ```
 
+**Support**  
+
 -   [**Q&A discussion forum**](www.community.appliedepi.org)
 -   [**R Help Desk**](https://appliedepi.org/helpdesk/)
--   [**Case studies**](www.training.appliedepi.org)
+
 
 </div>
 :::
 
-<br> [**Written by epidemiologists, for
-epidemiologists**]{style="color: black;"}
 
-::: {style="display: flex;"}
-<div>
 
-```{r, out.width = "100%", fig.align = "center", echo=F}
-knitr::include_graphics(xfun::relative_path("images/index/logo.png"))
-```
+## Upcoming live courses {.unnumbered}
 
-</div>
+Register for a live course by completing this [**reservation form**]().
 
-::: {.col data-latex="{0.05\\textwidth}"}
-  <!-- an empty Div (with a white space), serving as
-a column separator -->
-:::
+| Course                              | Dates                                               | Time zones | Prerequisites                                                                      | Price per person |
+|---------------|---------------|---------------|---------------|---------------|
+| Intro to R for applied epidemiology | June 6, 8, 13, 15, 20, 22, 27, 29 and July 4, and 6 | TBD        | Some experience with SAS, Stata, or Python | \$1200           |
+| Intro to R for applied epidemiology | August 2022                                         | TBD        | TBD  | TBD           |
 
-<div>
+: See our **[live course policies]()**.  
 
-[**Applied Epi**](http://www.appliedepi.org) is a non-profit
-organisation and grassroots movement of frontline epis from around the
-world. We write in our spare time to offer this resource to the
-community. Your encouragement and feedback is most welcome:
 
--   Visit our [**website**](http://www.appliedepi.org) and [**join our
-    contact list**](https://forms.gle/9awNd8syypTSYUsn7)\
--   Email
-    [**contact\@appliedepi.org**](mailto:contact@appliedepi.org){.email}\
--   Tweet [**\@epiRhandbook**](https://twitter.com/epirhandbook) or
-    [**\@appliedepi**](https://twitter.com/appliedepi)
--   Submit issues to our [**Github
-    repository**](https://github.com/appliedepi/applied_epi_training)
 
-**We offer live R training** from instructors with decades of applied
-epidemiology experience - email us to discuss.
 
-</div>
-:::
 
-<form target="_blank" action="https://www.paypal.com/donate" method="post" target="_top">
-
-<input type="hidden" name="hosted_button_id" value="YTEZELC8VBXV6" />
-<input type="image" src="https://github.com/appliedepi/epiRhandbook_eng/raw/master/images/donate_button_long.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img src="https://www.paypal.com/en_US/i/scr/pixel.gif" border="0"/>
-
-</form>
 
 <!-- ======================================================= -->
 
-## How to use this handbook {.unnumbered}
+## How to use this website {.unnumbered}
 
 -   Browse the pages in the Table of Contents, or use the search box
 -   Pages will be stand-alone courses or groupings of case studies by
@@ -152,89 +141,17 @@ epidemiology experience - email us to discuss.
 
 <!-- ======================================================= -->
 
-## Acknowledgements {.unnumbered}
-
-This website is produced by a collaboration of epidemiologists from
-around the world drawing upon experience with organizations including
-local, state, provincial, and national health agencies, the World Health
-Organization (WHO), Médecins Sans Frontières / Doctors without Borders
-(MSF), hospital systems, and academic institutions.
-
-This website is **not** an approved product of any specific
-organization. Although we strive for accuracy, we provide no guarantee
-of the content in this book.
-
 ### Contributors {.unnumbered}
 
-**Editor:** [Neale Batra](https://www.linkedin.com/in/neale-batra/)
-
-**Authors**: [Neale Batra](https://www.linkedin.com/in/neale-batra/),
-[Alex Spina](https://github.com/aspina7), [Paula
-Blomquist](https://www.linkedin.com/in/paula-bianca-blomquist-53188186/),
-[Finlay Campbell](https://github.com/finlaycampbell), [Henry
-Laurenson-Schafer](https://github.com/henryls1), [Isaac
-Florence](www.Twitter.com/isaacatflorence), [Natalie
-Fischer](https://www.linkedin.com/in/nataliefischer211/), [Aminata
-Ndiaye](https://twitter.com/aminata_fadl), [Liza
-Coyer](https://www.linkedin.com/in/liza-coyer-86022040/), [Jonathan
-Polonsky](https://twitter.com/jonny_polonsky), [Yurie
-Izawa](https://ch.linkedin.com/in/yurie-izawa-a1590319), [Chris
-Bailey](https://twitter.com/cbailey_58?lang=en), [Daniel
-Molling](https://www.linkedin.com/in/daniel-molling-4005716a/), [Isha
-Berry](https://twitter.com/ishaberry2), [Emma
-Buajitti](https://twitter.com/buajitti), [Mathilde
-Mousset](https://mathildemousset.wordpress.com/research/), [Sara
-Hollis](https://www.linkedin.com/in/saramhollis/), Wen Lin
-
-**Reviewers and supporters**: Pat Keating, [Amrish
-Baidjoe](https://twitter.com/Ammer_B), Annick Lenglet, Margot Charette,
-Danielly Xavier, Marie-Amélie Degail Chabrat, Esther Kukielka, Michelle
-Sloan, Aybüke Koyuncu, Rachel Burke, Kate Kelsey, [Berhe
-Etsay](https://www.linkedin.com/in/berhe-etsay-5752b1154/), John Rossow,
-Mackenzie Zendt, James Wright, Laura Haskins, [Flavio
-Finger](ffinger.github.io), Tim Taylor, [Jae Hyoung Tim
-Lee](https://www.linkedin.com/in/jaehyoungtlee/), [Brianna
-Bradley](https://www.linkedin.com/in/brianna-bradley-bb8658155), [Wayne
-Enanoria](https://www.linkedin.com/in/wenanoria), Manual Albela Miranda,
-[Molly Mantus](https://www.linkedin.com/in/molly-mantus-174550150/),
-Pattama Ulrich, Joseph Timothy, Adam Vaughan, Olivia Varsaneux, Lionel
-Monteiro, Joao Muianga
-
-**Illustrations**: Calder Fong
-
-### Funding and support {.unnumbered}
-
-The website received supportive funding via a COVID-19 emergency
-capacity-building grant from [TEPHINET](https://www.tephinet.org/), the
-global network of Field Epidemiology Training Programs (FETPs) and from
-Médecins Sans Frontières (MSF) Operational Centre Amsterdam (OCA).
-
-*This publication was supported by Cooperative Agreement number
-NU2GGH001873, funded by the Centers for Disease Control and Prevention
-through TEPHINET, a program of The Task Force for Global Health. Its
-contents are solely the responsibility of the authors and do not
-necessarily represent the official views of the Centers for Disease
-Control and Prevention, the Department of Health and Human Services, The
-Task Force for Global Health, Inc. or TEPHINET.*
-
-### Inspiration {.unnumbered}
-
-The multitude of tutorials and vignettes that provided knowledge for
-development of website content are credited within their respective
-pages.
-
-More generally, the following sources provided inspiration for this
-handbook:\
-[The "R4Epis" project](https://r4epis.netlify.app/) (a collaboration
-between MSF and RECON)\
-[R Epidemics Consortium (RECON)](https://www.repidemicsconsortium.org/)\
-[R for Data Science book (R4DS)](https://r4ds.had.co.nz/)\
-[bookdown: Authoring Books and Technical Documents with R
-Markdown](https://bookdown.org/yihui/bookdown/)
+**Website design**:  
+**Course content**:  
+**Illustrations**: Calder Fong, Canva  
 
 ## Terms of Use and Contribution {.unnumbered}
 
 ### License {.unnumbered}
+
+If you want to use any of these materials in another training course, please contact us first to discuss.  
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a>
 Applied Epi Incorporated, 2021 <br />This work is licensed by Applied
@@ -242,8 +159,6 @@ Epi Incorporated under a
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
 Commons Attribution-NonCommercial-ShareAlike 4.0 International
 License</a>.
-
-### Citation {.unnumbered}
 
 ### Contribution {.unnumbered}
 

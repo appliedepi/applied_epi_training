@@ -7,32 +7,29 @@ description: "Training materials for using R in applied epidemiology and public 
 delete_merged_file: FALSE
 
 rmd_files: [
+
   # INTRO & CONTRIBUTORS
   "index.Rmd",                                        # objectives, how to read, authors, acknowledgements
 
+  # teaching approach and goals
+  "pages/cat_approach.Rmd",                        # start of new section (sepparator)
+  "pages/approach_01_approach.Rmd",               # Our basic course
+
   # Applied epi courses
-  "pages/cat_live_intro.Rmd",                        # start of new section (sepparator)
-  "pages/live_00_course-overview.Rmd",               # Our basic course
-  "pages/live_01_setup-syntax.Rmd",                  # Our basic course
-  "pages/live_02_cleaning.Rmd",                      # Our basic course
-  "pages/live_03_summary-tables.Rmd",                # Our basic course
-  "pages/live_04_ggplot-intro.Rmd",                  # Our basic course
-  "pages/live_05_join-pivot.Rmd",                    # Our basic course
-  "pages/live_06_ggplot-epi.Rmd",                    # Our basic course
-  "pages/live_07_rmarkdown.Rmd",                     # Our basic course
-  "pages/live_08_final_ex.Rmd",                      # Our basic course
+  "pages/cat_live.Rmd",                        # start of new section (sepparator)
+  "pages/live_01_intro-to-R.Rmd",              # Our basic course
+  "pages/live_02_managers.Rmd",                # Our basic course
+  "pages/live_03_gis.Rmd",                     # Our basic course
+
 
   # Self-paced tutorials
   "pages/cat_tutorials.Rmd",                        # start of new section (sepparator)
-  "pages/tutorials_00_overview.Rmd",             #
-  "pages/tutorials_01_basics.Rmd",             #
-  "pages/tutorials_02_cleaning.Rmd",             #
-  "pages/tutorials_03_ggplot-intro.Rmd",             #
-  "pages/tutorials_04_join-pivot.Rmd",             #
-  "pages/tutorials_05_ggplot-epi.Rmd",             #
+  "pages/tutorials_01_intro-to-R-en.Rmd",             #
+  "pages/tutorials_02_intro-to-R-fr.Rmd",             #
+
 
   # Case studies
-  "pages/cat_case_studies.Rmd",                       # start of new section (sepparator)
+  "pages/cat_case-studies.Rmd",                       # start of new section (sepparator)
   "pages/case-study_01_epiet-stegen.Rmd",     # An example of FETP case study
   "pages/case-study_02_gis.Rmd",              # An example of FETP case study
   "pages/case-study_03_time-series.Rmd"                     # An example of FETP case study

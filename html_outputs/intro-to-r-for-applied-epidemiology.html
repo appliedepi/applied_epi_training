@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>2 Intro to R for Applied Epidemiology | Applied Epi Training</title>
+<meta name="author" content="Applied Epi">
+<meta name="description" content="Overview This page hosts training materials for the Applied EpiTM live course: “Introduction to R for Applied Epidemiology”. This course teaches the fundamentals of R for applied epidemiologists...">
+<meta name="generator" content="bookdown 0.25 with bs4_book()">
+<meta property="og:title" content="2 Intro to R for Applied Epidemiology | Applied Epi Training">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Overview This page hosts training materials for the Applied EpiTM live course: “Introduction to R for Applied Epidemiology”. This course teaches the fundamentals of R for applied epidemiologists...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2 Intro to R for Applied Epidemiology | Applied Epi Training">
+<meta name="twitter:description" content="Overview This page hosts training materials for the Applied EpiTM live course: “Introduction to R for Applied Epidemiology”. This course teaches the fundamentals of R for applied epidemiologists...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-QXDW878QLX"></script><script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QXDW878QLX');
+        </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="css/style_bs4.css">
+<link rel="stylesheet" href="css/appliedepi.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Applied Epi Training</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"></a></li>
+<li class="book-part">About our trainings</li>
+<li><a class="" href="educational-approach.html"><span class="header-section-number">1</span> Educational approach</a></li>
+<li class="book-part">Live courses</li>
+<li><a class="active" href="intro-to-r-for-applied-epidemiology.html"><span class="header-section-number">2</span> Intro to R for Applied Epidemiology</a></li>
+<li><a class="" href="intro-to-r-for-team-leaders.html"><span class="header-section-number">3</span> Intro to R for team leaders</a></li>
+<li><a class="" href="gis-mapping-in-r.html"><span class="header-section-number">4</span> GIS mapping in R</a></li>
+<li class="book-part">Self-paced tutorials</li>
+<li><a class="" href="intro-to-r-en.html"><span class="header-section-number">5</span> Intro to R (EN)</a></li>
+<li><a class="" href="intro-to-r-fr.html"><span class="header-section-number">6</span> Intro to R (FR)</a></li>
+<li class="book-part">Case studies</li>
+<li><a class="" href="foodborne-outbreak.html"><span class="header-section-number">7</span> Foodborne outbreak</a></li>
+<li><a class="" href="gis-case-study.html"><span class="header-section-number">8</span> GIS case study</a></li>
+<li><a class="" href="time-series.html"><span class="header-section-number">9</span> Time series</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="intro-to-r-for-applied-epidemiology" class="section level1" number="2">
+<h1>
+<span class="header-section-number">2</span> Intro to R for Applied Epidemiology<a class="anchor" aria-label="anchor" href="#intro-to-r-for-applied-epidemiology"><i class="fas fa-link"></i></a>
+</h1>
+<div class="inline-figure"><img src="images/index/applied_epi_banner.png" width="100%" style="display: block; margin: auto;"></div>
+<!-- ======================================================= -->
+<div id="overview" class="section level2 unnumbered">
+<h2>Overview<a class="anchor" aria-label="anchor" href="#overview"><i class="fas fa-link"></i></a>
+</h2>
+<p>This page hosts training materials for the Applied Epi<sup>TM</sup> live course: “Introduction to R for Applied Epidemiology”.
+This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.</p>
+<!-- ======================================================= -->
+</div>
+<div id="initial-setup" class="section level2 unnumbered">
+<h2>Initial setup<a class="anchor" aria-label="anchor" href="#initial-setup"><i class="fas fa-link"></i></a>
+</h2>
+<p>Follow these step-by-step instructions to download the course files, setup an RStudio project, and to download and begin the course’s interactive exercises.</p>
+<p><strong>Click on each of the steps below to expand the instructions</strong></p>
+<!--
+NOTE: everything inside the details tag will be collapsed and effectively
+hidden from the user
+-->
+<details><summary style="text-decoration: underline">
+Download course files
+</summary><p>Download the zipped course folder, by doing one of the following:</p>
+<ul>
+<li>
+<a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/appliedepi/intro_course/tree/main/intro_course"><strong>Click here</strong></a> to download the folder.<br>
+</li>
+<li>If the above link does not work, try <a href="https://appliedepi-test-website-airspace.netlify.app/files/intro_course.zip"><strong>this link</strong></a> instead<br>
+</li>
+<li>If neither of the links above work, please notify your instructor</li>
+</ul>
+<p><strong>Unzip the folder and save it on your computer’s desktop (not on a shared drive).</strong> To “unzip” a folder once it is downloaded, right-click on the folder and select “Extract All”. If offered a choice of location to save the unzipped folder, save it to your desktop.</p>
+<p>On your desktop:</p>
+<ul>
+<li>📂 intro_course
+<ul>
+<li>📂 data
+<ul>
+<li>📁 clean<br>
+</li>
+<li>📁 raw<br>
+</li>
+<li>📁 pop<br>
+</li>
+<li>📁 shp<br>
+</li>
+</ul>
+</li>
+<li>📁 scripts</li>
+<li>📂 outputs<br>
+</li>
+<li>📂 learning_materials
+<ul>
+<li>📂 covid_case_study<br>
+</li>
+<li>📂 backup_r_packages<br>
+</li>
+</ul>
+</li>
+<li>📃 surveillance_linelist_20141201.csv</li>
+</ul>
+</li>
+</ul>
+<p>⚠️ You may also have some other files. Just leave them.</p>
+</details><details><summary style="text-decoration: underline">
+Create a new RStudio project
+</summary><ol style="list-style-type: decimal">
+<li><p>Open RStudio. Ensure that you open <em>RStudio</em> and not just <em>R</em>.</p></li>
+<li><p>In RStudio click <em>File -&gt; New Project</em>. In the pop-up window, select <strong>“Existing directory”</strong>.</p></li>
+</ol>
+<div class="inline-figure"><img src="images/intro_course_images/create_project.png" width="50%"></div>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Click “browse” and select the “intro_course” folder on your desktop, containing the course materials, which you downloaded earlier.</p></li>
+<li><p>Click “Create project”</p></li>
+</ol>
+<p>Voila! This will be the project for all of your work in this course.</p>
+</details><details><summary style="text-decoration: underline">
+Access the course exercises online
+</summary><p>The primary route to access the course exercises is online, via the links in the “Modules” section below. To access the exercises you will need to do the following:</p>
+<ol style="list-style-type: decimal">
+<li><p>Use the link provided by your instructor to create a free account in our <a href="www.community.appliedepi.org">Applied Epi Community</a> site. If you use the link from your instructor, you will automatically be added to the private group for your cohort.</p></li>
+<li><p>Use the links in the “Modules” section below to access the exercises. If they do not load immediately, be patient or try to refresh. If you see an error, ensure you are not on a VPN.</p></li>
+</ol>
+<p>If your internet connection is too weak to see the exercises, notify your instructor and follow the steps below to access the exercises <em>offline</em>.</p>
+</details><details><summary style="text-decoration: underline">
+Access the course exercises offline
+</summary><p><strong>Easiest method: Copy and paste this command into your R Console as shown below, then press the “Enter” key to run the command:</strong></p>
+<blockquote>
+<p><code>remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)</code></p>
+</blockquote>
+<div class="inline-figure"><img src="images/intro_course_images/install_exercises.png" width="75%"></div>
+<p>Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. <em>Watch the print-out for any questions that R may ask you:</em></p>
+<ul>
+<li>If you encounter an error referencing HTTP or “proxy”, then downloading from Github may be blocked by your institution. Proceed to the backup steps below.</li>
+<li>If you see a printed warning about needing “RTools”, do not worry. This is simply a warning message and the install should proceed without error.</li>
+<li>If prompted to update some R packages, select “All” to update all of the packages. If you continue to be prompted for package updates, you can select “None” and continue without further updates.</li>
+</ul>
+<p><strong>Backup option:</strong></p>
+<p><strong>Go to the “Tools” menu of RStudio, and select “Install packages”.</strong></p>
+<div class="inline-figure"><img src="images/intro_course_images/zip_tools_menu.png" width="75%"></div>
+<p><strong>In the pop-up window, select “zip” from the first drop-down menu.</strong></p>
+<div class="inline-figure"><img src="images/intro_course_images/zip_drop_down.png" width="50%"></div>
+<p><strong>Another window should appear to select a file (if not, select “Browse”). Navigate to the folder “Desktop/intro_courses/learning_materials/backup_r_packages”.</strong> Note the 8 zipped folders here - each one is an R package. Select the first one “basket”, press “Open”, then click “Install”. R will run a brief command to install this package. <strong>Repeat this step to install each of the 8 zipped folders.</strong></p>
+<div class="inline-figure"><img src="images/intro_course_images/zip_package_select.png" width="75%"></div>
+<p>If continuing to experience errors, you may need to restart R, and then run the following command:</p>
+<blockquote>
+<p><code>install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))</code></p>
+</blockquote>
+<p>Your instructor can continue to troubleshoot with you.</p>
+<p>Now, the course exercises will appear <em>within your RStudio</em> offline. Each course module has a corresponding exercise, which can be accessed through the “Tutorials” pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).</p>
+<div class="inline-figure"><img src="images/intro_course_images/exercise_demo_short_words.gif" width="100%"></div>
+<ol style="list-style-type: decimal">
+<li>Click on the “Tutorial” tab in the upper-right RStudio pane (which also contains a tab holding your “Environment”).<br>
+</li>
+</ol>
+<ul>
+<li>Scroll down and review the listed exercises. If you do not see any “Applied Epi” exercises listed, close and re-open RStudio. They may take a minute to appear.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Select the exercise, for example: “Applied Epi - R setup, syntax, data import”<br>
+</li>
+</ol>
+<ul>
+<li>The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.<br>
+</li>
+<li>To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the “View” menu.<br>
+</li>
+<li>You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.</li>
+</ul></details><!-- ======================================================= -->
+</div>
+<div id="modules" class="section level2 unnumbered">
+<h2>Modules<a class="anchor" aria-label="anchor" href="#modules"><i class="fas fa-link"></i></a>
+</h2>
+<p>Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable. Clicking on an exercise link will prompt a login, then launch a window with the interactive exercise.</p>
+<div class="tutorial">
+<p><strong>Module 1: Introduction to R</strong></p>
+<p>We welcome you to the course, review course logistics, detail the support resources available to you.</p>
+<p>Next, we dive into a coding demonstration to introduce you to R and RStudio. We cover the basics of how to interact with R and RStudio, R syntax and running commands, and how to organize your files within projects.</p>
+<p>Finally, we cover R functions and packages, and introduce the core functions used to import and review data. Using these functions, we import the case study’s Ebola surveillance linelist, and begin to inspect it.</p>
+<ul>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html">Slides: Welcome, course logistics, RStudio, and basic R syntax</a></p></li>
+<li><p>Live demonstration (<a href="https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html">instructor guide</a>)</p></li>
+<li><p><a href="http://167.99.38.0/app/basics">Exercise: R setup, basic syntax, and importing data</a></p></li>
+</ul>
+</div>
+<div class="tutorial">
+<p><strong>Module 2: Data cleaning</strong></p>
+<p>Now that we have imported our surveillance linelist, we review which “data cleaning” steps might be necessary and how to execute these in R. Along the way, we introduce the core principles of “tidy data”.</p>
+<p>Through data cleaning, we teach you the core R functions for handling data, including for standardizing and editing column names, de-duplicating and filtering rows, selecting and modifying columns, re-coding values, and more.</p>
+<p>Together, we write a sequence of “pipes” to clean the linelist step-by-step in a clear, reproducible manner… so that our dataset is ready for preliminary analysis!</p>
+<ul>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_2/slides/slides_cleaning_dplyr/slides_cleaning_dplyr.html">Slides: Tidy data and data cleaning</a></p></li>
+<li><p><a href="http://167.99.38.0/app/cleaning">Exercise: Cleaning data</a></p></li>
+</ul>
+</div>
+<div class="tutorial">
+<p><strong>Module 3: Grouping data and summary tables</strong></p>
+<p>Informative tables are the bedrock of epidemiological and public health practice. In this module we introduce three tools to produce tables of summary statistics: {dplyr} for flexibility, {janitor} for speed, and {gtsummary} for beauty.</p>
+<p>Finally, we explore {flextable}, which can be used to customize tables produced by any of the above approaches: adding colors and highlights, and saving tables to Word, PNG, HTML, etc.</p>
+<ul>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_3/slides/slides_summary_tables/slides_grouping_summaries.html">Slides: Grouping and summarizing data</a></p></li>
+<li><p><a href="http://167.99.38.0/app/grouping_summaries">Exercise: Grouping data and summary tables</a></p></li>
+</ul>
+</div>
+<div class="tutorial">
+<p><strong>Module 4: Data visualization with {ggplot2}</strong></p>
+<p>Using the {ggplot2} package to maximum effect depends upon understanding how to apply its “grammar of graphics” to build a plot layer-by-layer. We tackle this by introducing the syntax logically and using public health examples - so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, box/violin plots, and line plots.</p>
+<p>We also teach you to write text labels that automatically update with refreshed data (very useful for epidemiological reports!), use colors that are colorblind-friendly, and more.</p>
+<ul>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html">Slides: Data visualization with ggplot2</a><br></p></li>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html">Slides: Scales, themes, and labels</a></p></li>
+<li><p><a href="http://167.99.38.0/app/ggplot_basics">Exercise: Data visualization with ggplot2</a></p></li>
+</ul>
+</div>
+<div class="tutorial">
+<p><strong>Module 5: Transforming data: joins, pivots, and factors</strong></p>
+<p>Public health analytics rarely involves just one data set, so now we practice joining data by adding hospital, laboratory, and case investigation data to our surveillance linelist. We ingrain best practices for conducting joins, and prepare you for doing data transformations independently.</p>
+<p>In the second part of this module, we address <em>pivoting</em>, which in R means transforming data between “long” and “wide” formats. This is particularly relevant in public health, where each format has distinct benefits.</p>
+<p>Along the way, we introduce the uses of the “factor” class (R’s version of ordered levels in a variable) by constructing a timeline visualization of some patients’ pathways through the surveillance/medical system.</p>
+<ul>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_5/slides/slides_joins/slides_joins.html">Slides: Joining data</a><br></p></li>
+<li><p><a href="http://167.99.38.0/app/joining">Exercise: Joining data</a></p></li>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_5/slides/slides_pivots/slides_pivots.html">Slides: Pivoting data</a></p></li>
+<li><p><a href="http://167.99.38.0/app/pivoting">Exercise: Pivoting data</a></p></li>
+</ul>
+</div>
+<div class="tutorial">
+<p><strong>Module 6: Data visualization for public health</strong></p>
+<p>In this second data visualization module we encourage you to practice learning R independently by reading function documentation (a necessary skill once you leave the class!). We still support you, and give live coding demonstrations for all the topics, as usual.</p>
+<p>We cover the various ways to define “epiweeks” using R, and our recommended approach including a cheatsheet.</p>
+<p>We then tackle visualizations that are central to descriptive epidemiology: the intricacies of crafting an accurate epidemic curve, conveying patterns across three variables using a heat plot, and creating age/sex pyramids to describe demographics. If there is time, we finish with a demonstration of R’s GIS/geospatial capabilities.</p>
+<ul>
+<li><p><a href="http://167.99.38.0/app/ggplot_heat_epicurves_pyramids">Exercise: Data visualization for public health</a></p></li>
+<li><p>GIS demo R script can be found in your course folder at: <em>“intro_course/scripts/backup/5_gis_demo.R”</em></p></li>
+<li><p>Your instructor will provide our “cheatsheet” on epidemic weeks and making epicurves</p></li>
+</ul>
+</div>
+<div class="tutorial">
+<p><strong>Module 7: Reports with R Markdown</strong></p>
+<p>In this module, we take the R code on the Ebola case study that you have been writing throughout the course and convert it into a reproducible, automated report (e.g. Word, PDF, HTML, etc.).</p>
+<p>We teach you the variations in syntax to produce documents that update when incoming data is refreshed and that can be used to inform public health partners and stakeholders.</p>
+<ul>
+<li><p>Live demonstration <a href="https://appliedepi.github.io/intro_course/modules/module_7/slides/demo_rmd/demo_rmd_guide.html">Instructor guide</a></p></li>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_7/slides/slides_rmd/slides_rmd.html">Slides: R Markdown and routine reports</a></p></li>
+<li><p><a href="http://167.99.38.0/app/rmarkdown">Exercise: R Markdown</a></p></li>
+</ul>
+</div>
+<div class="tutorial">
+<p><strong>Module 8: Final Exercise, and peer code review</strong>
+In this last module, your put your skills to the test by writing an R Markdown report using a new dataset - a COVID-19 case linelist.</p>
+<p>Unlike with the Ebola case study, you will not have solution code available to you. Instead, you will be given a Word document to reproduce by writing an R Markdown script. This will require data cleaning, creating common epidemiological plots, joining datasets, and creating descriptive tables.</p>
+<p>If there is time, we perform “peer code reviews” which simultaneously improving your coding skills and teach you how to review others’ code. Before closing, we touch upon how to find your particular community of R users and resources available to you for further learning.</p>
+<ul>
+<li><p><a href="https://appliedepi.github.io/intro_course/modules/module_8/slides/slides_covid_case_study/slides_covid_case_study.html">Slides: COVID case study</a></p></li>
+<li><p><em>Exercise materials</em>: See the folder “intro_course/learning_materials/covid_case_study” for the Word document report to replicate, the datasets, and a tips sheet.</p></li>
+</ul>
+</div>
+<!-- ======================================================= -->
+</div>
+<div id="sustained-support" class="section level2 unnumbered">
+<h2>Sustained support<a class="anchor" aria-label="anchor" href="#sustained-support"><i class="fas fa-link"></i></a>
+</h2>
+<p>Our instructors <em>know</em> public health. One of the signature features of Applied Epi’s training is that we provide follow-up support to your team, to help you apply your new skills to your work context.</p>
+<p>We schedule several 1.5-hour sessions with your team in the 3 months post-instruction. In these sessions, we help you troubleshoot code, advise you on analytical strategies, or guide you in new learning that you need.</p>
+<!-- ======================================================= -->
+</div>
+<div id="notes" class="section level2 unnumbered">
+<h2>Notes<a class="anchor" aria-label="anchor" href="#notes"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>Please note that all of our case study training materials use <em>fake example data</em> in which no person is identifiable and the actual values have been scrambled.</li>
+</ul>
+<!-- ======================================================= -->
+</div>
+<div id="acknowledgements" class="section level2 unnumbered">
+<h2>Acknowledgements<a class="anchor" aria-label="anchor" href="#acknowledgements"><i class="fas fa-link"></i></a>
+</h2>
+<p>Authors and contributors to this course curriculum from <strong>Applied Epi</strong> include:</p>
+<ul>
+<li><p>Neale Batra<br></p></li>
+<li><p>Arran Hamlet<br></p></li>
+<li><p>Mathilde Mousset<br></p></li>
+<li><p>Alex Spina<br></p></li>
+<li><p>Paula Blomquist<br></p></li>
+<li><p>Amy Mikhail</p></li>
+<li><p>The Fulton County Board of Health graciously provided example data (anonymized and scrambled) for a case study.<br></p></li>
+<li><p>The {outbreaks} package formed the basis for the fake dataset in the Ebola case study.</p></li>
+</ul>
+<!-- ======================================================= -->
+</div>
+<div id="terms-of-use-and-license" class="section level2 unnumbered">
+<h2>Terms of Use and License<a class="anchor" aria-label="anchor" href="#terms-of-use-and-license"><i class="fas fa-link"></i></a>
+</h2>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+<p>Please email <a href="mailto:contact@appliedepi.org" class="email">contact@appliedepi.org</a> if you could like to use these materials for an academic course or epidemiologist training program.</p>
+<!-- ======================================================= -->
+</div>
+<div id="contribution-1" class="section level2 unnumbered">
+<h2>Contribution<a class="anchor" aria-label="anchor" href="#contribution-1"><i class="fas fa-link"></i></a>
+</h2>
+<p>If you would like to make a content contribution, please contact with us first via Github issues or by email. We are implementing a schedule for updates and are creating a contributor guide.</p>
+<p>Please note that Applied Epi resources are released with a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="educational-approach.html"><span class="header-section-number">1</span> Educational approach</a></div>
+<div class="next"><a href="intro-to-r-for-team-leaders.html"><span class="header-section-number">3</span> Intro to R for team leaders</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#intro-to-r-for-applied-epidemiology"><span class="header-section-number">2</span> Intro to R for Applied Epidemiology</a></li>
+<li><a class="nav-link" href="#overview">Overview</a></li>
+<li><a class="nav-link" href="#initial-setup">Initial setup</a></li>
+<li><a class="nav-link" href="#modules">Modules</a></li>
+<li><a class="nav-link" href="#sustained-support">Sustained support</a></li>
+<li><a class="nav-link" href="#notes">Notes</a></li>
+<li><a class="nav-link" href="#acknowledgements">Acknowledgements</a></li>
+<li><a class="nav-link" href="#terms-of-use-and-license">Terms of Use and License</a></li>
+<li><a class="nav-link" href="#contribution-1">Contribution</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Applied Epi Training</strong>" was written by Applied Epi. It was last built on 2022-04-13.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

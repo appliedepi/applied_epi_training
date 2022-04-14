@@ -23,7 +23,7 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 ## Training materials for applied epidemiology and public health {.unnumbered}
 
-**This website strives to:**
+**This website :**
 
 -   Serve as a home for Applied Epi^TM^ training materials\
 -   Provide problem-based teaching to address common epidemiological
@@ -32,19 +32,32 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 -   Be accessible in settings with low internet-connectivity via offline
     versions
 
-## Upcoming live courses
+## About Applied Epi {.unnumbered}
 
-Register for a live course by completing this [**reservation form**]().
+[**Applied Epi**](http://www.appliedepi.org) is a nonprofit
+organization and grassroots movement that provides tools, training, and support to frontline epidemiologists and public health practitioners around the world. Your encouragement and feedback is most welcome:
 
-| Course                              | Dates                                               | Time zones | Prerequisites                                                                      | Price per person |
-|---------------|---------------|---------------|---------------|---------------|
-| Intro to R for applied epidemiology | June 6, 8, 13, 15, 20, 22, 27, 29 and July 4, and 6 | TBD        | Prior experience with code-based statistical software (e.g. SAS, Stata, or Python) | \$1200           |
-| Intro to R for applied epidemiology | August 2022                                         | TBD        | Prior experience with code-based statistical software (e.g. SAS, Stata, or Python) | \$1200           |
-| Intro to R for applied epidemiology | October                                             | TBD        | Prior experience with code-based statistical software (e.g. SAS, Stata, or Python) | \$1200           |
+-   Visit our [**main website**](http://www.appliedepi.org) and [**join our
+    contact list**](https://forms.gle/9awNd8syypTSYUsn7)\
+-   Email
+    [**contact\@appliedepi.org**](mailto:contact@appliedepi.org){.email}\
+-   Tweet [**\@epiRhandbook**](https://twitter.com/epirhandbook) or
+    [**\@appliedepi**](https://twitter.com/appliedepi)
+-   Submit issues to our [**Github
+    repository**](https://github.com/appliedepi/applied_epi_training)
 
-: Click [here] to read details about our live course policies.
 
-## About Applied Epi
+
+<form target="_blank" action="https://www.paypal.com/donate" method="post" target="_top">
+
+<input type="hidden" name="hosted_button_id" value="YTEZELC8VBXV6" />
+<input type="image" src="https://github.com/appliedepi/epiRhandbook_eng/raw/master/images/donate_button_long.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img src="https://www.paypal.com/en_US/i/scr/pixel.gif" border="0"/>
+
+</form>
+
+
+## Our suite of services for frontline public health {.unnumbered}
 
 ::: {style="display: flex;"}
 <div>
@@ -52,6 +65,8 @@ Register for a live course by completing this [**reservation form**]().
 ```{r, out.width = "75%", fig.align = "center", echo=F}
 knitr::include_graphics("images/index/tools_icon.png")
 ```
+
+**Tools**
 
 -   [**Epi R Handbook**](www.epiRhandbook.com)
 -   [**R packages**](https://appliedepi.org/tools/)
@@ -70,10 +85,11 @@ a column separator -->
 knitr::include_graphics("images/index/teaching_icon.png")
 ```
 
+**Training**  
+
 -   [**Live R training courses**](www.training.appliedepi.org)
 -   [**Self-paced R tutorials**](https://training.appliedepi.org)
--   [**YouTube
-    channel**](https://www.youtube.com/channel/UCgXBQIFJ_Rmq3UhWL_yrkxQ)
+-   [**Case studies**](www.training.appliedepi.org)
 
 </div>
 
@@ -88,63 +104,36 @@ a column separator -->
 knitr::include_graphics("images/index/QA_icon.png")
 ```
 
+**Support**  
+
 -   [**Q&A discussion forum**](www.community.appliedepi.org)
 -   [**R Help Desk**](https://appliedepi.org/helpdesk/)
--   [**Case studies**](www.training.appliedepi.org)
+
 
 </div>
 :::
 
-<br> [**Written by epidemiologists, for
-epidemiologists**]{style="color: black;"}
 
-::: {style="display: flex;"}
-<div>
 
-```{r, out.width = "100%", fig.align = "center", echo=F}
-knitr::include_graphics(xfun::relative_path("images/index/logo.png"))
-```
+## Upcoming live courses {.unnumbered}
 
-</div>
+Register for a live course by completing this [**reservation form**]().
 
-::: {.col data-latex="{0.05\\textwidth}"}
-  <!-- an empty Div (with a white space), serving as
-a column separator -->
-:::
+| Course                              | Dates                                               | Time zones | Prerequisites                                                                      | Price per person |
+|---------------|---------------|---------------|---------------|---------------|
+| Intro to R for applied epidemiology | June 6, 8, 13, 15, 20, 22, 27, 29 and July 4, and 6 | TBD        | Some experience with SAS, Stata, or Python | \$1200           |
+| Intro to R for applied epidemiology | August 2022                                         | TBD        | TBD  | TBD           |
 
-<div>
+: See our **[live course policies]()**.  
 
-[**Applied Epi**](http://www.appliedepi.org) is a non-profit
-organisation and grassroots movement of frontline epis from around the
-world. We write in our spare time to offer this resource to the
-community. Your encouragement and feedback is most welcome:
 
--   Visit our [**website**](http://www.appliedepi.org) and [**join our
-    contact list**](https://forms.gle/9awNd8syypTSYUsn7)\
--   Email
-    [**contact\@appliedepi.org**](mailto:contact@appliedepi.org){.email}\
--   Tweet [**\@epiRhandbook**](https://twitter.com/epirhandbook) or
-    [**\@appliedepi**](https://twitter.com/appliedepi)
--   Submit issues to our [**Github
-    repository**](https://github.com/appliedepi/applied_epi_training)
 
-**We offer live R training** from instructors with decades of applied
-epidemiology experience - email us to discuss.
 
-</div>
-:::
 
-<form target="_blank" action="https://www.paypal.com/donate" method="post" target="_top">
-
-<input type="hidden" name="hosted_button_id" value="YTEZELC8VBXV6" />
-<input type="image" src="https://github.com/appliedepi/epiRhandbook_eng/raw/master/images/donate_button_long.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img src="https://www.paypal.com/en_US/i/scr/pixel.gif" border="0"/>
-
-</form>
 
 <!-- ======================================================= -->
 
-## How to use this handbook {.unnumbered}
+## How to use this website {.unnumbered}
 
 -   Browse the pages in the Table of Contents, or use the search box
 -   Pages will be stand-alone courses or groupings of case studies by
@@ -152,89 +141,17 @@ epidemiology experience - email us to discuss.
 
 <!-- ======================================================= -->
 
-## Acknowledgements {.unnumbered}
-
-This website is produced by a collaboration of epidemiologists from
-around the world drawing upon experience with organizations including
-local, state, provincial, and national health agencies, the World Health
-Organization (WHO), Médecins Sans Frontières / Doctors without Borders
-(MSF), hospital systems, and academic institutions.
-
-This website is **not** an approved product of any specific
-organization. Although we strive for accuracy, we provide no guarantee
-of the content in this book.
-
 ### Contributors {.unnumbered}
 
-**Editor:** [Neale Batra](https://www.linkedin.com/in/neale-batra/)
-
-**Authors**: [Neale Batra](https://www.linkedin.com/in/neale-batra/),
-[Alex Spina](https://github.com/aspina7), [Paula
-Blomquist](https://www.linkedin.com/in/paula-bianca-blomquist-53188186/),
-[Finlay Campbell](https://github.com/finlaycampbell), [Henry
-Laurenson-Schafer](https://github.com/henryls1), [Isaac
-Florence](www.Twitter.com/isaacatflorence), [Natalie
-Fischer](https://www.linkedin.com/in/nataliefischer211/), [Aminata
-Ndiaye](https://twitter.com/aminata_fadl), [Liza
-Coyer](https://www.linkedin.com/in/liza-coyer-86022040/), [Jonathan
-Polonsky](https://twitter.com/jonny_polonsky), [Yurie
-Izawa](https://ch.linkedin.com/in/yurie-izawa-a1590319), [Chris
-Bailey](https://twitter.com/cbailey_58?lang=en), [Daniel
-Molling](https://www.linkedin.com/in/daniel-molling-4005716a/), [Isha
-Berry](https://twitter.com/ishaberry2), [Emma
-Buajitti](https://twitter.com/buajitti), [Mathilde
-Mousset](https://mathildemousset.wordpress.com/research/), [Sara
-Hollis](https://www.linkedin.com/in/saramhollis/), Wen Lin
-
-**Reviewers and supporters**: Pat Keating, [Amrish
-Baidjoe](https://twitter.com/Ammer_B), Annick Lenglet, Margot Charette,
-Danielly Xavier, Marie-Amélie Degail Chabrat, Esther Kukielka, Michelle
-Sloan, Aybüke Koyuncu, Rachel Burke, Kate Kelsey, [Berhe
-Etsay](https://www.linkedin.com/in/berhe-etsay-5752b1154/), John Rossow,
-Mackenzie Zendt, James Wright, Laura Haskins, [Flavio
-Finger](ffinger.github.io), Tim Taylor, [Jae Hyoung Tim
-Lee](https://www.linkedin.com/in/jaehyoungtlee/), [Brianna
-Bradley](https://www.linkedin.com/in/brianna-bradley-bb8658155), [Wayne
-Enanoria](https://www.linkedin.com/in/wenanoria), Manual Albela Miranda,
-[Molly Mantus](https://www.linkedin.com/in/molly-mantus-174550150/),
-Pattama Ulrich, Joseph Timothy, Adam Vaughan, Olivia Varsaneux, Lionel
-Monteiro, Joao Muianga
-
-**Illustrations**: Calder Fong
-
-### Funding and support {.unnumbered}
-
-The website received supportive funding via a COVID-19 emergency
-capacity-building grant from [TEPHINET](https://www.tephinet.org/), the
-global network of Field Epidemiology Training Programs (FETPs) and from
-Médecins Sans Frontières (MSF) Operational Centre Amsterdam (OCA).
-
-*This publication was supported by Cooperative Agreement number
-NU2GGH001873, funded by the Centers for Disease Control and Prevention
-through TEPHINET, a program of The Task Force for Global Health. Its
-contents are solely the responsibility of the authors and do not
-necessarily represent the official views of the Centers for Disease
-Control and Prevention, the Department of Health and Human Services, The
-Task Force for Global Health, Inc. or TEPHINET.*
-
-### Inspiration {.unnumbered}
-
-The multitude of tutorials and vignettes that provided knowledge for
-development of website content are credited within their respective
-pages.
-
-More generally, the following sources provided inspiration for this
-handbook:\
-[The "R4Epis" project](https://r4epis.netlify.app/) (a collaboration
-between MSF and RECON)\
-[R Epidemics Consortium (RECON)](https://www.repidemicsconsortium.org/)\
-[R for Data Science book (R4DS)](https://r4ds.had.co.nz/)\
-[bookdown: Authoring Books and Technical Documents with R
-Markdown](https://bookdown.org/yihui/bookdown/)
+**Website design**:  
+**Course content**:  
+**Illustrations**: Calder Fong, Canva  
 
 ## Terms of Use and Contribution {.unnumbered}
 
 ### License {.unnumbered}
+
+If you want to use any of these materials in another training course, please contact us first to discuss.  
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a>
 Applied Epi Incorporated, 2021 <br />This work is licensed by Applied
@@ -242,8 +159,6 @@ Epi Incorporated under a
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
 Commons Attribution-NonCommercial-ShareAlike 4.0 International
 License</a>.
-
-### Citation {.unnumbered}
 
 ### Contribution {.unnumbered}
 
@@ -258,684 +173,555 @@ By contributing to this project, you agree to abide by its terms.
 
 <!--chapter:end:index.Rmd-->
 
+# (PART) About our trainings {.unnumbered}
+
+<!--chapter:end:pages/cat_approach.Rmd-->
+
+# Educational approach {} 
+
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/approach/moz-banner.png"))
+```
+
+<!-- ======================================================= -->
+## Our pedagogical approach {  }
+
+Applied Epi training materials are constructed with the following principles:  
+
+## We are focused on frontline practitioners  
+
+Our efforts are focused on improving the lives of ground-level public health practitioners and applied epidemiologists - the vast workforce at local and national health agencies, NGOs, and healthcare systems.  
+
+While complex causal modeling and machine-learning algorithms have a role to play, we believe that most actionable public health intelligence derives from the frontline workforce. They have the most to benefit from R adoption, and their needs have historically been underserved by R developers.  
+
+Therefore, our course content focus on the tasks, visualizations, and analyses most common in practical, applied epidemiology and public health.  
+
+
+
+## We are curators on your behalf  
+
+We have leveraged our decades of experience using R and working in frontline epidemiology in order to *distill the vast universe of R packages and functions into the most easy and relevant approaches for beginners in public health practice*.  
+
+R is notorious for having many ways to do the same thing. We've reviewed the options, and have chosen the easiest and best ones for you.  
+
+
+
+### Thoughtful and deliberate curriculum  
+
+We are intentional with our vocabulary, choice of terms, methodological consistency, and the progression of skills that we introduce (to reduce your mental load and speed up learning).  
+
+
+### Building confidence to "tinker"  
+
+The best (perhaps only) way to learn a new language like R is to "tinker", or to experiment and learn via trial and error. We build this into our courses by progressively encouraging you to write original code and understand R documentation and error messages.  
+
+
+### Setting you up to actually use R  
+
+Some R courses have you work only in a virtual environment, because it is less hassle for their instructors.  
+
+In our live courses, we embrace the challenges of setting up R on *your computer*. This means dedicating time to work through the complications posed by employer security restrictions, other software such as OneDrive, VPNs, and previous R installations.  
+
+Our self-paced tutorials are intended for larger audiences and cannot include the personal attention to troubleshoot R setup on your computer. Nevertheless, we focus on building coding skills within the tutorial, address R setup when possible, and offer "office hours" sessions for assistance.  
+
+ 
+
+<!--chapter:end:pages/approach_01_approach.Rmd-->
+
 # (PART) Live courses {.unnumbered}
 
-<!--chapter:end:pages/cat_live_intro.Rmd-->
+<!--chapter:end:pages/cat_live.Rmd-->
 
 
-# Overview {} 
+# Intro to R for Applied Epidemiology {} 
+
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
+```
 
 <!-- ======================================================= -->
-## Overview {  }
+## Overview {.unnumbered}
 
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
+
+
+This page hosts training materials for the Applied Epi^TM^ live course: “Introduction to R for Applied Epidemiology”. 
 This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
 
 
-<!-- ======================================================= -->
-## Module {  }  
 
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
+
+
+
+<!-- ======================================================= -->
+## Initial setup {.unnumbered}
+
+Follow these step-by-step instructions to download the course files, setup an RStudio project, and to download and begin the course's interactive exercises.  
+
+**Click on each of the steps below to expand the instructions**  
+
+
+<!--
+NOTE: everything inside the details tag will be collapsed and effectively
+hidden from the user
+-->
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Download course files</summary>  
+  
+Download the zipped course folder, by doing one of the following:  
+
+* [**Click here**](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/appliedepi/intro_course/tree/main/intro_course) to download the folder.  
+* If the above link does not work, try [**this link**](https://appliedepi-test-website-airspace.netlify.app/files/intro_course.zip) instead  
+* If neither of the links above work, please notify your instructor  
+
+**Unzip the folder and save it on your computer's desktop (not on a shared drive).** To "unzip" a folder once it is downloaded, right-click on the folder and select "Extract All". If offered a choice of location to save the unzipped folder, save it to your desktop.  
+
+On your desktop:  
+
+* `r emo::ji("folder")` intro_course  
+     * `r emo::ji("folder")` data
+          * `r emo::ji("folder")` clean  
+          * `r emo::ji("folder")` raw  
+          * `r emo::ji("folder")` pop  
+          * `r emo::ji("folder")` shp  
+     * `r emo::ji("folder")` scripts
+     * `r emo::ji("folder")` outputs  
+     * `r emo::ji("folder")` learning_materials  
+          * `r emo::ji("folder")` covid_case_study  
+          * `r emo::ji("folder")` backup_r_packages  
+     * `r emo::ji("document")` surveillance_linelist_20141201.csv
+
+`r emo::ji("warning")` You may also have some other files. Just leave them.  
+
+</details>
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Create a new RStudio project</summary>  
+  
+
+
+1) Open RStudio. Ensure that you open *RStudio* and not just *R*.  
+
+2) In RStudio click *File -> New Project*. In the pop-up window, select **"Existing directory"**.  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/create_project.png")
+```
+
+3) Click "browse" and select the "intro_course" folder on your desktop, containing the course materials, which you downloaded earlier.  
+
+4) Click "Create project"  
+
+Voila! This will be the project for all of your work in this course.  
+
+
+</details>
+
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises online</summary>  
+  
+The primary route to access the course exercises is online, via the links in the "Modules" section below. To access the exercises you will need to do the following:  
+
+1) Use the link provided by your instructor to create a free account in our [Applied Epi Community](www.community.appliedepi.org) site. If you use the link from your instructor, you will automatically be added to the private group for your cohort.  
+
+2) Use the links in the "Modules" section below to access the exercises. If they do not load immediately, be patient or try to refresh. If you see an error, ensure you are not on a VPN.  
+
+If your internet connection is too weak to see the exercises, notify your instructor and follow the steps below to access the exercises *offline*.  
+
+</details>
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises offline</summary>  
+  
+**Easiest method: Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:**
+
+>`remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)`
+
+```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
+knitr::include_graphics("images/intro_course_images/install_exercises.png")
+```
+
+Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:*
+
+  * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution. Proceed to the backup steps below.
+  * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error.
+  * If prompted to update some R packages, select "All" to update all of the packages. If you continue to be prompted for package updates, you can select "None" and continue without further updates.
+
+**Backup option:**
+
+**Go to the "Tools" menu of RStudio, and select "Install packages".**
+
+```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
+knitr::include_graphics("images/intro_course_images/zip_tools_menu.png")
+```
+
+**In the pop-up window, select "zip" from the first drop-down menu.**
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/zip_drop_down.png")
+```
+
+**Another window should appear to select a file (if not, select "Browse"). Navigate to the folder "Desktop/intro_courses/learning_materials/backup_r_packages".** Note the 8 zipped folders here - each one is an R package. Select the first one "basket", press "Open", then click "Install". R will run a brief command to install this package. **Repeat this step to install each of the 8 zipped folders.**
+
+```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
+knitr::include_graphics("images/intro_course_images/zip_package_select.png")
+```
+
+If continuing to experience errors, you may need to restart R, and then run the following command:  
+
+>`install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))`  
+
+Your instructor can continue to troubleshoot with you. 
+
+Now, the course exercises will appear *within your RStudio* offline. Each course module has a corresponding exercise, which can be accessed through the "Tutorials" pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "100%"}
+knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gif")
+```
+
+1) Click on the "Tutorial" tab in the upper-right RStudio pane (which also contains a tab holding your "Environment").  
+  * Scroll down and review the listed exercises. If you do not see any "Applied Epi" exercises listed, close and re-open RStudio. They may take a minute to appear.  
+
+2) Select the exercise, for example: "Applied Epi - R setup, syntax, data import"  
+  * The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.  
+  * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.  
+  * You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.  
+  
+
+
+</details>
+
+
+
+
+
+
+
+
+<!-- ======================================================= -->
+## Modules {.unnumbered}  
+
+Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable. Clicking on an exercise link will prompt a login, then launch a window with the interactive exercise. 
 
 
 ::: {.tutorial}
 **Module 1: Introduction to R**
 
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
+We welcome you to the course, review course logistics, detail the support resources available to you.  
+
+Next, we dive into a coding demonstration to introduce you to R and RStudio. We cover the basics of how to interact with R and RStudio, R syntax and running commands, and how to organize your files within projects.  
+
+Finally, we cover R functions and packages, and introduce the core functions used to import and review data. Using these functions, we import the case study's Ebola surveillance linelist, and begin to inspect it.  
 
 - [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
 
 - Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
 
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
+- [Exercise: R setup, basic syntax, and importing data](http://167.99.38.0/app/basics) 
+
 :::
+
+
+
+
+
+
+::: {.tutorial}
+**Module 2: Data cleaning**
+
+Now that we have imported our surveillance linelist, we review which "data cleaning" steps might be necessary and how to execute these in R. Along the way, we introduce the core principles of "tidy data".  
+
+Through data cleaning, we teach you the core R functions for handling data, including for standardizing and editing column names, de-duplicating and filtering rows, selecting and modifying columns, re-coding values, and more.  
+
+Together, we write a sequence of "pipes" to clean the linelist step-by-step in a clear, reproducible manner... so that our dataset is ready for preliminary analysis!  
+
+- [Slides: Tidy data and data cleaning](https://appliedepi.github.io/intro_course/modules/module_2/slides/slides_cleaning_dplyr/slides_cleaning_dplyr.html)  
+  
+- [Exercise: Cleaning data](http://167.99.38.0/app/cleaning)  
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 3: Grouping data and summary tables**
+
+Informative tables are the bedrock of epidemiological and public health practice. In this module we introduce three tools to produce tables of summary statistics: {dplyr} for flexibility, {janitor} for speed, and {gtsummary} for beauty.  
+
+Finally, we explore {flextable}, which can be used to customize tables produced by any of the above approaches: adding colors and highlights, and saving tables to Word, PNG, HTML, etc.  
+
+- [Slides: Grouping and summarizing data](https://appliedepi.github.io/intro_course/modules/module_3/slides/slides_summary_tables/slides_grouping_summaries.html)   
+  
+
+- [Exercise: Grouping data and summary tables](http://167.99.38.0/app/grouping_summaries)  
+
+:::
+
+
+
+
+
+
+
+
+
+
 
 ::: {.tutorial}
 **Module 4: Data visualization with {ggplot2}**
 
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
+Using the {ggplot2} package to maximum effect depends upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this by introducing the syntax logically and using public health examples - so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, box/violin plots, and line plots.  
+
+We also teach you to write text labels that automatically update with refreshed data (very useful for epidemiological reports!), use colors that are colorblind-friendly, and more.  
 
 - [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
 - [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
 
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
+- [Exercise: Data visualization with ggplot2](http://167.99.38.0/app/ggplot_basics) 
+
 :::
 
-<!--chapter:end:pages/live_00_course-overview.Rmd-->
 
 
-# R setup, syntax, import {} 
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 5: Transforming data: joins, pivots, and factors**
+
+Public health analytics rarely involves just one data set, so now we practice joining data by adding hospital, laboratory, and case investigation data to our surveillance linelist. We ingrain best practices for conducting joins, and prepare you for doing data transformations independently.  
+
+In the second part of this module, we address *pivoting*, which in R means transforming data between "long" and "wide" formats. This is particularly relevant in public health, where each format has distinct benefits.  
+
+Along the way, we introduce the uses of the "factor" class (R's version of ordered levels in a variable) by constructing a timeline visualization of some patients' pathways through the surveillance/medical system.  
+
+- [Slides: Joining data](https://appliedepi.github.io/intro_course/modules/module_5/slides/slides_joins/slides_joins.html)  
+- [Exercise: Joining data](http://167.99.38.0/app/joining)
+
+- [Slides: Pivoting data](https://appliedepi.github.io/intro_course/modules/module_5/slides/slides_pivots/slides_pivots.html)  
+
+- [Exercise: Pivoting data](http://167.99.38.0/app/pivoting)  
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 6: Data visualization for public health**
+
+In this second data visualization module we encourage you to practice learning R independently by reading function documentation (a necessary skill once you leave the class!). We still support you, and give live coding demonstrations for all the topics, as usual.  
+
+We cover the various ways to define "epiweeks" using R, and our recommended approach including a cheatsheet.  
+
+We then tackle visualizations that are central to descriptive epidemiology: the intricacies of crafting an accurate epidemic curve, conveying patterns across three variables using a heat plot, and creating age/sex pyramids to describe demographics. If there is time, we finish with a demonstration of R's GIS/geospatial capabilities.  
+
+- [Exercise: Data visualization for public health](http://167.99.38.0/app/ggplot_heat_epicurves_pyramids)  
+
+- GIS demo R script can be found in your course folder at: *"intro_course/scripts/backup/5_gis_demo.R"*  
+
+- Your instructor will provide our "cheatsheet" on epidemic weeks and making epicurves  
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 7: Reports with R Markdown**
+
+In this module, we take the R code on the Ebola case study that you have been writing throughout the course and convert it into a reproducible, automated report (e.g. Word, PDF, HTML, etc.).  
+
+We teach you the variations in syntax to produce documents that update when incoming data is refreshed and that can be used to inform public health partners and stakeholders.  
+
+- Live demonstration [Instructor guide](https://appliedepi.github.io/intro_course/modules/module_7/slides/demo_rmd/demo_rmd_guide.html)  
+
+- [Slides: R Markdown and routine reports](https://appliedepi.github.io/intro_course/modules/module_7/slides/slides_rmd/slides_rmd.html)  
+  
+- [Exercise: R Markdown](http://167.99.38.0/app/rmarkdown)  
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 8: Final Exercise, and peer code review**
+In this last module, your put your skills to the test by writing an R Markdown report using a new dataset - a COVID-19 case linelist.  
+
+Unlike with the Ebola case study, you will not have solution code available to you. Instead, you will be given a Word document to reproduce by writing an R Markdown script. This will require data cleaning, creating common epidemiological plots, joining datasets, and creating descriptive tables.  
+
+If there is time, we perform "peer code reviews" which simultaneously improving your coding skills and teach you how to review others' code. Before closing, we touch upon how to find your particular community of R users and resources available to you for further learning.  
+
+- [Slides: COVID case study](https://appliedepi.github.io/intro_course/modules/module_8/slides/slides_covid_case_study/slides_covid_case_study.html)  
+
+- *Exercise materials*: See the folder "intro_course/learning_materials/covid_case_study" for the Word document report to replicate, the datasets, and a tips sheet.  
+
+:::
+
+
+
+
+
+
+
+<!-- ======================================================= -->
+
+## Sustained support {.unnumbered} 
+
+Our instructors *know* public health. One of the signature features of Applied Epi's training is that we provide follow-up support to your team, to help you apply your new skills to your work context.  
+
+We schedule several 1.5-hour sessions with your team in the 3 months post-instruction. In these sessions, we help you troubleshoot code, advise you on analytical strategies, or guide you in new learning that you need.  
+
+<!-- ======================================================= -->
+## Notes {.unnumbered} 
+
+- Please note that all of our case study training materials use *fake example data* in which no person is identifiable and the actual values have been scrambled.  
+
+
+<!-- ======================================================= -->
+## Acknowledgements {.unnumbered}  
+
+Authors and contributors to this course curriculum from **Applied Epi** include:  
+
+* Neale Batra  
+* Arran Hamlet  
+* Mathilde Mousset  
+* Alex Spina  
+* Paula Blomquist  
+* Amy Mikhail  
+
+* The Fulton County Board of Health graciously provided example data (anonymized and scrambled) for a case study.  
+* The {outbreaks} package formed the basis for the fake dataset in the Ebola case study.  
+
+
+<!-- ======================================================= -->
+## Terms of Use and License {.unnumbered}   
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+Please email contact@appliedepi.org if you could like to use these materials for an academic course or epidemiologist training program.  
+
+
+<!-- ======================================================= -->
+## Contribution {.unnumbered}
+
+If you would like to make a content contribution, please contact with us first via Github issues or by email. We are implementing a schedule for updates and are creating a contributor guide.  
+
+Please note that Applied Epi resources are released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
+<!--chapter:end:pages/live_01_intro-to-R.Rmd-->
+
+
+# Intro to R for team leaders {} 
+
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
+```
+
+<!-- ======================================================= -->
+## Overview {.unnumbered}
+
+This page is under construction.  
+
+<!--chapter:end:pages/live_02_managers.Rmd-->
+
+
+# GIS mapping in R {} 
 
 <!-- ======================================================= -->
 ## Overview {  }
 
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
+This page is under construction.
 
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/live_01_setup-syntax.Rmd-->
-
-
-# Data cleaning {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/live_02_cleaning.Rmd-->
-
-
-# Grouping data and summary tables {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/live_03_summary-tables.Rmd-->
-
-
-# Data visualization {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/live_04_ggplot-intro.Rmd-->
-
-
-# Transforming data {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/live_05_join-pivot.Rmd-->
-
-
-# Data viz for public health {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/live_06_ggplot-epi.Rmd-->
-
-
-# R Markdown reports {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/live_07_rmarkdown.Rmd-->
-
-
-# Final exercise {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/live_08_final_ex.Rmd-->
+<!--chapter:end:pages/live_03_gis.Rmd-->
 
 # (PART) Self-paced tutorials {.unnumbered}
 
 <!--chapter:end:pages/cat_tutorials.Rmd-->
 
 
-# Overview {} 
+# Intro to R (EN) {} 
 
 <!-- ======================================================= -->
 ## Overview {  }
 
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
+Currently under construction.
+
+<!--chapter:end:pages/tutorials_01_intro-to-R-en.Rmd-->
 
 
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/tutorials_00_overview.Rmd-->
-
-
-# R Basics {} 
+# Intro to R (FR) {} 
 
 <!-- ======================================================= -->
 ## Overview {  }
 
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
+Currently under construction.
 
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/tutorials_01_basics.Rmd-->
-
-
-# Data cleaning {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/tutorials_02_cleaning.Rmd-->
-
-
-# Data visualization {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/tutorials_03_ggplot-intro.Rmd-->
-
-
-# Joins and pivots {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/tutorials_04_join-pivot.Rmd-->
-
-
-# Data vizualization for public health {} 
-
-<!-- ======================================================= -->
-## Overview {  }
-
-This page hosts training materials for the Applied Epi^TM^ “Introduction to R for Applied Epidemiology”. 
-This course teaches the fundamentals of R for applied epidemiologists and public health practitioners.
-
-
-<!-- ======================================================= -->
-## Module {  }  
-
-Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable.  
-Clicking on the tutorial link will launch a new window with interactive exercises. 
-
-
-::: {.tutorial}
-**Module 1: Introduction to R**
-
-We welcome you to the course and dive into the basics of how to interact with R and RStudio, basic R syntax, and how to organize your analytical projects. Finally, we cover R functions and packages, and introduce the core functions used to import data. Using these, we import the Ebola case study surveillance linelist, and begin to inspect and review it.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
-
-- Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
-
-[[Tutorial]](https://aspina.shinyapps.io/basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/basics)
-:::
-
-::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
-
-Using the {ggplot2} package to maximum effect rests upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this piece-by-piece, introducing concepts one-by-one so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, line plots, text labels that automatically update with refreshed data (very useful for epidemiological reports!), and more.  
-
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
-  
-
-[[Tutorial]]( https://aspina.shinyapps.io/ggplot_basics/) [[Source]](https://github.com/appliedepi/introexercises/tree/master/inst/tutorials/ggplot_basics)
-:::
-
-<!--chapter:end:pages/tutorials_05_ggplot-epi.Rmd-->
+<!--chapter:end:pages/tutorials_02_intro-to-R-fr.Rmd-->
 
 # (PART) Case studies {.unnumbered}
 
-<!--chapter:end:pages/cat_case_studies.Rmd-->
+<!--chapter:end:pages/cat_case-studies.Rmd-->
 
-# Outbreak Investigation Module: Stegen case study {} 
+# Foodborne outbreak {} 
 
 <!-- ======================================================= -->
 ## Overview {  }
 
-This page would host the content for a case study which is part of the outbreak
+Under construction.  
+
+This page will host the content for a case study which is part of the EPIET outbreak
 investigations module - currently hosted on [github](https://github.com/EPIET/OutbreakInvestigation). 
 
 <!--chapter:end:pages/case-study_01_epiet-stegen.Rmd-->
