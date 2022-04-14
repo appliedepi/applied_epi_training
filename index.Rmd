@@ -25,22 +25,24 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 **This website :**
 
--   Serve as a home for Applied Epi^TM^ training materials\
--   Provide problem-based teaching to address common epidemiological
-    challenges\
--   Assist epidemiologists transitioning to R\
--   Be accessible in settings with low internet-connectivity via offline
-    versions
+-   Hosts Applied Epi^TM^ training materials\
+-   Provides problem-based instruction to assist epidemiologists transitioning to R\
+-   Offers content accessible in settings with low internet-connectivity via offline
+    versions  
+
+## Our other sites {.unnumbered}  
+
+* Our Home page ([*www.appliedepi.org*](www.appliedepi.org))  
+* Our Community page ([*www.community.appliedepi.org*](www.community.appliedepi.org))  
+* The Epidemiologist R Handbook ([*www.epiRhandbook.com*](www.epiRhandbook.com))  
+
 
 ## About Applied Epi {.unnumbered}
 
 [**Applied Epi**](http://www.appliedepi.org) is a nonprofit
 organization and grassroots movement that provides tools, training, and support to frontline epidemiologists and public health practitioners around the world. Your encouragement and feedback is most welcome:
 
--   Visit our [**main website**](http://www.appliedepi.org) and [**join our
-    contact list**](https://forms.gle/9awNd8syypTSYUsn7)\
--   Email
-    [**contact\@appliedepi.org**](mailto:contact@appliedepi.org){.email}\
+-   Email [**contact\@appliedepi.org**](mailto:contact@appliedepi.org) or [**join our contact list**](https://forms.gle/9awNd8syypTSYUsn7)  
 -   Tweet [**\@epiRhandbook**](https://twitter.com/epirhandbook) or
     [**\@appliedepi**](https://twitter.com/appliedepi)
 -   Submit issues to our [**Github
@@ -117,7 +119,7 @@ knitr::include_graphics("images/index/QA_icon.png")
 
 ## Upcoming live courses {.unnumbered}
 
-Register for a live course by completing this [**reservation form**]().
+Register for a live course by completing this [**reservation form**](https://forms.gle/XJ7DcgrvS4zQ4gNH7).
 
 | Course                              | Dates                                               | Time zones | Prerequisites                                                                      | Price per person |
 |---------------|---------------|---------------|---------------|---------------|
