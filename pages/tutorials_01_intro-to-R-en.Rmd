@@ -26,7 +26,7 @@ Currently UNDER CONSTRUCTION.
 knitr::include_graphics("images/intro_course_images/install_exercises.png")
 ```
 
-Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:*
+Text will begin to appear in the Console, below the command. Do not worry, R is simply installing necessary R packages and downloading the tutorials from the internet. *Watch the print-out for any questions that R may ask you:*
 
   * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution.  
   * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error.
