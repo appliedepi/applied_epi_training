@@ -13,10 +13,9 @@ Currently UNDER CONSTRUCTION.
 <!-- ======================================================= -->
 ## Offline access {.unnumbered}
 
-**Click on the text below to see instructions to access the tutorials offline**  
 
 
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises offline</summary>  
+<!-- <details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises offline</summary>   -->
   
 **Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:**
 
@@ -47,9 +46,6 @@ knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gi
   * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.  
   * You can view the tutorial in this pane, or click the small icon in the upper-left to pop-out into a separate window.  
   
-
-
-</details>
 
 
 
