@@ -1,4 +1,4 @@
-educational-approach
+our-educational-approach
 intro-to-r-for-applied-epidemiology
 intro-to-r-for-team-leaders
 gis-mapping-in-r
