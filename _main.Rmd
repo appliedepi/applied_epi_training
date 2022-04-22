@@ -415,13 +415,11 @@ Below is a list of each of the modules included in the course. Please work your 
 
 
 ::: {.tutorial}
-**Module 1: Introduction to R**
+**Module 1: Introduction to R Syntax**
 
 We welcome you to the course, review course logistics, detail the support resources available to you.  
 
-Next, we dive into a coding demonstration to introduce you to R and RStudio. We cover the basics of how to interact with R and RStudio, R syntax and running commands, and how to organize your files within projects.  
-
-Finally, we cover R functions and packages, and introduce the core functions used to import and review data. Using these functions, we import the case study's Ebola surveillance linelist, and begin to inspect it.  
+Next, we dive into a coding demonstration to introduce you to R and RStudio. We cover the basics of how to interact with R and RStudio, R syntax and running commands, and we cover R functions and packages.  
 
 - [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/intro_course/modules/module_1/slides/course_introduction/slides_course_introduction.html)  
 
@@ -435,9 +433,23 @@ Finally, we cover R functions and packages, and introduce the core functions use
 
 
 
+::: {.tutorial}
+**Module 2: File management, Data import, and inspecting a dataset**
+
+We cover file management strategies, how to work within an RStudio project, and introduce our recommended packages functions used to import and review data. Using these functions, we import the case study's Ebola surveillance linelist, and begin to inspect it.  
+
+
+- [Exercise: File management and data import](http://167.99.38.0/app/files_import)  
+
+:::
+
+
+
+
+
 
 ::: {.tutorial}
-**Module 2: Data cleaning**
+**Module 3: Data cleaning - part 1**
 
 Now that we have imported our surveillance linelist, we review which "data cleaning" steps might be necessary and how to execute these in R. Along the way, we introduce the core principles of "tidy data".  
 
@@ -447,7 +459,20 @@ Together, we write a sequence of "pipes" to clean the linelist step-by-step in a
 
 - [Slides: Tidy data and data cleaning](https://appliedepi.github.io/intro_course/modules/module_2/slides/slides_cleaning_dplyr/slides_cleaning_dplyr.html)  
   
-- [Exercise: Cleaning data](http://167.99.38.0/app/cleaning)  
+- [Exercise: Cleaning data - part 1](http://167.99.38.0/app/cleaning)  
+
+:::
+
+
+
+
+::: {.tutorial}
+**Module 4: Data cleaning - part 2**
+
+We continue writing our data cleaning code, covering more advanced re-coding, filtering rows, exporting data, and some additional practice exercises.  
+
+  
+- [Exercise: Cleaning data part 2](http://167.99.38.0/app/cleaning2)  
 
 :::
 
@@ -462,9 +487,8 @@ Together, we write a sequence of "pipes" to clean the linelist step-by-step in a
 
 
 
-
 ::: {.tutorial}
-**Module 3: Grouping data and summary tables**
+**Module 5: Grouping data and summary tables**
 
 Informative tables are the bedrock of epidemiological and public health practice. In this module we introduce three tools to produce tables of summary statistics: {dplyr} for flexibility, {janitor} for speed, and {gtsummary} for beauty.  
 
@@ -488,7 +512,7 @@ Finally, we explore {flextable}, which can be used to customize tables produced 
 
 
 ::: {.tutorial}
-**Module 4: Data visualization with {ggplot2}**
+**Module 6: Data visualization with {ggplot2}**
 
 Using the {ggplot2} package to maximum effect depends upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this by introducing the syntax logically and using public health examples - so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, box/violin plots, and line plots.  
 
@@ -514,7 +538,7 @@ We also teach you to write text labels that automatically update with refreshed 
 
 
 ::: {.tutorial}
-**Module 5: Transforming data: joins, pivots, and factors**
+**Module 7: Transforming data: joins, pivots, and factors**
 
 Public health analytics rarely involves just one data set, so now we practice joining data by adding hospital, laboratory, and case investigation data to our surveillance linelist. We ingrain best practices for conducting joins, and prepare you for doing data transformations independently.  
 
@@ -543,7 +567,7 @@ Along the way, we introduce the uses of the "factor" class (R's version of order
 
 
 ::: {.tutorial}
-**Module 6: Data visualization for public health**
+**Module 8: Data visualization for public health**
 
 In this second data visualization module we encourage you to practice learning R independently by reading function documentation (a necessary skill once you leave the class!). We still support you, and give live coding demonstrations for all the topics, as usual.  
 
@@ -570,7 +594,7 @@ We then tackle visualizations that are central to descriptive epidemiology: the 
 
 
 ::: {.tutorial}
-**Module 7: Reports with R Markdown**
+**Module 9: Reports with R Markdown**
 
 In this module, we take the R code on the Ebola case study that you have been writing throughout the course and convert it into a reproducible, automated report (e.g. Word, PDF, HTML, etc.).  
 
@@ -596,7 +620,7 @@ We teach you the variations in syntax to produce documents that update when inco
 
 
 ::: {.tutorial}
-**Module 8: Final Exercise, and peer code review**
+**Module 10: Final Exercise, and peer code review**
 In this last module, your put your skills to the test by writing an R Markdown report using a new dataset - a COVID-19 case linelist.  
 
 Unlike with the Ebola case study, you will not have solution code available to you. Instead, you will be given a Word document to reproduce by writing an R Markdown script. This will require data cleaning, creating common epidemiological plots, joining datasets, and creating descriptive tables.  
@@ -706,10 +730,9 @@ Currently UNDER CONSTRUCTION.
 <!-- ======================================================= -->
 ## Offline access {.unnumbered}
 
-**Click on the text below to see instructions to access the tutorials offline**  
 
 
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises offline</summary>  
+<!-- <details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises offline</summary>   -->
   
 **Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:**
 
@@ -740,9 +763,6 @@ knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gi
   * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.  
   * You can view the tutorial in this pane, or click the small icon in the upper-left to pop-out into a separate window.  
   
-
-
-</details>
 
 
 
