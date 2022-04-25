@@ -1,7 +1,7 @@
 ---
 knit: "bookdown::render_book"
-title: "Applied Epi Training"  
-description: "Training materials for using R in applied epidemiology and public health"
+title: "Introduction to R for applied epidemiology"  
+description: "Training materials for intro R course in applied epidemiology and public health"
 author: "Applied Epi"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -21,26 +21,95 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-## Training materials for applied epidemiology and public health {.unnumbered}
+## Course website for Introduction to R for applied epidemiology {.unnumbered}
 
 **This website :**
 
--   Hosts Applied Epi^TM^ training materials\
--   Provides problem-based instruction to assist epidemiologists transitioning to R\
+-   Hosts the course materials for Applied Epi's "Introduction to R for applied epidemiology" course (see table of contents on right)  
+-   Provides problem-based instruction to assist epidemiologists transitioning to R  
 -   Offers content accessible in settings with low internet-connectivity via offline
     versions  
 
-## Our other sites {.unnumbered}  
-
-* Our Home page ([*www.appliedepi.org*](www.appliedepi.org))  
-* Our Community page ([*www.community.appliedepi.org*](www.community.appliedepi.org))  
-* The Epidemiologist R Handbook ([*www.epiRhandbook.com*](www.epiRhandbook.com))  
 
 
-## About Applied Epi {.unnumbered}
+## About Applied Epi  {.unnumbered}
 
-[**Applied Epi**](http://www.appliedepi.org) is a nonprofit
-organization and grassroots movement that provides tools, training, and support to frontline epidemiologists and public health practitioners around the world. Your encouragement and feedback is most welcome:
+
+:::: {style="display: flex;"}
+
+::: {}
+
+**[Applied Epi](https://appliedepi.org/) is a nonprofit organization that supports frontline public health practitioners through accessible tools, training, and support.**  
+
+We are a global team of 150 applied epidemiologists and public health practitioners with extensive ground-level experience.  
+
+Our free [Epidemiologist R Handbook](https://epiRhandbook.com) is a vital resource for over **175,000 people**.  
+
+:::
+
+
+::: {}
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/AE_R_training_support_pyramid.png"))
+```
+:::
+
+::::
+
+</br>
+</br>
+
+We offer a comprehensive ecosystem of training, tools, and support:  
+
+:::: {style="display: flex;"}
+
+::: {}
+```{r, out.width = "55%", fig.align = "left", echo=F}
+knitr::include_graphics("images/teaching_icon.png")
+```
+
+**Training:**  
+**[Live courses](https://appliedepi.org/live/)**  
+**[Tutorials](https://appliedepi.org/tutorial/)**  
+**[Case studies](https://appliedepi.org/case/)**  
+:::
+
+::: {}
+```{r, out.width = "55%", fig.align = "left", echo=F}
+knitr::include_graphics("images/tools_icon.png")
+```
+
+**Tools:**  
+**[Epi R Handbook](https://epiRhandbook.com)**  
+**[R packages](https://appliedepi.org/tools/)**  
+**[Sitrep templates](https://appliedepi.org/tools/)**  
+:::
+
+::: {}
+```{r, out.width = "55%", fig.align = "left", echo=F}
+knitr::include_graphics("images/QA_icon.png")
+```
+
+**Support:**  
+**[Community forum](https://community.appliedepi.org)**  
+**[R Help Desk](https://appliedepi.org/helpdesk/)**  
+**[Mentorship](https://appliedepi.org/join/)**  
+:::
+
+
+
+::::
+
+
+
+<form target="_blank" action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="YTEZELC8VBXV6" />
+<input type="image" src="https://github.com/appliedepi/epiRhandbook_eng/raw/master/images/donate_button_long.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" />
+</form>
+
+
+Your encouragement and feedback is most welcome:
 
 -   Email [**contact\@appliedepi.org**](mailto:contact@appliedepi.org) or [**join our contact list**](https://forms.gle/9awNd8syypTSYUsn7)  
 -   Tweet [**\@epiRhandbook**](https://twitter.com/epirhandbook) or
@@ -50,109 +119,30 @@ organization and grassroots movement that provides tools, training, and support 
 
 
 
-<form target="_blank" action="https://www.paypal.com/donate" method="post" target="_top">
-
-<input type="hidden" name="hosted_button_id" value="YTEZELC8VBXV6" />
-<input type="image" src="https://github.com/appliedepi/epiRhandbook_eng/raw/master/images/donate_button_long.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img src="https://www.paypal.com/en_US/i/scr/pixel.gif" border="0"/>
-
-</form>
-
-
-## Our suite of services for frontline public health {.unnumbered}
-
-::: {style="display: flex;"}
-<div>
-
-```{r, out.width = "75%", fig.align = "center", echo=F}
-knitr::include_graphics("images/index/tools_icon.png")
-```
-
-**Tools**
-
--   [**Epi R Handbook**](www.epiRhandbook.com)
--   [**R packages**](https://appliedepi.org/tools/)
--   [**Situation report templates**](https://appliedepi.org/tools/)
-
-</div>
-
-::: {.col data-latex="{0.05\\textwidth}"}
-  <!-- an empty Div (with a white space), serving as
-a column separator -->
-:::
-
-<div>
-
-```{r, out.width = "75%", fig.align = "center", echo=F}
-knitr::include_graphics("images/index/teaching_icon.png")
-```
-
-**Training**  
-
--   [**Live R training courses**](www.training.appliedepi.org)
--   [**Self-paced R tutorials**](https://training.appliedepi.org)
--   [**Case studies**](www.training.appliedepi.org)
-
-</div>
-
-::: {.col data-latex="{0.05\\textwidth}"}
-  <!-- an empty Div (with a white space), serving as
-a column separator -->
-:::
-
-<div>
-
-```{r, out.width = "75%", fig.align = "center", echo=F}
-knitr::include_graphics("images/index/QA_icon.png")
-```
-
-**Support**  
-
--   [**Q&A discussion forum**](www.community.appliedepi.org)
--   [**R Help Desk**](https://appliedepi.org/helpdesk/)
-
-
-</div>
-:::
-
-
-
-## Upcoming live courses {.unnumbered}
-
-Register for a live course by completing this [**reservation form**](https://forms.gle/XJ7DcgrvS4zQ4gNH7).
-
-| Course                              | Dates                                               | Time zones | Prerequisites                                                                      | Price per person |
-|---------------|---------------|---------------|---------------|---------------|
-| Intro to R for applied epidemiology | TBD | TBD        | Some experience with SAS, Stata, or Python | TBD           |
-| Intro to R for applied epidemiology | August 2022                                         | TBD        | TBD  | TBD           |
-
-: See our **[live course policies]()**.  
-
-
-
-
-
 
 <!-- ======================================================= -->
+## Acknowledgements {.unnumbered}  
 
-## How to use this website {.unnumbered}
+Please note that all of our case study training materials use *fake example data* in which no person is identifiable and the actual values have been scrambled.  
 
--   Browse the pages in the Table of Contents, or use the search box  
--   The self-paced tutorials and case studies are open to the public with an [Applied Epi account](https://auth.appliedepi.org/auth/realms/master/login-actions/registration?client_id=appliedepi&tab_id=qZMyUMbV8Uo).  
--   Materials for live courses require enrollment in a paid course  
+Authors and contributors to this course curriculum from **Applied Epi** include:  
 
-<!-- ======================================================= -->
+* Neale Batra  
+* Arran Hamlet  
+* Mathilde Mousset  
+* Alex Spina  
+* Paula Blomquist  
+* Amy Mikhail  
 
-### Contributors {.unnumbered}
+* The Fulton County Board of Health graciously provided example data (anonymized and scrambled) for a case study.  
+* The {outbreaks} package formed the basis for the fake dataset in the Ebola case study.  
 
 **Website design**: Neale Batra, Alex Spina  
 **Illustrations**: Calder Fong, Canva  
 
-## Terms of Use and Contribution {.unnumbered}
+## Terms of Use {.unnumbered}
 
-### License {.unnumbered}
-
-If you want to use any of these materials in another training course, please contact us first to discuss.  
+These materials are restricted to people enrolled in this live course. If you want to offer or use any of these materials in another training course, please contact us first to discuss.  
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a>
 Applied Epi Incorporated, 2022 <br />This work is licensed by Applied
@@ -160,14 +150,3 @@ Epi Incorporated under a
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
 Commons Attribution-NonCommercial-ShareAlike 4.0 International
 License</a>.
-
-### Contribution {.unnumbered}
-
-If you would like to make a content contribution, please contact with us
-first via Github issues or by email. We are implementing a schedule for
-updates and are creating a contributor guide.
-
-Please note that the epiRhandbook project is released with a
-[Contributor Code of
-Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
-By contributing to this project, you agree to abide by its terms.
