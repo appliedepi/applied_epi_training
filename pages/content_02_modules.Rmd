@@ -34,7 +34,7 @@ Next, we dive into a coding demonstration to introduce you to R and RStudio. We 
 
 - Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
 
-- [Exercise: R setup, basic syntax, and importing data](http://167.99.38.0/app/basics) 
+- [Exercise: R setup, basic syntax, and importing data](http://exercises.appliedepi.org/app/basics) 
 
 :::
 
@@ -48,7 +48,7 @@ Next, we dive into a coding demonstration to introduce you to R and RStudio. We 
 We cover file management strategies, how to work within an RStudio project, and introduce our recommended packages functions used to import and review data. Using these functions, we import the case study's Ebola surveillance linelist, and begin to inspect it.  
 
 
-- [Exercise: File management and data import](http://167.99.38.0/app/files_import)  
+- [Exercise: File management and data import](http://exercises.appliedepi.org/app/files_import)  
 
 :::
 
@@ -68,7 +68,7 @@ Together, we write a sequence of "pipes" to clean the linelist step-by-step in a
 
 - [Slides: Tidy data and data cleaning](https://appliedepi.github.io/intro_course/modules/module_2/slides/slides_cleaning_dplyr/slides_cleaning_dplyr.html)  
   
-- [Exercise: Cleaning data - part 1](http://167.99.38.0/app/cleaning)  
+- [Exercise: Cleaning data - part 1](http://exercises.appliedepi.org/app/cleaning)  
 
 :::
 
@@ -81,7 +81,7 @@ Together, we write a sequence of "pipes" to clean the linelist step-by-step in a
 We continue writing our data cleaning code, covering more advanced re-coding, filtering rows, exporting data, and some additional practice exercises.  
 
   
-- [Exercise: Cleaning data part 2](http://167.99.38.0/app/cleaning2)  
+- [Exercise: Cleaning data part 2](http://exercises.appliedepi.org/app/cleaning2)  
 
 :::
 
@@ -106,7 +106,7 @@ Finally, we explore {flextable}, which can be used to customize tables produced 
 - [Slides: Grouping and summarizing data](https://appliedepi.github.io/intro_course/modules/module_3/slides/slides_summary_tables/slides_grouping_summaries.html)   
   
 
-- [Exercise: Grouping data and summary tables](http://167.99.38.0/app/grouping_summaries)  
+- [Exercise: Grouping data and summary tables](http://exercises.appliedepi.org/app/grouping_summaries)  
 
 :::
 
@@ -130,7 +130,7 @@ We also teach you to write text labels that automatically update with refreshed 
 - [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
 - [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
 
-- [Exercise: Data visualization with ggplot2](http://167.99.38.0/app/ggplot_basics) 
+- [Exercise: Data visualization with ggplot2](http://exercises.appliedepi.org/app/ggplot_basics) 
 
 :::
 
@@ -156,11 +156,11 @@ In the second part of this module, we address *pivoting*, which in R means trans
 Along the way, we introduce the uses of the "factor" class (R's version of ordered levels in a variable) by constructing a timeline visualization of some patients' pathways through the surveillance/medical system.  
 
 - [Slides: Joining data](https://appliedepi.github.io/intro_course/modules/module_5/slides/slides_joins/slides_joins.html)  
-- [Exercise: Joining data](http://167.99.38.0/app/joining)
+- [Exercise: Joining data](http://exercises.appliedepi.org/app/joining)
 
 - [Slides: Pivoting data](https://appliedepi.github.io/intro_course/modules/module_5/slides/slides_pivots/slides_pivots.html)  
 
-- [Exercise: Pivoting data](http://167.99.38.0/app/pivoting)  
+- [Exercise: Pivoting data](http://exercises.appliedepi.org/app/pivoting)  
 
 :::
 
@@ -184,7 +184,7 @@ We cover the various ways to define "epiweeks" using R, and our recommended appr
 
 We then tackle visualizations that are central to descriptive epidemiology: the intricacies of crafting an accurate epidemic curve, conveying patterns across three variables using a heat plot, and creating age/sex pyramids to describe demographics. If there is time, we finish with a demonstration of R's GIS/geospatial capabilities.  
 
-- [Exercise: Data visualization for public health](http://167.99.38.0/app/ggplot_heat_epicurves_pyramids)  
+- [Exercise: Data visualization for public health](http://exercises.appliedepi.org/app/ggplot_heat_epicurves_pyramids)  
 
 - GIS demo R script can be found in your course folder at: *"intro_course/scripts/backup/5_gis_demo.R"*  
 
@@ -213,7 +213,7 @@ We teach you the variations in syntax to produce documents that update when inco
 
 - [Slides: R Markdown and routine reports](https://appliedepi.github.io/intro_course/modules/module_7/slides/slides_rmd/slides_rmd.html)  
   
-- [Exercise: R Markdown](http://167.99.38.0/app/rmarkdown)  
+- [Exercise: R Markdown](http://exercises.appliedepi.org/app/rmarkdown)  
 
 :::
 
