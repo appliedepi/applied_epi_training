@@ -532,9 +532,13 @@ Using the {ggplot2} package to maximum effect depends upon understanding how to 
 We also teach you to write text labels that automatically update with refreshed data (very useful for epidemiological reports!), use colors that are colorblind-friendly, and more.  
 
 - [Slides: Data visualization with ggplot2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_basics/slides_ggplot_basics.html)  
+
+- [Exercise: ggplot basics](http://exercises.appliedepi.org/app/ggplot_basics) 
+
 - [Slides: Scales, themes, and labels](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_ggplot_scales_labels/slides_ggplot_scales_labels.html)  
 
-- [Exercise: Data visualization with ggplot2](http://exercises.appliedepi.org/app/ggplot_basics) 
+- [Exercise: Scales, themes, and lables](https://exercises.appliedepi.org/app/ggplot_scales_themes) 
+
 
 :::
 

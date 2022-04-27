@@ -14,7 +14,7 @@ rmd_files: [
   # teaching approach and goals
   "pages/cat_about.Rmd",                        # start of new section (sepparator)
   "pages/about_01_approach.Rmd",                # Our basic course
-  "pages/about_02_applied_epi.Rmd",             # Our basic course
+  #"pages/about_02_applied_epi.Rmd",             # Our basic course
 
   # Modules
   "pages/cat_content.Rmd",                        # start of new section (sepparator)
