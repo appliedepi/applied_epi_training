@@ -47,7 +47,7 @@ Next, we dive into a coding demonstration to introduce you to R and RStudio. We 
 
 We cover file management strategies, how to work within an RStudio project, and introduce our recommended packages functions used to import and review data. Using these functions, we import the case study's Ebola surveillance linelist, and begin to inspect it.  
 
-- [Slides: RStudio projects, importing data, filepaths](https://appliedepi.github.io/intro_course/modules/module_2/slides_course_introduction.html) 
+- [Slides: RStudio projects, importing data, filepaths](https://appliedepi.github.io/intro_course/modules/module_2/slides_file_import.html)  
 - [Exercise: File management and data import](http://exercises.appliedepi.org/app/files_import)  
 
 :::
@@ -80,7 +80,8 @@ Together, we write a sequence of "pipes" to clean the linelist step-by-step in a
 
 We continue writing our data cleaning code, covering more advanced re-coding, filtering rows, exporting data, and some additional practice exercises.  
 
-  
+- [Slides: Data cleaning part 2](https://appliedepi.github.io/intro_course/modules/module_4/slides/slides_cleaning_dplyr2/slides_cleaning_dplyr2.html)  
+
 - [Exercise: Cleaning data part 2](http://exercises.appliedepi.org/app/cleaning2)  
 
 :::
