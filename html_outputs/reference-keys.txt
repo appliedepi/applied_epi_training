@@ -1,5 +1,4 @@
 our-educational-approach
-about-applied-epi-1
 precourse-setup
 course-modules
 sustained-support
