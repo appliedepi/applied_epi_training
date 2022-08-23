@@ -429,7 +429,7 @@ Next, we dive into a coding demonstration to introduce you to R and RStudio. We 
 
 - Live demonstration ([instructor guide](https://appliedepi.github.io/intro_course/modules/module_1/guides/rstudio_tour.html))  
 
-- [Exercise: R setup, basic syntax, and importing data](http://exercises.appliedepi.org/app/basics) 
+- [Exercise: R setup, basic syntax, functions, and packages](http://exercises.appliedepi.org/app/basics) 
 
 :::
 
