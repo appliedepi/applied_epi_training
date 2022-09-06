@@ -19,8 +19,9 @@ rmd_files: [
   # Modules
   "pages/cat_content.Rmd",                        # start of new section (sepparator)
   "pages/content_01_precourse.Rmd",              # Our basic course
-  "pages/content_02_modules.Rmd",                # Our basic course
-  "pages/content_03_support.Rmd",                     # Our basic course
+  "pages/content_02_modules.Rmd",               # Our basic course
+  "pages/content_02_modules_fr.Rmd"
+  #"pages/content_03_support.Rmd",                     # Our basic course
 
 
   # Self-paced tutorials
