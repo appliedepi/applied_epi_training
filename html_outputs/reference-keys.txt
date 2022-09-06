@@ -1,4 +1,4 @@
 our-educational-approach
 precourse-setup
 course-modules
-sustained-support
+modules-de-cours-francais
