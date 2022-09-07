@@ -1,5 +1,5 @@
 
-# Precourse setup {} 
+# Préparation du cours {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -8,11 +8,11 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 
 <!-- ======================================================= -->
-## Precourse setup {.unnumbered}
+## Préparation du cours {.unnumbered}
 
-Follow these step-by-step instructions to intall software, download the course files, setup an RStudio project, and to download and begin the course's interactive exercises.  
+Suivez ces instructions étape par étape pour installer le logiciel, télécharger les fichiers du cours, configurer un projet RStudio, et pour télécharger et commencer les exercices interactifs du cours.  
 
-**Click on each of the steps below to expand the instructions**  
+**Cliquez sur chacune des étapes ci-dessous pour développer les instructions.**  
 
 
 <!--
@@ -21,32 +21,33 @@ hidden from the user
 -->
 
 
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install software</summary>  
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Installer des logiciels</summary>  
   
-Please be sure that you have the following software installed on your computer **prior to the start of the course**.  
+Veuillez vous assurer que les logiciels suivants sont installés sur votre ordinateur **avant le début du cours**.  
 
-Please work with your IT to install the following 3 software on your computer. The most important thing is that *you have administrator access to the software* and that they are *installed in locations away from any syncing software such as OneDrive - e.g. into the My Documents folder*.  
+Veuillez collaborer avec votre service informatique pour installer les 3 logiciels suivants sur votre ordinateur. Le plus important est que *vous ayez un accès administrateur aux logiciels* et qu'ils soient *installés dans des emplacements éloignés de tout logiciel de synchronisation tel que OneDrive - par exemple dans le dossier Mes Documents*.  
 
-Please see this [installation guide](https://appliedepi.org/files/install_guide.pdf) for 
+Veuillez consulter ce [guide d'installation](https://appliedepi.org/files/install_guide.pdf) pour les éléments suivants  
 
-1) [R](https://cran.r-project.org/bin/windows/base/) (most recent version)
-2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (most recent version)
-3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (only needed for Windows machines)
+1) [R](https://cran.r-project.org/bin/windows/base/) (version la plus récente)  
+2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (version la plus récente)  
+3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (nécessaire uniquement pour les machines Windows)  
 
-After successful installation, please try to run [this R script](https://appliedepi.org/files/packages_to_install.R) called "packages_to_install.R" (see the end of the install guide for instructions). It will install most of the R packages that you need for this course.  
+Après une installation réussie, essayez d'exécuter [ce script R](https://appliedepi.org/files/packages_to_install.R) appelé "packages_to_install.R" (voir la fin du guide d'installation pour les instructions). Il installera la plupart des paquets R dont vous avez besoin pour ce cours.  
+
 
 </details>
 
 
 
 
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Download course files</summary>  
-  
-Download the zipped course folder at [**this link**](https://appliedepi.org/files/intro_course.zip).  
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Télécharger les fichiers du cours</summary>  
 
-**Unzip the folder and save it on your computer's desktop (not on a shared drive).** To "unzip" a folder once it is downloaded, right-click on the folder and select "Extract All". If offered a choice of location to save the unzipped folder, save it to your desktop.  
+Téléchargez le dossier zippé du cours à l'adresse [**ce lien**](https://appliedepi.org/files/intro_course.zip).  
 
-On your desktop:  
+**Pour "dézipper" un dossier une fois qu'il est téléchargé,** cliquez avec le bouton droit de la souris sur le dossier et sélectionnez "Extraire tout". Si vous avez le choix de l'emplacement où enregistrer le dossier dézippé, enregistrez-le sur votre bureau.  
+
+Sur votre bureau :  
 
 * `r emo::ji("folder")` intro_course  
      * `r emo::ji("folder")` data
@@ -61,7 +62,7 @@ On your desktop:
           * `r emo::ji("folder")` backup_r_packages  
      * `r emo::ji("document")` surveillance_linelist_20141201.csv
 
-`r emo::ji("warning")` You may also have some other files. Just leave them.  
+`r emo::ji("warning")` Vous pouvez aussi avoir d'autres fichiers. Laissez-les simplement.  
 
 </details>
 
@@ -69,23 +70,23 @@ On your desktop:
 
 
 
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Create a new RStudio project</summary>  
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Créer un nouveau projet RStudio</summary>  
   
 
+1) Ouvrez RStudio. Assurez-vous que vous ouvrez *RStudio* et pas seulement *R*.  
 
-1) Open RStudio. Ensure that you open *RStudio* and not just *R*.  
-
-2) In RStudio click *File -> New Project*. In the pop-up window, select **"Existing directory"**.  
+2) Dans RStudio, cliquez sur *Fichier -> Nouveau projet*. Dans la fenêtre pop-up, sélectionnez **"Répertoire existant "**.  
 
 ```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
 knitr::include_graphics("images/intro_course_images/create_project.png")
 ```
 
-3) Click "browse" and select the "intro_course" folder on your desktop, containing the course materials, which you downloaded earlier.  
 
-4) Click "Create project"  
+3) Cliquez sur "browse" et sélectionnez le dossier "intro_course" sur votre bureau, contenant le matériel de cours, que vous avez téléchargé plus tôt.  
 
-Voila! This will be the project for all of your work in this course.  
+4) Cliquez sur "Créer un projet".  
+
+Voilà ! Ce sera le projet pour tout votre travail dans ce cours.  
 
 
 </details>
@@ -95,24 +96,23 @@ Voila! This will be the project for all of your work in this course.
 
 
 
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises online</summary>  
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Accéder aux exercices du cours hors ligne</summary>  
   
-The primary route to access the course exercises is online, via the links in the "Modules" section below. To access the exercises you will need to do the following:  
+La principale voie d'accès aux exercices du cours est en ligne, via les liens de la section "Modules" ci-dessous. Pour accéder aux exercices, vous devez procéder comme suit :  
 
-1) Use the link provided by your instructor to create a free account in our [Applied Epi Community](community.appliedepi.org) site. If you use the link from your instructor, you will automatically be added to the private group for your cohort.  
+1) Utilisez le lien fourni par votre instructeur pour créer un compte gratuit sur notre site [Applied Epi Community](community.appliedepi.org). Si vous utilisez le lien fourni par votre formateur, vous serez automatiquement ajouté au groupe privé de votre cohorte.  
 
-2) Use the links in the "Modules" section below to access the exercises. If they do not load immediately, be patient or try to refresh. If you see an error, ensure you are not on a VPN.  
+2) Utilisez les liens dans la section "Modules" ci-dessous pour accéder aux exercices. S'ils ne se chargent pas immédiatement, soyez patient ou essayez de rafraîchir la page. Si vous voyez une erreur, assurez-vous que vous n'êtes pas sur un VPN.  
 
-If your internet connection is too weak to see the exercises, notify your instructor and follow the steps below to access the exercises *offline*.  
-
+Si votre connexion Internet est trop faible pour voir les exercices, informez votre instructeur et suivez les étapes ci-dessous pour accéder aux exercices *hors ligne*.  
 </details>
 
 
 
 
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Backup method to access the course offline</summary>  
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Méthode de sauvegarde pour accéder au cours hors ligne</summary>  
 
-The offline versions of the exercises are available in the folder "intro_course/learning_materials/backup_exercises/"
+Les versions hors ligne des exercices sont disponibles dans le dossier "intro_course/learning_materials/backup_exercises/".
 
 A further backup method is described below, but will require permissions from an instructor:
 

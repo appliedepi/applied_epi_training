@@ -30,7 +30,7 @@ Nous vous souhaitons la bienvenue au cours, passons en revue la logistique du co
 
 Ensuite, nous nous plongeons dans une démonstration de codage pour vous présenter R et RStudio. Nous abordons les bases de l'interaction avec R et RStudio, la syntaxe R et l'exécution des commandes, ainsi que les fonctions et les packages R.  
 
-- [Slides: Bienvenue, logistique du cours, RStudio, et syntaxe R de base](https://appliedepi.github.io/slides/intro/en/module_1/module_1.html)  
+- [Slides: Bienvenue, logistique du cours, RStudio, et syntaxe R de base](https://appliedepi.github.io/slides/intro/fr/module_1/module_1.html)  
 
 - [Exercise: Configuration de R, syntaxe de base, fonctions et packages](http://exercises.appliedepi.org/app/basics_fr) 
 
@@ -45,8 +45,8 @@ Ensuite, nous nous plongeons dans une démonstration de codage pour vous présen
 
 Nous couvrons les stratégies de gestion des fichiers, la façon de travailler au sein d'un projet RStudio, et nous présentons les fonctions de nos paquets recommandés utilisées pour importer et examiner les données. À l'aide de ces fonctions, nous importons la liste de surveillance Ebola de l'étude de cas et commençons à l'inspecter.  
 
-- [Slides: Projets RStudio, importation de données, chemins de fichiers](https://appliedepi.github.io/slides/intro/en/module_2/module_2.html)  
-- [Exercise: Gestion des fichiers et importation de données](http://exercises.appliedepi.org/app/files_import_fr)  
+- [Diapositives : Projets RStudio, importation de données, chemins de fichiers](https://appliedepi.github.io/slides/intro/fr/module_2/module_2.html)  
+- [Exercice: Gestion des fichiers et importation de données](http://exercises.appliedepi.org/app/files_import_fr)  
 
 :::
 
@@ -56,17 +56,17 @@ Nous couvrons les stratégies de gestion des fichiers, la façon de travailler a
 
 
 ::: {.tutorial}
-**Module 3: Data cleaning - part 1**
+**Nettoyage des données - partie 1**
 
-Now that we have imported our surveillance linelist, we review which "data cleaning" steps might be necessary and how to execute these in R. Along the way, we introduce the core principles of "tidy data".  
+Maintenant que nous avons importé notre liste de lignes de surveillance, nous passons en revue les étapes de "nettoyage des données" qui peuvent s'avérer nécessaires et la manière de les exécuter dans R. En cours de route, nous introduisons les principes fondamentaux des "données ordonnées".  
 
-Through data cleaning, we teach you the core R functions for handling data, including for standardizing and editing column names, de-duplicating and filtering rows, selecting and modifying columns, re-coding values, and more.  
+Grâce au nettoyage des données, nous vous apprenons les fonctions R de base pour le traitement des données, y compris la normalisation et la modification des noms de colonnes, la suppression des doublons et le filtrage des lignes, la sélection et la modification des colonnes, le recodage des valeurs, etc.  
 
-Together, we write a sequence of "pipes" to clean the linelist step-by-step in a clear, reproducible manner... so that our dataset is ready for preliminary analysis!  
+Ensemble, nous écrivons une séquence de "tuyaux" pour nettoyer la liste de lignes étape par étape d'une manière claire et reproductible... afin que notre ensemble de données soit prêt pour une analyse préliminaire !
 
-- [Slides: Tidy data and data cleaning](https://appliedepi.github.io/slides/intro/en/module_3/module_3.html)  
+- [Diapositives : Tidy data et nettoyage des données](https://appliedepi.github.io/slides/intro/fr/module_3/module_3.html)  
   
-- [Exercise: Cleaning data - part 1](http://exercises.appliedepi.org/app/cleaning_fr)  
+- [Exercice : Nettoyage des données - partie 1](http://exercises.appliedepi.org/app/cleaning_fr)  
 
 :::
 
@@ -74,13 +74,13 @@ Together, we write a sequence of "pipes" to clean the linelist step-by-step in a
 
 
 ::: {.tutorial}
-**Module 4: Data cleaning - part 2**
+**Module 4: Nettoyage des données - partie 2**
 
-We continue writing our data cleaning code, covering more advanced re-coding, filtering rows, exporting data, and some additional practice exercises.  
+Nous continuons à écrire notre code de nettoyage des données, en couvrant un recodage plus avancé, le filtrage des lignes, l'exportation des données, et quelques exercices pratiques supplémentaires.  
 
-- [Slides: Data cleaning part 2](https://appliedepi.github.io/slides/intro/en/module_4/module_4.html)  
+- [Diapositives: Nettoyage des données - partie 2](https://appliedepi.github.io/slides/intro/fr/module_4/module_4.html)  
 
-- [Exercise: Cleaning data part 2](http://exercises.appliedepi.org/app/cleaning2_fr)  
+- [Exercice: Nettoyage des données - partie 2](http://exercises.appliedepi.org/app/cleaning2_fr)  
 
 :::
 
@@ -96,16 +96,16 @@ We continue writing our data cleaning code, covering more advanced re-coding, fi
 
 
 ::: {.tutorial}
-**Module 5: Grouping data and summary tables**
+**Module 5: Regroupement des données et tableaux de synthèse**
 
-Informative tables are the bedrock of epidemiological and public health practice. In this module we introduce three tools to produce tables of summary statistics: {dplyr} for flexibility, {janitor} for speed, and {gtsummary} for beauty.  
+Les tableaux informatifs sont le fondement de la pratique de l'épidémiologie et de la santé publique. Dans ce module, nous présentons trois outils permettant de produire des tableaux de statistiques sommaires : {dplyr} pour la flexibilité, {janitor} pour la rapidité, et {gtsummary} pour la beauté.  
 
-Finally, we explore {flextable}, which can be used to customize tables produced by any of the above approaches: adding colors and highlights, and saving tables to Word, PNG, HTML, etc.  
+Enfin, nous explorons {flextable}, qui peut être utilisé pour personnaliser les tableaux produits par l'une ou l'autre des approches ci-dessus : ajout de couleurs et de surbrillance, et sauvegarde des tableaux en Word, PNG, HTML, etc.  
 
-- [Slides: Grouping and summarizing data](https://appliedepi.github.io/slides/intro/en/module_5/module_5.html)   
+- [Diapositives: Regrouper et résumer les données](https://appliedepi.github.io/slides/intro/fr/module_5/module_5.html)   
   
 
-- [Exercise: Grouping data and summary tables](http://exercises.appliedepi.org/app/grouping_summaries_fr)  
+- [Exercice: Regrouper et résumer les données](http://exercises.appliedepi.org/app/grouping_summaries_fr)  
 
 :::
 
@@ -120,19 +120,19 @@ Finally, we explore {flextable}, which can be used to customize tables produced 
 
 
 ::: {.tutorial}
-**Module 6: Data visualization with {ggplot2}**
+**Module 6: La visualisation de données avec {ggplot2}**
 
-Using the {ggplot2} package to maximum effect depends upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this by introducing the syntax logically and using public health examples - so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, box/violin plots, and line plots.  
+L'utilisation optimale du package {ggplot2} dépend de la compréhension de la manière d'appliquer sa "grammaire des graphiques" pour construire un graphique couche par couche. Nous abordons cette question en introduisant la syntaxe de manière logique et en utilisant des exemples de santé publique - de sorte que vous vous appuyiez sur vos connaissances antérieures pour construire des diagrammes à barres, des diagrammes de dispersion, des histogrammes, des diagrammes en boîte/violine et des diagrammes linéaires informatifs et colorés.  
 
-We also teach you to write text labels that automatically update with refreshed data (very useful for epidemiological reports!), use colors that are colorblind-friendly, and more.  
+Nous vous apprenons également à écrire des étiquettes de texte qui se mettent automatiquement à jour lorsque les données sont actualisées (très utile pour les rapports épidémiologiques !), à utiliser des couleurs adaptées aux daltoniens, etc.  
 
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/slides/intro/en/module_6-1/module_6-1.html)  
+- [Diapositives: La visualisation de données avec {ggplot2}](https://appliedepi.github.io/slides/intro/fr/module_6-1/module_6-1.html)  
 
-- [Exercise: ggplot basics](http://exercises.appliedepi.org/app/ggplot_basics_fr) 
+- [Exercice: Les bases de ggplot2](http://exercises.appliedepi.org/app/ggplot_basics_fr) 
 
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/slides/intro/en/module_6-2/module_6-2.html)  
+- [Diapositives: Échelles, thèmes et étiquettes](https://appliedepi.github.io/slides/intro/fr/module_6-2/module_6-2.html)  
 
-- [Exercise: Scales, themes, and lables](https://exercises.appliedepi.org/app/ggplot_scales_themes_fr) 
+- [Exercice: Échelles, thèmes et étiquettes](https://exercises.appliedepi.org/app/ggplot_scales_themes_fr) 
 
 
 :::
@@ -150,20 +150,20 @@ We also teach you to write text labels that automatically update with refreshed 
 
 
 ::: {.tutorial}
-**Module 7: Transforming data: joins, pivots, and factors**
+**Module 7: Transformation des données : jointures, pivots et facteurs**
 
-Public health analytics rarely involves just one data set, so now we practice joining data by adding hospital, laboratory, and case investigation data to our surveillance linelist. We ingrain best practices for conducting joins, and prepare you for doing data transformations independently.  
+L'analyse de la santé publique implique rarement un seul ensemble de données. Nous allons donc nous entraîner à joindre des données en ajoutant des données d'hôpitaux, de laboratoires et d'enquêtes sur les cas à notre liste de surveillance. Nous vous inculquons les meilleures pratiques pour effectuer des jointures et vous préparons à effectuer des transformations de données de manière indépendante.  
 
-In the second part of this module, we address *pivoting*, which in R means transforming data between "long" and "wide" formats. This is particularly relevant in public health, where each format has distinct benefits.  
+Dans la deuxième partie de ce module, nous abordons le *pivotage*, ce qui, dans R, signifie transformer les données entre les formats "long" et "large". Ceci est particulièrement pertinent dans le domaine de la santé publique, où chaque format présente des avantages distincts.  
 
-Along the way, we introduce the uses of the "factor" class (R's version of ordered levels in a variable) by constructing a timeline visualization of some patients' pathways through the surveillance/medical system.  
+En cours de route, nous présentons les utilisations de la classe "facteur" (la version de R des niveaux ordonnés d'une variable) en construisant une visualisation chronologique du parcours de certains patients dans le système de surveillance/médical.  
 
-- [Slides: Joining data](https://appliedepi.github.io/slides/intro/en/module_7-1/module_7-1.html)  
-- [Exercise: Joining data](http://exercises.appliedepi.org/app/joining_fr)
+- [Dispositives: Joindre des données](https://appliedepi.github.io/slides/intro/fr/module_7-1/module_7-1.html)  
+- [Exercice: Joindre des données](http://exercises.appliedepi.org/app/joining_fr)
 
-- [Slides: Pivoting data](https://appliedepi.github.io/slides/intro/en/module_7-2/module_7-2.html)  
+- [Dispositives: Pivoter les données](https://appliedepi.github.io/slides/intro/fr/module_7-2/module_7-2.html)  
 
-- [Exercise: Pivoting data](http://exercises.appliedepi.org/app/pivoting_fr)  
+- [Exercice: Pivoter les données](http://exercises.appliedepi.org/app/pivoting_fr)  
 
 :::
 
@@ -179,19 +179,20 @@ Along the way, we introduce the uses of the "factor" class (R's version of order
 
 
 ::: {.tutorial}
-**Module 8: Data visualization for public health**
+**Module 8: Visualisation de données pour la santé publique**
 
-In this second data visualization module we encourage you to practice learning R independently by reading function documentation (a necessary skill once you leave the class!). We still support you, and give live coding demonstrations for all the topics, as usual.  
+Dans ce deuxième module de visualisation de données, nous vous encourageons à vous entraîner à apprendre R de manière indépendante en lisant la documentation des fonctions (une compétence nécessaire une fois que vous aurez quitté le cours !). Nous continuons à vous soutenir et à faire des démonstrations de codage en direct pour tous les sujets, comme d'habitude.  
 
-We cover the various ways to define "epiweeks" using R, and our recommended approach including a cheatsheet.  
+Nous couvrons les différentes façons de définir les "épiweeks" à l'aide de R, et notre approche recommandée, y compris une feuille de route.  
 
-We then tackle visualizations that are central to descriptive epidemiology: the intricacies of crafting an accurate epidemic curve, conveying patterns across three variables using a heat plot, and creating age/sex pyramids to describe demographics. If there is time, we finish with a demonstration of R's GIS/geospatial capabilities.  
+Nous abordons ensuite les visualisations qui sont essentielles à l'épidémiologie descriptive : les subtilités de l'élaboration d'une courbe épidémique précise, la transmission de modèles à travers trois variables à l'aide d'un diagramme de chaleur, et la création de pyramides d'âge/sexe pour décrire les données démographiques. S'il reste du temps, nous terminerons par une démonstration des capacités SIG/géospatiales de R.  
 
-- [Exercise: Data visualization for public health](http://exercises.appliedepi.org/app/ggplot_heat_epicurves_pyramids_fr)  
+- [Exercice: Visualisation de données pour la santé publique](http://exercises.appliedepi.org/app/ggplot_heat_epicurves_pyramids_fr)  
 
-- GIS demo R script can be found in your course folder at: *"intro_course/scripts/backup/5_gis_demo.R"*  
+- Le script R de démonstration du SIG se trouve dans le dossier de votre cours: *"intro_course/scripts/backup/5_gis_demo.R"*  
 
-- Your instructor will provide our "cheatsheet" on epidemic weeks and making epicurves  
+- Votre instructeur vous fournira notre "cheatsheet" sur les semaines d'épidémie et la réalisation d'épicurves.  
+
 
 :::
 
@@ -206,15 +207,15 @@ We then tackle visualizations that are central to descriptive epidemiology: the 
 
 
 ::: {.tutorial}
-**Module 9: Reports with R Markdown**
+**Module 9: Rapports avec R Markdown**
 
-In this module, we take the R code on the Ebola case study that you have been writing throughout the course and convert it into a reproducible, automated report (e.g. Word, PDF, HTML, etc.).  
+Dans ce module, nous prenons le code R sur l'étude de cas Ebola que vous avez rédigé tout au long du cours et le convertissons en un rapport automatisé reproductible (par exemple Word, PDF, HTML, etc.).  
 
-We teach you the variations in syntax to produce documents that update when incoming data is refreshed and that can be used to inform public health partners and stakeholders.  
+Nous vous enseignons les variations de syntaxe pour produire des documents qui se mettent à jour lorsque les données entrantes sont actualisées et qui peuvent être utilisés pour informer les partenaires de la santé publique et les parties prenantes. 
 
-- [Slides: R Markdown and routine reports](https://appliedepi.github.io/slides/intro/en/module_9/module_9.html)  
+- [Despositives: R Markdown et rapports de routine](https://appliedepi.github.io/slides/intro/fr/module_9/module_9.html)  
   
-- [Exercise: R Markdown](http://exercises.appliedepi.org/app/rmarkdown_fr)  
+- [Exercice: R Markdown](http://exercises.appliedepi.org/app/rmarkdown_fr)  
 
 :::
 
@@ -224,14 +225,14 @@ We teach you the variations in syntax to produce documents that update when inco
 
 
 ::: {.tutorial}
-**Module 10: Final Exercise, and peer code review**
-In this last module, your put your skills to the test by writing an R Markdown report using a new dataset - a COVID-19 case linelist.  
+**Module 10: Exercice final, et examen du code par les pairs**
+Dans ce dernier module, vous mettez vos compétences à l'épreuve en rédigeant un rapport R Markdown à l'aide d'un nouvel ensemble de données - une liste linéaire de cas COVID-19.  
 
-Unlike with the Ebola case study, you will not have solution code available to you. Instead, you will be given a Word document to reproduce by writing an R Markdown script. This will require data cleaning, creating common epidemiological plots, joining datasets, and creating descriptive tables.  
+Contrairement à l'étude de cas Ebola, vous n'aurez pas de code de solution à votre disposition. Au lieu de cela, on vous donnera un document Word à reproduire en écrivant un script R Markdown. Il faudra nettoyer les données, créer des graphiques épidémiologiques communs, joindre des ensembles de données et créer des tableaux descriptifs.  
 
-If there is time, we perform "peer code reviews" which simultaneously improving your coding skills and teach you how to review others' code. Before closing, we touch upon how to find your particular community of R users and resources available to you for further learning.  
+S'il reste du temps, nous effectuons des "revues de code par les pairs" qui améliorent simultanément vos compétences en codage et vous apprennent à revoir le code des autres. Avant de conclure, nous expliquons comment trouver votre communauté d'utilisateurs de R et les ressources disponibles pour poursuivre votre apprentissage.  
 
-- *Exercise materials*: See the folder "intro_course/learning_materials/covid_case_study" for the Word document report to replicate, the datasets, and a tips sheet.  
+- *Matériel d'exercice*: Voir le dossier "intro_course/learning_materials/covid_case_study" pour le rapport du document Word à reproduire, les jeux de données et une fiche de conseils.   
 
 :::
 

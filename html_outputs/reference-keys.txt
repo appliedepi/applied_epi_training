@@ -1,4 +1,5 @@
 our-educational-approach
 precourse-setup
 course-modules
+préparation-du-cours
 modules-de-cours-francais
