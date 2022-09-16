@@ -24,9 +24,14 @@ rmd_files: [
   # French modules
   "pages/cat_content_fr.Rmd",
   "pages/content_01_precourse_fr.Rmd",
-  "pages/content_02_modules_fr.Rmd"
+  "pages/content_02_modules_fr.Rmd",
   #"pages/content_03_support.Rmd",                     # Our basic course
 
+  # Russian modules
+  "pages/cat_content_ru.Rmd",
+  "pages/content_01_precourse_ru.Rmd",
+  "pages/content_02_modules_ru.Rmd"
+  #"pages/content_03_support.Rmd",                     # Our basic course
 
   # Self-paced tutorials
   #"pages/cat_tutorials.Rmd",                        # start of new section (sepparator)

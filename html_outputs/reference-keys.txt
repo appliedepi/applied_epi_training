@@ -3,3 +3,5 @@ precourse-setup
 course-modules
 préparation-du-cours
 modules-de-cours-francais
+подготовка-к-курсу
+модули-курса
