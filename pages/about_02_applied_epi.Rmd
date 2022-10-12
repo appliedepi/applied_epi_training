@@ -1,6 +1,0 @@
-# About Applied Epi {} 
-
-
-```{r, out.width = "100%", fig.align = "center", echo=F}
-knitr::include_graphics(xfun::relative_path("images/AE_R_training_support_pyramid.png"))
-```

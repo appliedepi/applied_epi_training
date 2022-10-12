@@ -1,7 +1,5 @@
 our-educational-approach
-precourse-setup
-course-modules
-préparation-du-cours
-modules-de-cours-francais
-подготовка-к-курсу
-модули-курса
+intro-course-english
+cours-dintroduction-francais
+вводный-курс-русский-язык
+stats-course-english

@@ -1,0 +1,230 @@
+
+# Stats course (English) {} 
+
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
+```
+
+<!-- ======================================================= -->
+## Overview {.unnumbered}
+
+```{r, out.width = "50%", fig.align = "center", echo=F}
+knitr::include_graphics("images/support-help-moz.jpg")
+```
+[*Image: Neale Batra*]{style="float:right"}
+
+
+
+
+<!-- ======================================================= -->
+## Modules {.unnumbered}  
+
+Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable. Clicking on an exercise link will prompt a login, then launch a window with the interactive exercise. 
+
+
+::: {.tutorial}
+**Pre-course preparation**
+
+Follow these step-by-step instructions to intall software, download the course files, setup an RStudio project, and to download and begin the course's interactive exercises.  
+
+**Click on each of the steps below to expand the instructions**  
+
+
+<!--
+NOTE: everything inside the details tag will be collapsed and effectively
+hidden from the user
+-->
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install software</summary>  
+  
+Please have the following software installed on your computer **prior to the start of the course**.  
+
+See this [installation guide](https://appliedepi.org/files/install_guide.pdf) for tips.  
+
+1) [R](https://cran.r-project.org/bin/windows/base/) (most recent version)
+2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (most recent version)
+3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (only needed for Windows machines)
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Download course files</summary>  
+  
+Download the zipped course folder at [**this link**](https://appliedepi.org/files/stats_course.zip).  
+
+**Unzip/extract the folder and save it on your computer's desktop (not on a shared drive).** 
+
+To "unzip" a folder once it is downloaded, right-click on the folder and select "Extract All". If offered a choice of location to save the unzipped folder, save it to your desktop.  
+
+On your desktop:  
+
+
+* `r emo::ji("folder")` Desktop
+  * `r emo::ji("folder")` stats_course
+     * `r emo::ji("folder")` data
+     * `r emo::ji("folder")` scripts
+     * `r emo::ji("folder")` outputs
+     * `r emo::ji("folder")` learning_materials
+
+
+</details>
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install R packages</summary>  
+  
+Now, go into the "stats_course" folder, and click into the subfolders "scripts" and "backup". There you will see a file named "packages_to_install_stats.R". Double click, and if necessary select that you want to open the file using *RStudio*. The file should open in RStudio. 
+
+Read the instructions written at the top of the script. You should highlight ALL the text in the script and then press the "Run" button located near the top-center of RStudio. Alternatively, you can highlight all the text and then press the keys Ctrl and Enter.  
+
+This script will spend several minutes to install most of the R packages that you need for this course.  
+
+</details>
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Create a new RStudio project</summary>  
+  
+
+1) Open RStudio (ensure that you open *RStudio* and not just *R*).  
+
+2) In RStudio click *File -> New Project*. In the pop-up window, select **"Existing directory"**.  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/create_project.png")
+```
+
+3) Click "browse" and select the "stats_course" folder on your desktop, containing the course materials, which you downloaded earlier. Then click "Create project".  
+
+Voila! This will be the project for all of your work in this course.  
+
+
+</details>
+
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises online</summary>  
+  
+Begin the course exercises using the links in the "Modules" section below. You will need an Applied Epi account (link provided by instructor in welcome email, or use [this link](community.appliedepi.org)).  
+
+* Turn off any VPN  
+* If you see "Error 403: Forbidden" notify your instructor to give you access to the exercises. After access is given, you will need to clear your cache, or re-open the exercise in a private/incognito window for today.  
+* If your internet connection is too weak, see the steps below to access the exercises offline.  
+
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Offline access to course exercises</summary>  
+
+The offline versions of the exercises are available in the folder "stats_course/learning_materials/backup_exercises/"
+
+<!-- A further backup method is described below, but will require permissions from an instructor: -->
+
+<!-- **Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:** -->
+
+<!-- >`remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)` -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/install_exercises.png") -->
+<!-- ``` -->
+
+<!-- Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:* -->
+
+<!--   * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution. Proceed to the backup steps below. -->
+<!--   * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error. -->
+<!--   * If prompted to update some R packages, select "All" to update all of the packages. If you continue to be prompted for package updates, you can select "None" and continue without further updates. -->
+
+<!-- **Backup option:** -->
+
+<!-- **Go to the "Tools" menu of RStudio, and select "Install packages".** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_tools_menu.png") -->
+<!-- ``` -->
+
+<!-- **In the pop-up window, select "zip" from the first drop-down menu.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "50%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_drop_down.png") -->
+<!-- ``` -->
+
+<!-- **Another window should appear to select a file (if not, select "Browse"). Navigate to the folder "Desktop/intro_courses/learning_materials/backup_r_packages".** Note the 8 zipped folders here - each one is an R package. Select the first one "basket", press "Open", then click "Install". R will run a brief command to install this package. **Repeat this step to install each of the 8 zipped folders.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_package_select.png") -->
+<!-- ``` -->
+
+<!-- If continuing to experience errors, you may need to restart R, and then run the following command:   -->
+
+<!-- >`install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))`   -->
+
+<!-- Your instructor can continue to troubleshoot with you.  -->
+
+<!-- Now, the course exercises will appear *within your RStudio* offline. Each course module has a corresponding exercise, which can be accessed through the "Tutorials" pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).   -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "100%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gif") -->
+<!-- ``` -->
+
+<!-- 1) Click on the "Tutorial" tab in the upper-right RStudio pane (which also contains a tab holding your "Environment").   -->
+<!--   * Scroll down and review the listed exercises. If you do not see any "Applied Epi" exercises listed, close and re-open RStudio. They may take a minute to appear.   -->
+
+<!-- 2) Select the exercise, for example: "Applied Epi - R setup, syntax, data import"   -->
+<!--   * The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.   -->
+<!--   * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.   -->
+<!--   * You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.   -->
+
+
+</details>
+
+
+:::
+
+
+
+::: {.tutorial}
+**Module 1: Welcome and basic regression**
+
+- [Slides: Exploring data and basic hypothesis testing](https://appliedepi.github.io/slides/stats/course_intro/course_intro.html)  
+
+- [Slides: Regression - univariable and stratified](https://appliedepi.github.io/slides/stats/basic_regression/basic_regression.html)  
+
+- [Exercise 1]() 
+
+:::
+
+
+
+
+
+::: {.tutorial}
+**Module 2: Multivariable regression**
+
+
+- [Slides: Variable selection and multivariable regression](https://appliedepi.github.io/slides/stats/multi_regression/multivariable_regression.html)  
+
+- [Exercise 2]()  
+
+:::
+
+
+
+
+::: {.tutorial}
+**Final case study**
+
+- [Slides: Final case study](https://appliedepi.github.io/slides/stats/final_exercise/final_exercise.html) 
+
+- *Case study materials*: See the folder "stats_course/learning_materials/covid_case_study" for the Word document report to replicate, the datasets, and a tips sheet.  
+
+:::
+

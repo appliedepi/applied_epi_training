@@ -1,7 +1,7 @@
 ---
 knit: "bookdown::render_book"
-title: "Introduction to R for applied epidemiology"  
-description: "Training materials for intro R course in applied epidemiology and public health"
+title: "Applied Epi courses"  
+description: "Training materials for R courses in applied epidemiology and public health"
 author: "Applied Epi"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -21,14 +21,12 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-## Course website for Introduction to R for applied epidemiology {.unnumbered}
+## Home page for Applied Epi R courses {.unnumbered}
 
-**This website :**
+**See the table of contents on the right to access the course materials**
 
--   Hosts the course materials for Applied Epi's "Introduction to R for applied epidemiology" course (see table of contents on right)  
--   Provides problem-based instruction to assist epidemiologists transitioning to R  
--   Offers content accessible in settings with low internet-connectivity via offline
-    versions  
+**Note: Access to exercises is only available to registered participants in Applied Epi courses.**  
+
 
 
 
@@ -41,9 +39,9 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 **[Applied Epi](https://appliedepi.org/) is a nonprofit organization that supports frontline public health practitioners through accessible tools, training, and support.**  
 
-We are a global team of 150 applied epidemiologists and public health practitioners with extensive ground-level experience.  
+We are a global team of 170 applied epidemiologists and public health practitioners with extensive ground-level experience.  
 
-Our free [Epidemiologist R Handbook](https://epiRhandbook.com) is a vital resource for over **175,000 people**.  
+Our free [Epidemiologist R Handbook](https://epiRhandbook.com) is a vital resource for over **250,000 people**.  
 
 :::
 
@@ -125,14 +123,17 @@ Your encouragement and feedback is most welcome:
 
 Please note that all of our case study training materials use *fake example data* in which no person is identifiable and the actual values have been scrambled.  
 
-Authors and contributors to this course curriculum from **Applied Epi** include:  
+Authors and contributors to curricula from **Applied Epi** include:  
 
 * Neale Batra  
 * Arran Hamlet  
+* Adam Vaughan  
 * Mathilde Mousset  
 * Alex Spina  
 * Paula Blomquist  
 * Amy Mikhail  
+* Olivia Boyd  
+* Mara Kont  
 
 * The Fulton County Board of Health graciously provided example data (anonymized and scrambled) for a case study.  
 * The {outbreaks} package formed the basis for the fake dataset in the Ebola case study.  
@@ -207,193 +208,14 @@ Our self-paced tutorials are intended for larger audiences and therefore cannot 
 
  
 
-<!--chapter:end:pages/about_01_approach.Rmd-->
+<!--chapter:end:pages/approach.Rmd-->
 
-# (PART) Course content {.unnumbered}
+# (PART) Intro course {.unnumbered}
 
-<!--chapter:end:pages/cat_content.Rmd-->
+<!--chapter:end:pages/cat_intro.Rmd-->
 
 
-# Precourse setup {} 
-
-
-```{r, out.width = "100%", fig.align = "center", echo=F}
-knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
-```
-
-
-<!-- ======================================================= -->
-## Precourse setup {.unnumbered}
-
-Follow these step-by-step instructions to intall software, download the course files, setup an RStudio project, and to download and begin the course's interactive exercises.  
-
-**Click on each of the steps below to expand the instructions**  
-
-
-<!--
-NOTE: everything inside the details tag will be collapsed and effectively
-hidden from the user
--->
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install software</summary>  
-  
-Please be sure that you have the following software installed on your computer **prior to the start of the course**.  
-
-Please work with your IT to install the following 3 software on your computer. The most important thing is that *you have administrator access to the software* and that they are *installed in locations away from any syncing software such as OneDrive - e.g. into the My Documents folder*.  
-
-Please see this [installation guide](https://appliedepi.org/files/install_guide.pdf) for 
-
-1) [R](https://cran.r-project.org/bin/windows/base/) (most recent version)
-2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (most recent version)
-3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (only needed for Windows machines)
-
-After successful installation, please try to run [this R script](https://appliedepi.org/files/packages_to_install.R) called "packages_to_install.R" (see the end of the install guide for instructions). It will install most of the R packages that you need for this course.  
-
-</details>
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Download course files</summary>  
-  
-Download the zipped course folder at [**this link**](https://appliedepi.org/files/intro_course.zip).  
-
-**Unzip the folder and save it on your computer's desktop (not on a shared drive).** To "unzip" a folder once it is downloaded, right-click on the folder and select "Extract All". If offered a choice of location to save the unzipped folder, save it to your desktop.  
-
-On your desktop:  
-
-* `r emo::ji("folder")` intro_course  
-     * `r emo::ji("folder")` data
-          * `r emo::ji("folder")` clean  
-          * `r emo::ji("folder")` raw  
-          * `r emo::ji("folder")` pop  
-          * `r emo::ji("folder")` shp  
-     * `r emo::ji("folder")` scripts
-     * `r emo::ji("folder")` outputs  
-     * `r emo::ji("folder")` learning_materials  
-          * `r emo::ji("folder")` covid_case_study  
-          * `r emo::ji("folder")` backup_r_packages  
-     * `r emo::ji("document")` surveillance_linelist_20141201.csv
-
-`r emo::ji("warning")` You may also have some other files. Just leave them.  
-
-</details>
-
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Create a new RStudio project</summary>  
-  
-
-
-1) Open RStudio. Ensure that you open *RStudio* and not just *R*.  
-
-2) In RStudio click *File -> New Project*. In the pop-up window, select **"Existing directory"**.  
-
-```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
-knitr::include_graphics("images/intro_course_images/create_project.png")
-```
-
-3) Click "browse" and select the "intro_course" folder on your desktop, containing the course materials, which you downloaded earlier.  
-
-4) Click "Create project"  
-
-Voila! This will be the project for all of your work in this course.  
-
-
-</details>
-
-
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises online</summary>  
-  
-The primary route to access the course exercises is online, via the links in the "Modules" section below. To access the exercises you will need to do the following:  
-
-1) Use the link provided by your instructor to create a free account in our [Applied Epi Community](community.appliedepi.org) site. If you use the link from your instructor, you will automatically be added to the private group for your cohort.  
-
-2) Use the links in the "Modules" section below to access the exercises. If they do not load immediately, be patient or try to refresh. If you see an error, ensure you are not on a VPN.  
-
-If your internet connection is too weak to see the exercises, notify your instructor and follow the steps below to access the exercises *offline*.  
-
-</details>
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Backup method to access the course offline</summary>  
-
-The offline versions of the exercises are available in the folder "intro_course/learning_materials/backup_exercises/"
-
-A further backup method is described below, but will require permissions from an instructor:
-
-**Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:**
-
->`remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)`
-
-```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
-knitr::include_graphics("images/intro_course_images/install_exercises.png")
-```
-
-Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:*
-
-  * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution. Proceed to the backup steps below.
-  * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error.
-  * If prompted to update some R packages, select "All" to update all of the packages. If you continue to be prompted for package updates, you can select "None" and continue without further updates.
-
-**Backup option:**
-
-**Go to the "Tools" menu of RStudio, and select "Install packages".**
-
-```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
-knitr::include_graphics("images/intro_course_images/zip_tools_menu.png")
-```
-
-**In the pop-up window, select "zip" from the first drop-down menu.**
-
-```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
-knitr::include_graphics("images/intro_course_images/zip_drop_down.png")
-```
-
-**Another window should appear to select a file (if not, select "Browse"). Navigate to the folder "Desktop/intro_courses/learning_materials/backup_r_packages".** Note the 8 zipped folders here - each one is an R package. Select the first one "basket", press "Open", then click "Install". R will run a brief command to install this package. **Repeat this step to install each of the 8 zipped folders.**
-
-```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
-knitr::include_graphics("images/intro_course_images/zip_package_select.png")
-```
-
-If continuing to experience errors, you may need to restart R, and then run the following command:  
-
->`install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))`  
-
-Your instructor can continue to troubleshoot with you. 
-
-Now, the course exercises will appear *within your RStudio* offline. Each course module has a corresponding exercise, which can be accessed through the "Tutorials" pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).  
-
-```{r, eval = TRUE, echo = FALSE, out.width = "100%"}
-knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gif")
-```
-
-1) Click on the "Tutorial" tab in the upper-right RStudio pane (which also contains a tab holding your "Environment").  
-  * Scroll down and review the listed exercises. If you do not see any "Applied Epi" exercises listed, close and re-open RStudio. They may take a minute to appear.  
-
-2) Select the exercise, for example: "Applied Epi - R setup, syntax, data import"  
-  * The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.  
-  * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.  
-  * You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.  
-  
-
-</details>
-
-
-
-<!--chapter:end:pages/content_01_precourse.Rmd-->
-
-
-# Course modules {} 
+# Intro course (English) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -415,6 +237,192 @@ knitr::include_graphics("images/support-help-moz.jpg")
 ## Modules {.unnumbered}  
 
 Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable. Clicking on an exercise link will prompt a login, then launch a window with the interactive exercise. 
+
+
+::: {.tutorial}
+**Pre-course preparation**
+
+Follow these step-by-step instructions to intall software, download the course files, setup an RStudio project, and to download and begin the course's interactive exercises.  
+
+**Click on each of the steps below to expand the instructions**  
+
+
+<!--
+NOTE: everything inside the details tag will be collapsed and effectively
+hidden from the user
+-->
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install software</summary>  
+  
+Please have the following software installed on your computer **prior to the start of the course**.  
+
+See this [installation guide](https://appliedepi.org/files/install_guide.pdf) for tips.  
+
+1) [R](https://cran.r-project.org/bin/windows/base/) (most recent version)
+2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (most recent version)
+3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (only needed for Windows machines)
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Download course files</summary>  
+  
+Download the zipped course folder at [**this link**](https://appliedepi.org/files/intro_course.zip).  
+
+**Unzip/extract the folder and save it on your computer's desktop (not on a shared drive).** 
+
+To "unzip" a folder once it is downloaded, right-click on the folder and select "Extract All". If offered a choice of location to save the unzipped folder, save it to your desktop.  
+
+On your desktop:  
+
+
+* `r emo::ji("folder")` Desktop
+  * `r emo::ji("folder")` intro_course
+     * `r emo::ji("folder")` data
+     * `r emo::ji("folder")` scripts
+     * `r emo::ji("folder")` outputs
+     * `r emo::ji("folder")` learning_materials
+     * `r emo::ji("document")` surveillance_linelist_20141201.csv
+
+<!-- `r emo::ji("warning")` You may also have some other files. Just leave them.   -->
+
+
+<!-- * `r emo::ji("folder")` intro_course   -->
+<!--      * `r emo::ji("folder")` data -->
+<!--           * `r emo::ji("folder")` clean   -->
+<!--           * `r emo::ji("folder")` raw   -->
+<!--           * `r emo::ji("folder")` pop   -->
+<!--           * `r emo::ji("folder")` shp   -->
+<!--      * `r emo::ji("folder")` scripts -->
+<!--      * `r emo::ji("folder")` outputs   -->
+<!--      * `r emo::ji("folder")` learning_materials   -->
+<!--           * `r emo::ji("folder")` covid_case_study   -->
+<!--           * `r emo::ji("folder")` backup_r_packages   -->
+<!--      * `r emo::ji("document")` surveillance_linelist_20141201.csv -->
+
+<!-- `r emo::ji("warning")` You may also have some other files. Just leave them.   -->
+
+</details>
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install R packages</summary>  
+  
+Now, go into the "intro_course" folder, and click into the subfolders "scripts" and "backup". There you will see a file named "packages_to_install.R". Double click, and if necessary select that you want to open the file using *RStudio*. The file should open in RStudio. 
+
+Read the instructions written at the top of the script. You should highlight ALL the text in the script and then press the "Run" button located near the top-center of RStudio. Alternatively, you can highlight all the text and then press the keys Ctrl and Enter.  
+
+This script will spend several minutes to install most of the R packages that you need for this course.  
+
+</details>
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Create a new RStudio project</summary>  
+  
+
+1) Open RStudio (ensure that you open *RStudio* and not just *R*).  
+
+2) In RStudio click *File -> New Project*. In the pop-up window, select **"Existing directory"**.  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/create_project.png")
+```
+
+3) Click "browse" and select the "intro_course" folder on your desktop, containing the course materials, which you downloaded earlier. Then click "Create project".  
+
+Voila! This will be the project for all of your work in this course.  
+
+
+</details>
+
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises online</summary>  
+  
+Begin the course exercises using the links in the "Modules" section below. You will need an Applied Epi account (link provided by instructor in welcome email, or use [this link](community.appliedepi.org)).  
+
+* Turn off any VPN  
+* If you see "Error 403: Forbidden" notify your instructor to give you access to the exercises. After access is given, you will need to clear your cache, or re-open the exercise in a private/incognito window for today.  
+* If your internet connection is too weak, see the steps below to access the exercises offline.  
+
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Offline access to course exercises</summary>  
+
+The offline versions of the exercises are available in the folder "intro_course/learning_materials/backup_exercises/"
+
+<!-- A further backup method is described below, but will require permissions from an instructor: -->
+
+<!-- **Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:** -->
+
+<!-- >`remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)` -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/install_exercises.png") -->
+<!-- ``` -->
+
+<!-- Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:* -->
+
+<!--   * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution. Proceed to the backup steps below. -->
+<!--   * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error. -->
+<!--   * If prompted to update some R packages, select "All" to update all of the packages. If you continue to be prompted for package updates, you can select "None" and continue without further updates. -->
+
+<!-- **Backup option:** -->
+
+<!-- **Go to the "Tools" menu of RStudio, and select "Install packages".** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_tools_menu.png") -->
+<!-- ``` -->
+
+<!-- **In the pop-up window, select "zip" from the first drop-down menu.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "50%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_drop_down.png") -->
+<!-- ``` -->
+
+<!-- **Another window should appear to select a file (if not, select "Browse"). Navigate to the folder "Desktop/intro_courses/learning_materials/backup_r_packages".** Note the 8 zipped folders here - each one is an R package. Select the first one "basket", press "Open", then click "Install". R will run a brief command to install this package. **Repeat this step to install each of the 8 zipped folders.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_package_select.png") -->
+<!-- ``` -->
+
+<!-- If continuing to experience errors, you may need to restart R, and then run the following command:   -->
+
+<!-- >`install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))`   -->
+
+<!-- Your instructor can continue to troubleshoot with you.  -->
+
+<!-- Now, the course exercises will appear *within your RStudio* offline. Each course module has a corresponding exercise, which can be accessed through the "Tutorials" pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).   -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "100%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gif") -->
+<!-- ``` -->
+
+<!-- 1) Click on the "Tutorial" tab in the upper-right RStudio pane (which also contains a tab holding your "Environment").   -->
+<!--   * Scroll down and review the listed exercises. If you do not see any "Applied Epi" exercises listed, close and re-open RStudio. They may take a minute to appear.   -->
+
+<!-- 2) Select the exercise, for example: "Applied Epi - R setup, syntax, data import"   -->
+<!--   * The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.   -->
+<!--   * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.   -->
+<!--   * You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.   -->
+
+
+</details>
+
+
+:::
+
 
 
 ::: {.tutorial}
@@ -632,193 +640,10 @@ If there is time, we perform "peer code reviews" which simultaneously improving 
 
 
 
-<!--chapter:end:pages/content_02_modules.Rmd-->
+<!--chapter:end:pages/intro_modules_en.Rmd-->
 
-# (PART) Contenu du cours (français) {.unnumbered}
 
-<!--chapter:end:pages/cat_content_fr.Rmd-->
-
-
-# Préparation du cours {} 
-
-
-```{r, out.width = "100%", fig.align = "center", echo=F}
-knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
-```
-
-
-<!-- ======================================================= -->
-## Préparation du cours {.unnumbered}
-
-Suivez ces instructions étape par étape pour installer le logiciel, télécharger les fichiers du cours, configurer un projet RStudio, et pour télécharger et commencer les exercices interactifs du cours.  
-
-**Cliquez sur chacune des étapes ci-dessous pour développer les instructions.**  
-
-
-<!--
-NOTE: everything inside the details tag will be collapsed and effectively
-hidden from the user
--->
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Installer des logiciels</summary>  
-  
-Veuillez vous assurer que les logiciels suivants sont installés sur votre ordinateur **avant le début du cours**.  
-
-Veuillez collaborer avec votre service informatique pour installer les 3 logiciels suivants sur votre ordinateur. Le plus important est que *vous ayez un accès administrateur aux logiciels* et qu'ils soient *installés dans des emplacements éloignés de tout logiciel de synchronisation tel que OneDrive - par exemple dans le dossier Mes Documents*.  
-
-Veuillez consulter ce [guide d'installation](https://appliedepi.org/files/install_guide.pdf) pour les éléments suivants  
-
-1) [R](https://cran.r-project.org/bin/windows/base/) (version la plus récente)  
-2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (version la plus récente)  
-3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (nécessaire uniquement pour les machines Windows)  
-
-Après une installation réussie, essayez d'exécuter [ce script R](https://appliedepi.org/files/packages_to_install.R) appelé "packages_to_install.R" (voir la fin du guide d'installation pour les instructions). Il installera la plupart des paquets R dont vous avez besoin pour ce cours.  
-
-
-</details>
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Télécharger les fichiers du cours</summary>  
-
-Téléchargez le dossier zippé du cours à l'adresse [**ce lien**](https://appliedepi.org/files/intro_course.zip).  
-
-**Pour "dézipper" un dossier une fois qu'il est téléchargé,** cliquez avec le bouton droit de la souris sur le dossier et sélectionnez "Extraire tout". Si vous avez le choix de l'emplacement où enregistrer le dossier dézippé, enregistrez-le sur votre bureau.  
-
-Sur votre bureau :  
-
-* `r emo::ji("folder")` intro_course  
-     * `r emo::ji("folder")` data
-          * `r emo::ji("folder")` clean  
-          * `r emo::ji("folder")` raw  
-          * `r emo::ji("folder")` pop  
-          * `r emo::ji("folder")` shp  
-     * `r emo::ji("folder")` scripts
-     * `r emo::ji("folder")` outputs  
-     * `r emo::ji("folder")` learning_materials  
-          * `r emo::ji("folder")` covid_case_study  
-          * `r emo::ji("folder")` backup_r_packages  
-     * `r emo::ji("document")` surveillance_linelist_20141201.csv
-
-`r emo::ji("warning")` Vous pouvez aussi avoir d'autres fichiers. Laissez-les simplement.  
-
-</details>
-
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Créer un nouveau projet RStudio</summary>  
-  
-
-1) Ouvrez RStudio. Assurez-vous que vous ouvrez *RStudio* et pas seulement *R*.  
-
-2) Dans RStudio, cliquez sur *Fichier -> Nouveau projet*. Dans la fenêtre pop-up, sélectionnez **"Répertoire existant "**.  
-
-```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
-knitr::include_graphics("images/intro_course_images/create_project.png")
-```
-
-
-3) Cliquez sur "browse" et sélectionnez le dossier "intro_course" sur votre bureau, contenant le matériel de cours, que vous avez téléchargé plus tôt.  
-
-4) Cliquez sur "Créer un projet".  
-
-Voilà ! Ce sera le projet pour tout votre travail dans ce cours.  
-
-
-</details>
-
-
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Accéder aux exercices du cours hors ligne</summary>  
-  
-La principale voie d'accès aux exercices du cours est en ligne, via les liens de la section "Modules" ci-dessous. Pour accéder aux exercices, vous devez procéder comme suit :  
-
-1) Utilisez le lien fourni par votre instructeur pour créer un compte gratuit sur notre site [Applied Epi Community](community.appliedepi.org). Si vous utilisez le lien fourni par votre formateur, vous serez automatiquement ajouté au groupe privé de votre cohorte.  
-
-2) Utilisez les liens dans la section "Modules" ci-dessous pour accéder aux exercices. S'ils ne se chargent pas immédiatement, soyez patient ou essayez de rafraîchir la page. Si vous voyez une erreur, assurez-vous que vous n'êtes pas sur un VPN.  
-
-Si votre connexion Internet est trop faible pour voir les exercices, informez votre instructeur et suivez les étapes ci-dessous pour accéder aux exercices *hors ligne*.  
-</details>
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Méthode de sauvegarde pour accéder au cours hors ligne</summary>  
-
-Les versions hors ligne des exercices sont disponibles dans le dossier "intro_course/learning_materials/backup_exercises/".
-
-A further backup method is described below, but will require permissions from an instructor:
-
-**Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:**
-
->`remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)`
-
-```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
-knitr::include_graphics("images/intro_course_images/install_exercises.png")
-```
-
-Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:*
-
-  * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution. Proceed to the backup steps below.
-  * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error.
-  * If prompted to update some R packages, select "All" to update all of the packages. If you continue to be prompted for package updates, you can select "None" and continue without further updates.
-
-**Backup option:**
-
-**Go to the "Tools" menu of RStudio, and select "Install packages".**
-
-```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
-knitr::include_graphics("images/intro_course_images/zip_tools_menu.png")
-```
-
-**In the pop-up window, select "zip" from the first drop-down menu.**
-
-```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
-knitr::include_graphics("images/intro_course_images/zip_drop_down.png")
-```
-
-**Another window should appear to select a file (if not, select "Browse"). Navigate to the folder "Desktop/intro_courses/learning_materials/backup_r_packages".** Note the 8 zipped folders here - each one is an R package. Select the first one "basket", press "Open", then click "Install". R will run a brief command to install this package. **Repeat this step to install each of the 8 zipped folders.**
-
-```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
-knitr::include_graphics("images/intro_course_images/zip_package_select.png")
-```
-
-If continuing to experience errors, you may need to restart R, and then run the following command:  
-
->`install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))`  
-
-Your instructor can continue to troubleshoot with you. 
-
-Now, the course exercises will appear *within your RStudio* offline. Each course module has a corresponding exercise, which can be accessed through the "Tutorials" pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).  
-
-```{r, eval = TRUE, echo = FALSE, out.width = "100%"}
-knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gif")
-```
-
-1) Click on the "Tutorial" tab in the upper-right RStudio pane (which also contains a tab holding your "Environment").  
-  * Scroll down and review the listed exercises. If you do not see any "Applied Epi" exercises listed, close and re-open RStudio. They may take a minute to appear.  
-
-2) Select the exercise, for example: "Applied Epi - R setup, syntax, data import"  
-  * The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.  
-  * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.  
-  * You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.  
-  
-
-</details>
-
-
-
-<!--chapter:end:pages/content_01_precourse_fr.Rmd-->
-
-
-# Modules de cours (francais) {} 
+# Cours d'introduction (francais) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -842,6 +667,108 @@ Vous trouverez ci-dessous une liste de chacun des modules inclus dans le cours. 
 
 
 
+
+::: {.tutorial}
+**Préparation au cours**
+Suivez ces instructions étape par étape pour installer le logiciel, télécharger les fichiers du cours, configurer un projet RStudio, et pour télécharger et commencer les exercices interactifs du cours.  
+
+**Cliquez sur chacune des étapes ci-dessous pour développer les instructions.**  
+
+<!--
+NOTE : tout ce qui se trouve à l'intérieur de la balise details sera réduit et effectivement
+caché à l'utilisateur
+-->
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Installation du logiciel</summary>  
+  
+Veuillez avoir les logiciels suivants installés sur votre ordinateur **avant le début du cours**.  
+
+Consultez ce [guide d'installation](https://appliedepi.org/files/install_guide.pdf) pour obtenir des conseils.  
+
+1) [R](https://cran.r-project.org/bin/windows/base/) (version la plus récente)
+2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (version la plus récente)
+3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (nécessaire uniquement pour les machines Windows)
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Télécharger les fichiers du cours</summary>.  
+  
+Téléchargez le dossier de cours zippé sur [**ce lien**](https://appliedepi.org/files/intro_course.zip).  
+
+**Dézippez/extractez le dossier et enregistrez-le sur le bureau de votre ordinateur (pas sur un disque partagé).** 
+
+Pour "dézipper" un dossier une fois qu'il est téléchargé, cliquez avec le bouton droit de la souris sur le dossier et sélectionnez "Extraire tout". Si vous avez le choix de l'emplacement où enregistrer le dossier dézippé, enregistrez-le sur votre bureau.  
+
+Sur votre bureau :  
+
+* `r emo::ji("folder")` Bureau
+  * `r emo::ji("folder")` intro_course
+     * `r emo::ji("folder")` data
+     * `r emo::ji("folder")` scripts
+     * `r emo::ji("folder")` outputs
+     * `r emo::ji("folder")` learning_materials
+     * `r emo::ji("document")` surveillance_linelist_20141201.csv  
+
+</details>
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Installer les paquets R</summary>  
+  
+Maintenant, allez dans le dossier "intro_course", et cliquez dans les sous-dossiers "scripts" et "backup". Vous y trouverez un fichier nommé "packages_to_install.R". Double-cliquez, et si nécessaire, sélectionnez que vous voulez ouvrir le fichier en utilisant *RStudio*. Le fichier devrait s'ouvrir dans RStudio. 
+
+Lisez les instructions écrites en haut du script. Vous devez mettre en surbrillance TOUT le texte du script, puis appuyer sur le bouton "Run" situé près du centre supérieur de RStudio. Vous pouvez également mettre tout le texte en surbrillance, puis appuyer sur les touches Ctrl et Entrée.  
+
+Ce script prendra plusieurs minutes pour installer la plupart des paquets R dont vous avez besoin pour ce cours.  
+
+</details>
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Créer un nouveau projet RStudio</summary>  
+  
+
+1) Ouvrez RStudio (assurez-vous d'ouvrir *RStudio* et pas seulement *R*).  
+
+2) Dans RStudio, cliquez sur *File -> New Project*. Dans la fenêtre pop-up, sélectionnez **"Existing directory (Dossier existant) "**.  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/create_project.png")
+```
+
+3) Cliquez sur "browse" et sélectionnez le dossier "intro_course" sur votre bureau, contenant le matériel de cours, que vous avez téléchargé plus tôt. Puis cliquez sur "Créer un projet".  
+
+Voilà ! Ce sera le projet pour tout votre travail dans ce cours.  
+
+
+</details>
+
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Accéder aux exercices du cours en ligne</summary>.  
+  
+Commencez les exercices du cours en utilisant les liens dans la section "Modules" ci-dessous. Vous aurez besoin d'un compte Applied Epi (lien fourni par l'instructeur dans le courriel de bienvenue, ou utilisez [ce lien] (community.appliedepi.org)).  
+
+* Désactivez tout "VPN"  
+* Si vous voyez "Error 403 : Forbidden", demandez à votre instructeur de vous donner accès aux exercices. Une fois l'accès accordé, vous devrez vider votre cache, ou rouvrir l'exercice dans une fenêtre privée/incognito pour aujourd'hui.  
+* Si votre connexion internet est trop faible, voir les étapes ci-dessous pour accéder aux exercices hors ligne.  
+
+
+</details>
+
+
+
+
+:::
+
+
+
 ::: {.tutorial}
 **Module 1 : Introduction à la syntaxe R**
 
@@ -849,7 +776,7 @@ Nous vous souhaitons la bienvenue au cours, passons en revue la logistique du co
 
 Ensuite, nous nous plongeons dans une démonstration de codage pour vous présenter R et RStudio. Nous abordons les bases de l'interaction avec R et RStudio, la syntaxe R et l'exécution des commandes, ainsi que les fonctions et les packages R.  
 
-- [Slides: Bienvenue, logistique du cours, RStudio, et syntaxe R de base](https://appliedepi.github.io/slides/intro/fr/module_1/module_1.html)  
+- [Diapositives: Bienvenue, logistique du cours, RStudio, et syntaxe R de base](https://appliedepi.github.io/slides/intro/fr/module_1/module_1.html)  
 
 - [Exercise: Configuration de R, syntaxe de base, fonctions et packages](http://exercises.appliedepi.org/app/basics_fr) 
 
@@ -875,7 +802,7 @@ Nous couvrons les stratégies de gestion des fichiers, la façon de travailler a
 
 
 ::: {.tutorial}
-**Nettoyage des données - partie 1**
+**Module 3: Nettoyage des données - partie 1**
 
 Maintenant que nous avons importé notre liste de lignes de surveillance, nous passons en revue les étapes de "nettoyage des données" qui peuvent s'avérer nécessaires et la manière de les exécuter dans R. En cours de route, nous introduisons les principes fondamentaux des "données ordonnées".  
 
@@ -1058,193 +985,10 @@ S'il reste du temps, nous effectuons des "revues de code par les pairs" qui amé
 
 
 
-<!--chapter:end:pages/content_02_modules_fr.Rmd-->
+<!--chapter:end:pages/intro_modules_fr.Rmd-->
 
-# (PART) Содержание курса (русский язык) {.unnumbered}
 
-<!--chapter:end:pages/cat_content_ru.Rmd-->
-
-
-# Подготовка к курсу {} 
-
-
-```{r, out.width = "100%", fig.align = "center", echo=F}
-knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
-```
-
-
-<!-- ======================================================= -->
-## Подготовка к курсу {.unnumbered}
-
-Следуйте этим пошаговым инструкциям, чтобы установить программное обеспечение, загрузить файлы курса, настроить проект RStudio, загрузить и начать выполнение интерактивных упражнений курса.  
-
-**Нажмите на каждый из приведенных ниже шагов, чтобы развернуть инструкции**  
-
-
-<!--
-NOTE: everything inside the details tag will be collapsed and effectively
-hidden from the user
--->
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install software</summary>  
-  
-Please be sure that you have the following software installed on your computer **prior to the start of the course**.  
-
-Please work with your IT to install the following 3 software on your computer. The most important thing is that *you have administrator access to the software* and that they are *installed in locations away from any syncing software such as OneDrive - e.g. into the My Documents folder*.  
-
-Please see this [installation guide](https://appliedepi.org/files/install_guide.pdf) for 
-
-1) [R](https://cran.r-project.org/bin/windows/base/) (most recent version)
-2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (most recent version)
-3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (only needed for Windows machines)
-
-After successful installation, please try to run [this R script](https://appliedepi.org/files/packages_to_install.R) called "packages_to_install.R" (see the end of the install guide for instructions). It will install most of the R packages that you need for this course.  
-
-</details>
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Download course files</summary>  
-  
-Download the zipped course folder at [**this link**](https://appliedepi.org/files/intro_course.zip).  
-
-**Unzip the folder and save it on your computer's desktop (not on a shared drive).** To "unzip" a folder once it is downloaded, right-click on the folder and select "Extract All". If offered a choice of location to save the unzipped folder, save it to your desktop.  
-
-On your desktop:  
-
-* `r emo::ji("folder")` intro_course  
-     * `r emo::ji("folder")` data
-          * `r emo::ji("folder")` clean  
-          * `r emo::ji("folder")` raw  
-          * `r emo::ji("folder")` pop  
-          * `r emo::ji("folder")` shp  
-     * `r emo::ji("folder")` scripts
-     * `r emo::ji("folder")` outputs  
-     * `r emo::ji("folder")` learning_materials  
-          * `r emo::ji("folder")` covid_case_study  
-          * `r emo::ji("folder")` backup_r_packages  
-     * `r emo::ji("document")` surveillance_linelist_20141201.csv
-
-`r emo::ji("warning")` You may also have some other files. Just leave them.  
-
-</details>
-
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Create a new RStudio project</summary>  
-  
-
-
-1) Open RStudio. Ensure that you open *RStudio* and not just *R*.  
-
-2) In RStudio click *File -> New Project*. In the pop-up window, select **"Existing directory"**.  
-
-```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
-knitr::include_graphics("images/intro_course_images/create_project.png")
-```
-
-3) Click "browse" and select the "intro_course" folder on your desktop, containing the course materials, which you downloaded earlier.  
-
-4) Click "Create project"  
-
-Voila! This will be the project for all of your work in this course.  
-
-
-</details>
-
-
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises online</summary>  
-  
-The primary route to access the course exercises is online, via the links in the "Modules" section below. To access the exercises you will need to do the following:  
-
-1) Use the link provided by your instructor to create a free account in our [Applied Epi Community](community.appliedepi.org) site. If you use the link from your instructor, you will automatically be added to the private group for your cohort.  
-
-2) Use the links in the "Modules" section below to access the exercises. If they do not load immediately, be patient or try to refresh. If you see an error, ensure you are not on a VPN.  
-
-If your internet connection is too weak to see the exercises, notify your instructor and follow the steps below to access the exercises *offline*.  
-
-</details>
-
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Backup method to access the course offline</summary>  
-
-The offline versions of the exercises are available in the folder "intro_course/learning_materials/backup_exercises/"
-
-A further backup method is described below, but will require permissions from an instructor:
-
-**Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:**
-
->`remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)`
-
-```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
-knitr::include_graphics("images/intro_course_images/install_exercises.png")
-```
-
-Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:*
-
-  * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution. Proceed to the backup steps below.
-  * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error.
-  * If prompted to update some R packages, select "All" to update all of the packages. If you continue to be prompted for package updates, you can select "None" and continue without further updates.
-
-**Backup option:**
-
-**Go to the "Tools" menu of RStudio, and select "Install packages".**
-
-```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
-knitr::include_graphics("images/intro_course_images/zip_tools_menu.png")
-```
-
-**In the pop-up window, select "zip" from the first drop-down menu.**
-
-```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
-knitr::include_graphics("images/intro_course_images/zip_drop_down.png")
-```
-
-**Another window should appear to select a file (if not, select "Browse"). Navigate to the folder "Desktop/intro_courses/learning_materials/backup_r_packages".** Note the 8 zipped folders here - each one is an R package. Select the first one "basket", press "Open", then click "Install". R will run a brief command to install this package. **Repeat this step to install each of the 8 zipped folders.**
-
-```{r, eval = TRUE, echo = FALSE, out.width = "75%"}
-knitr::include_graphics("images/intro_course_images/zip_package_select.png")
-```
-
-If continuing to experience errors, you may need to restart R, and then run the following command:  
-
->`install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))`  
-
-Your instructor can continue to troubleshoot with you. 
-
-Now, the course exercises will appear *within your RStudio* offline. Each course module has a corresponding exercise, which can be accessed through the "Tutorials" pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).  
-
-```{r, eval = TRUE, echo = FALSE, out.width = "100%"}
-knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gif")
-```
-
-1) Click on the "Tutorial" tab in the upper-right RStudio pane (which also contains a tab holding your "Environment").  
-  * Scroll down and review the listed exercises. If you do not see any "Applied Epi" exercises listed, close and re-open RStudio. They may take a minute to appear.  
-
-2) Select the exercise, for example: "Applied Epi - R setup, syntax, data import"  
-  * The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.  
-  * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.  
-  * You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.  
-  
-
-</details>
-
-
-
-<!--chapter:end:pages/content_01_precourse_ru.Rmd-->
-
-
-# Модули курса {} 
+# Вводный курс (русский язык) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -1268,89 +1012,143 @@ knitr::include_graphics("images/support-help-moz.jpg")
 Ниже приведен список всех модулей, включенных в курс. Пожалуйста, проходите их систематически - в соответствии с расписанием курса. При нажатии на ссылку упражнения будет предложено войти в систему, а затем откроется окно с интерактивным упражнением. 
 
 
-::: {.tutorial}
-**Module 1: Introduction to R Syntax**
-
-We welcome you to the course, review course logistics, detail the support resources available to you.  
-
-Next, we dive into a coding demonstration to introduce you to R and RStudio. We cover the basics of how to interact with R and RStudio, R syntax and running commands, and we cover R functions and packages.  
-
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/slides/intro/ru/module_1/module_1.html)  
-
-- [Exercise: R setup, basic syntax, functions, and packages](http://exercises.appliedepi.org/app/basics_ru) 
-
-:::
-
-
-
-
 
 ::: {.tutorial}
-**Module 2: File management, Data import, and inspecting a dataset**
+**Подготовка к курсу**
 
-We cover file management strategies, how to work within an RStudio project, and introduce our recommended packages functions used to import and review data. Using these functions, we import the case study's Ebola surveillance linelist, and begin to inspect it.  
+Следуйте этим пошаговым инструкциям, чтобы установить программное обеспечение, загрузить файлы курса, настроить проект RStudio, загрузить и начать интерактивные упражнения курса.  
 
-- [Slides: RStudio projects, importing data, filepaths](https://appliedepi.github.io/slides/intro/ru/module_2/module_2.html)  
-- [Exercise: File management and data import](http://exercises.appliedepi.org/app/files_import_ru)  
-
-:::
+**Нажмите на каждый из шагов ниже, чтобы развернуть инструкции**.  
 
 
+<!--
+ПРИМЕЧАНИЕ: все, что находится внутри тега details, будет свернуто и фактически
+скрыто от пользователя
+-->
 
 
-
-
-::: {.tutorial}
-**Module 3: Data cleaning - part 1**
-
-Now that we have imported our surveillance linelist, we review which "data cleaning" steps might be necessary and how to execute these in R. Along the way, we introduce the core principles of "tidy data".  
-
-Through data cleaning, we teach you the core R functions for handling data, including for standardizing and editing column names, de-duplicating and filtering rows, selecting and modifying columns, re-coding values, and more.  
-
-Together, we write a sequence of "pipes" to clean the linelist step-by-step in a clear, reproducible manner... so that our dataset is ready for preliminary analysis!  
-
-- [Slides: Tidy data and data cleaning](https://appliedepi.github.io/slides/intro/ru/module_3/module_3.html)  
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Установка программного обеспечения</summary>  
   
-- [Exercise: Cleaning data - part 1](http://exercises.appliedepi.org/app/cleaning_ru)  
+Пожалуйста, установите следующее программное обеспечение на ваш компьютер **до начала курса**.  
 
-:::
+Смотрите это [руководство по установке](https://appliedepi.org/files/install_guide.pdf) для получения советов.  
 
+1) [R](https://cran.r-project.org/bin/windows/base/) (самая последняя версия)
+2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (последняя версия)
+3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (требуется только для машин под управлением Windows).
 
-
-
-::: {.tutorial}
-**Module 4: Data cleaning - part 2**
-
-We continue writing our data cleaning code, covering more advanced re-coding, filtering rows, exporting data, and some additional practice exercises.  
-
-- [Slides: Data cleaning part 2](https://appliedepi.github.io/slides/intro/ru/module_4/module_4.html)  
-
-- [Exercise: Cleaning data part 2](http://exercises.appliedepi.org/app/cleaning2_ru)  
-
-:::
+</details>
 
 
 
 
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Скачать файлы курса</summary>  
+  
+Скачайте заархивированную папку курса по [**этой ссылке**](https://appliedepi.org/files/intro_course.zip).  
+
+**Разархивируйте/распакуйте папку и сохраните ее на рабочем столе вашего компьютера (не на общем диске)**. 
+
+Чтобы "распаковать" папку после ее загрузки, щелкните правой кнопкой мыши на папке и выберите "Извлечь все". Если вам предложат выбрать место для сохранения разархивированной папки, сохраните ее на рабочем столе.  
+
+На рабочем столе:  
+
+
+* `r emo::ji("folder")` Рабочий стол.
+  * `r emo::ji("folder")` intro_course
+     * `r emo::ji("folder")` data
+     * `r emo::ji("folder")` scripts
+     * `r emo::ji("folder")` outputs
+     * `r emo::ji("folder")` learning_materials
+     * `r emo::ji("document")` surveillance_linelist_20141201.csv
+
+
+</details>
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Установка пакетов R</summary>  
+  
+Теперь зайдите в папку "intro_course" и щелкните по подпапкам "scripts" и "backup". Там вы увидите файл с именем "packages_to_install.R". Дважды щелкните по нему и при необходимости выберите, что вы хотите открыть файл с помощью *RStudio*. Файл должен открыться в RStudio. 
+
+Прочитайте инструкции, написанные в верхней части скрипта. Вы должны выделить ВЕСЬ текст в скрипте, а затем нажать кнопку "Run", расположенную в верхней центральной части RStudio. Также вы можете выделить весь текст, а затем нажать клавиши Ctrl и Enter.  
+
+Этот скрипт потратит несколько минут на установку большинства пакетов R, которые понадобятся вам для этого курса.  
+
+</details>
 
 
 
-
-
-
-
-
-::: {.tutorial}
-**Module 5: Grouping data and summary tables**
-
-Informative tables are the bedrock of epidemiological and public health practice. In this module we introduce three tools to produce tables of summary statistics: {dplyr} for flexibility, {janitor} for speed, and {gtsummary} for beauty.  
-
-Finally, we explore {flextable}, which can be used to customize tables produced by any of the above approaches: adding colors and highlights, and saving tables to Word, PNG, HTML, etc.  
-
-- [Slides: Grouping and summarizing data](https://appliedepi.github.io/slides/intro/ru/module_5/module_5.html)   
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Создайте новый проект RStudio</summary>  
   
 
-- [Exercise: Grouping data and summary tables](http://exercises.appliedepi.org/app/grouping_summaries_ru)  
+1) Откройте RStudio (убедитесь, что вы открыли *RStudio*, а не просто *R*).  
+
+2) В RStudio нажмите *Файл -> Новый проект*. Во всплывающем окне выберите **"Existing directory"**.  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/create_project.png")
+```
+
+3) Нажмите кнопку "browse" и выберите папку "intro_course" на рабочем столе, содержащую материалы курса, которые вы скачали ранее. Затем нажмите "Create project (Создать проект)".  
+
+Вуаля! Это будет проект для всей вашей работы в этом курсе.  
+
+
+</details>
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Доступ к упражнениям курса онлайн</summary>
+
+Начните выполнять упражнения курса, используя ссылки в разделе "Модули" ниже. Вам понадобится учетная запись Applied Epi (ссылка предоставлена преподавателем в приветственном письме, или используйте [эту ссылку](community.appliedepi.org)).  
+
+* Отключите любую VPN  
+* Если вы видите "Ошибка 403: Forbidden", сообщите инструктору, чтобы он предоставил вам доступ к упражнениям. После получения доступа вам нужно будет очистить кэш или снова открыть упражнение в приватном окне/инкогнито.  
+* Если ваше интернет-соединение слишком слабое, смотрите шаги ниже, чтобы получить доступ к упражнениям в автономном режиме.  
+
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Оффлайновый доступ к упражнениям курса</summary>  
+
+Оффлайн-версии упражнений доступны в папке "intro_course/learning_materials/backup_exercises/".
+
+
+
+</details>
+
+
+:::
+
+
+::: {.tutorial}
+**Модуль 1: Введение в синтаксис R**.
+
+Мы приветствуем вас на курсе, рассматриваем логистику курса, подробно рассказываем о доступных вам ресурсах поддержки.  
+
+Далее мы погрузимся в демонстрацию кодирования, чтобы познакомить вас с R и RStudio. Мы рассмотрим основы взаимодействия с R и RStudio, синтаксис R и выполнение команд, а также функции и пакеты R.  
+
+- [Слайды: приветствие, логистика курса, RStudio и базовый синтаксис R](https://appliedepi.github.io/slides/intro/ru/module_1/module_1.html)  
+
+- [Упражнение: настройка R, базовый синтаксис, функции и пакеты](http://exercises.appliedepi.org/app/basics_ru) 
+
+:::
+
+
+
+
+
+::: {.tutorial}
+**Модуль 2: Управление файлами, импорт данных и проверка набора данных**.
+
+Мы рассмотрим стратегии управления файлами, работу в проекте RStudio и представим рекомендуемые функции пакетов, используемые для импорта и проверки данных. Используя эти функции, мы импортируем линейный список данных по эпиднадзору за Эболой и приступаем к его проверке.  
+
+- [Слайды: проекты RStudio, импорт данных, пути файлов](https://appliedepi.github.io/slides/intro/ru/module_2/module_2.html)  
+- [Упражнение: Управление файлами и импорт данных](http://exercises.appliedepi.org/app/files_import_ru)  
 
 :::
 
@@ -1359,108 +1157,165 @@ Finally, we explore {flextable}, which can be used to customize tables produced 
 
 
 
-
-
-
-
-
 ::: {.tutorial}
-**Module 6: Data visualization with {ggplot2}**
+**Модуль 3: Очистка данных - часть 1**
 
-Using the {ggplot2} package to maximum effect depends upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this by introducing the syntax logically and using public health examples - so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, box/violin plots, and line plots.  
+Теперь, когда мы импортировали наш линейный список наблюдений, мы рассмотрим, какие шаги по "очистке данных" могут потребоваться и как их выполнить в R. Попутно мы познакомим вас с основными принципами "аккуратных данных".  
 
-We also teach you to write text labels that automatically update with refreshed data (very useful for epidemiological reports!), use colors that are colorblind-friendly, and more.  
+В процессе очистки данных мы научим вас основным функциям R для работы с данными, включая стандартизацию и редактирование имен столбцов, удаление дубликатов и фильтрацию строк, выбор и изменение столбцов, перекодировку значений и многое другое.  
 
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/slides/intro/ru/module_6-1/module_6-1.html)  
+Вместе мы напишем последовательность "труб" для очистки списка строк шаг за шагом в понятной, воспроизводимой манере... так что наш набор данных готов к предварительному анализу!  
 
-- [Exercise: ggplot basics](http://exercises.appliedepi.org/app/ggplot_basics_ru) 
-
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/slides/intro/ru/module_6-2/module_6-2.html)  
-
-- [Exercise: Scales, themes, and lables](https://exercises.appliedepi.org/app/ggplot_scales_themes_ru) 
-
-
-:::
-
-
-
-
-
-
-
-
-
-
-
-
-
-::: {.tutorial}
-**Module 7: Transforming data: joins, pivots, and factors**
-
-Public health analytics rarely involves just one data set, so now we practice joining data by adding hospital, laboratory, and case investigation data to our surveillance linelist. We ingrain best practices for conducting joins, and prepare you for doing data transformations independently.  
-
-In the second part of this module, we address *pivoting*, which in R means transforming data between "long" and "wide" formats. This is particularly relevant in public health, where each format has distinct benefits.  
-
-Along the way, we introduce the uses of the "factor" class (R's version of ordered levels in a variable) by constructing a timeline visualization of some patients' pathways through the surveillance/medical system.  
-
-- [Slides: Joining data](https://appliedepi.github.io/slides/intro/ru/module_7-1/module_7-1.html)  
-- [Exercise: Joining data](http://exercises.appliedepi.org/app/joining_ru)
-
-- [Slides: Pivoting data](https://appliedepi.github.io/slides/intro/ru/module_7-2/module_7-2.html)  
-
-- [Exercise: Pivoting data](http://exercises.appliedepi.org/app/pivoting_ru)  
-
-:::
-
-
-
-
-
-
-
-
-
-
-
-
-::: {.tutorial}
-**Module 8: Data visualization for public health**
-
-In this second data visualization module we encourage you to practice learning R independently by reading function documentation (a necessary skill once you leave the class!). We still support you, and give live coding demonstrations for all the topics, as usual.  
-
-We cover the various ways to define "epiweeks" using R, and our recommended approach including a cheatsheet.  
-
-We then tackle visualizations that are central to descriptive epidemiology: the intricacies of crafting an accurate epidemic curve, conveying patterns across three variables using a heat plot, and creating age/sex pyramids to describe demographics. If there is time, we finish with a demonstration of R's GIS/geospatial capabilities.  
-
-- [Exercise: Data visualization for public health](http://exercises.appliedepi.org/app/ggplot_heat_epicurves_pyramids_ru)  
-
-- GIS demo R script can be found in your course folder at: *"intro_course/scripts/backup/5_gis_demo.R"*  
-
-- Your instructor will provide our "cheatsheet" on epidemic weeks and making epicurves  
-
-:::
-
-
-
-
-
-
-
-
-
-
-
-::: {.tutorial}
-**Module 9: Reports with R Markdown**
-
-In this module, we take the R code on the Ebola case study that you have been writing throughout the course and convert it into a reproducible, automated report (e.g. Word, PDF, HTML, etc.).  
-
-We teach you the variations in syntax to produce documents that update when incoming data is refreshed and that can be used to inform public health partners and stakeholders.  
-
-- [Slides: R Markdown and routine reports](https://appliedepi.github.io/slides/intro/ru/module_9/module_9.html)  
+- [Слайды: Опрятные данные и очистка данных](https://appliedepi.github.io/slides/intro/ru/module_3/module_3.html)  
   
-- [Exercise: R Markdown](http://exercises.appliedepi.org/app/rmarkdown_ru)  
+- [Упражнение: Очистка данных - часть 1](http://exercises.appliedepi.org/app/cleaning_ru)  
 
+:::
+
+
+
+
+::: {.tutorial}
+**Модуль 4: Очистка данных - часть 2**
+
+Мы продолжаем писать наш код очистки данных, охватывая более продвинутое перекодирование, фильтрацию строк, экспорт данных и некоторые дополнительные практические упражнения.  
+
+- [Слайды: Очистка данных часть 2](https://appliedepi.github.io/slides/intro/ru/module_4/module_4.html)  
+
+- [Упражнение: Очистка данных часть 2](http://exercises.appliedepi.org/app/cleaning2_ru)  
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Модуль 5: Группировка данных и сводные таблицы**.
+
+Информативные таблицы являются основой эпидемиологической практики и практики общественного здравоохранения. В этом модуле мы представляем три инструмента для создания таблиц сводной статистики: {dplyr} для гибкости, {janitor} для скорости и {gtsummary} для красоты.  
+
+Наконец, мы изучим {flextable}, который можно использовать для настройки таблиц, созданных любым из вышеперечисленных подходов: добавление цветов и выделения, сохранение таблиц в Word, PNG, HTML и т.д.  
+
+- [Слайды: Группировка и обобщение данных](https://appliedepi.github.io/slides/intro/ru/module_5/module_5.html)   
+  
+
+- [Упражнение: Группировка данных и сводные таблицы](http://exercises.appliedepi.org/app/grouping_summaries_ru)   
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Модуль 6: Визуализация данных с помощью {ggplot2}**.
+
+Использование пакета {ggplot2} с максимальной эффективностью зависит от понимания того, как применять его "грамматику графики" для построения графика слой за слоем. Мы решаем эту задачу, логически представляя синтаксис и используя примеры из области здравоохранения, чтобы вы, опираясь на предыдущие знания, смогли построить информативные и красочные столбчатые диаграммы, диаграммы рассеяния, гистограммы, графики бокса/виолина и линейные диаграммы.  
+
+Мы также научим вас писать текстовые метки, которые автоматически обновляются при обновлении данных (очень полезно для эпидемиологических отчетов!), использовать цвета, удобные для слепых, и многое другое.  
+
+- [Слайды: Визуализация данных с помощью ggplot2](https://appliedepi.github.io/slides/intro/ru/module_6-1/module_6-1.html)  
+
+- [Упражнение: основы ggplot](http://exercises.appliedepi.org/app/ggplot_basics_ru) 
+
+- [Слайды: Шкалы, темы и метки](https://appliedepi.github.io/slides/intro/ru/module_6-2/module_6-2.html)  
+
+- [Упражнение: Шкалы, темы и ярлыки](https://exercises.appliedepi.org/app/ggplot_scales_themes_ru) 
+
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Модуль 7: Преобразование данных: соединения, развороты и факторы**.
+
+В аналитике общественного здравоохранения редко используется только один набор данных, поэтому сейчас мы практикуемся в объединении данных, добавляя данные больниц, лабораторий и расследований случаев в наш линейный список наблюдения. Мы внедряем лучшие практики по проведению объединений и готовим вас к самостоятельному выполнению преобразований данных.  
+
+Во второй части модуля мы рассмотрим *поворот*, который в R означает преобразование данных между "длинным" и "широким" форматами. Это особенно актуально для общественного здравоохранения, где каждый формат имеет свои преимущества.  
+
+Попутно мы познакомимся с использованием класса "фактор" (версия R для упорядоченных уровней в переменной), построив визуализацию временной шкалы пути некоторых пациентов через систему наблюдения/медицинскую систему.  
+
+- [Слайды: Объединение данных](https://appliedepi.github.io/slides/intro/ru/module_7-1/module_7-1.html)  
+- [Упражнение: Объединение данных](http://exercises.appliedepi.org/app/joining_ru)
+
+- [Слайды: Поворотные данные](https://appliedepi.github.io/slides/intro/ru/module_7-2/module_7-2.html)  
+
+- [Упражнение: Поворот данных](http://exercises.appliedepi.org/app/pivoting_ru) 
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Модуль 8: Визуализация данных для общественного здравоохранения**
+
+В этом втором модуле визуализации данных мы поощряем вас к самостоятельному изучению R путем чтения документации по функциям (необходимый навык после окончания курса!). Мы по-прежнему поддерживаем вас и, как обычно, проводим демонстрацию кодирования по всем темам.  
+
+Мы рассмотрим различные способы определения "эпинедель" с помощью R, и наш рекомендуемый подход, включая шпаргалку.  
+
+Затем мы рассмотрим визуализации, которые являются центральными в описательной эпидемиологии: тонкости построения точной эпидемической кривой, передачу закономерностей по трем переменным с помощью тепловой диаграммы и создание возрастных/половых пирамид для описания демографических показателей. Если останется время, мы закончим демонстрацией возможностей R в области ГИС/геопространственных данных.  
+
+- [Упражнение: Визуализация данных для общественного здравоохранения] (http://exercises.appliedepi.org/app/ggplot_heat_epicurves_pyramids_ru).  
+
+- Скрипт демонстрации ГИС в R можно найти в папке курса по адресу: *"intro_course/scripts/backup/5_gis_demo.R "*.  
+
+- Ваш преподаватель предоставит нашу "шпаргалку" по эпидемическим неделям и построению эпикризов  
+:::
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Модуль 9: Отчеты с использованием R Markdown**.
+
+В этом модуле мы возьмем код R на примере Эболы, который вы писали на протяжении всего курса, и преобразуем его в воспроизводимый, автоматизированный отчет (например, Word, PDF, HTML и т.д.).  
+
+Мы научим вас использовать различные варианты синтаксиса для создания документов, которые обновляются при поступлении новых данных и могут быть использованы для информирования партнеров и заинтересованных сторон в области общественного здравоохранения.  
+
+- [Слайды: R Markdown и обычные отчеты](https://appliedepi.github.io/slides/intro/ru/module_9/module_9.html)  
+  
+- [Упражнение: R Markdown](http://exercises.appliedepi.org/app/rmarkdown_ru)  
 :::
 
 
@@ -1469,19 +1324,255 @@ We teach you the variations in syntax to produce documents that update when inco
 
 
 ::: {.tutorial}
-**Module 10: Final Exercise, and peer code review**
-In this last module, your put your skills to the test by writing an R Markdown report using a new dataset - a COVID-19 case linelist.  
+**Модуль 10: Заключительное упражнение и экспертная оценка кода**.
+В этом последнем модуле вы испытаете свои навыки на практике, написав отчет в формате R Markdown с использованием нового набора данных - линейного списка случаев COVID-19.  
 
-Unlike with the Ebola case study, you will not have solution code available to you. Instead, you will be given a Word document to reproduce by writing an R Markdown script. This will require data cleaning, creating common epidemiological plots, joining datasets, and creating descriptive tables.  
+В отличие от примера с лихорадкой Эбола, у вас не будет доступного кода решения. Вместо этого вам будет предоставлен документ Word, который нужно воспроизвести, написав скрипт R Markdown. Это потребует очистки данных, создания общих эпидемиологических графиков, объединения наборов данных и создания описательных таблиц.  
 
-If there is time, we perform "peer code reviews" which simultaneously improving your coding skills and teach you how to review others' code. Before closing, we touch upon how to find your particular community of R users and resources available to you for further learning.  
+Если есть время, мы проводим "peer code reviews", которые одновременно улучшают ваши навыки кодирования и учат вас рецензировать чужой код. В заключение мы расскажем о том, как найти свое сообщество пользователей R и о ресурсах, доступных вам для дальнейшего обучения.  
 
-- *Exercise materials*: See the folder "intro_course/learning_materials/covid_case_study" for the Word document report to replicate, the datasets, and a tips sheet.  
+- *Материалы для упражнений*: В папке "intro_course/learning_materials/covid_case_study" вы найдете отчет в формате Word для повторения, наборы данных и лист с советами.  
+:::
+
+
+
+
+<!--chapter:end:pages/intro_modules_ru.Rmd-->
+
+# (PART) Statistics & Regression {.unnumbered}
+
+<!--chapter:end:pages/cat_stats.Rmd-->
+
+
+# Stats course (English) {} 
+
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
+```
+
+<!-- ======================================================= -->
+## Overview {.unnumbered}
+
+```{r, out.width = "50%", fig.align = "center", echo=F}
+knitr::include_graphics("images/support-help-moz.jpg")
+```
+[*Image: Neale Batra*]{style="float:right"}
+
+
+
+
+<!-- ======================================================= -->
+## Modules {.unnumbered}  
+
+Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable. Clicking on an exercise link will prompt a login, then launch a window with the interactive exercise. 
+
+
+::: {.tutorial}
+**Pre-course preparation**
+
+Follow these step-by-step instructions to intall software, download the course files, setup an RStudio project, and to download and begin the course's interactive exercises.  
+
+**Click on each of the steps below to expand the instructions**  
+
+
+<!--
+NOTE: everything inside the details tag will be collapsed and effectively
+hidden from the user
+-->
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install software</summary>  
+  
+Please have the following software installed on your computer **prior to the start of the course**.  
+
+See this [installation guide](https://appliedepi.org/files/install_guide.pdf) for tips.  
+
+1) [R](https://cran.r-project.org/bin/windows/base/) (most recent version)
+2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (most recent version)
+3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (only needed for Windows machines)
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Download course files</summary>  
+  
+Download the zipped course folder at [**this link**](https://appliedepi.org/files/stats_course.zip).  
+
+**Unzip/extract the folder and save it on your computer's desktop (not on a shared drive).** 
+
+To "unzip" a folder once it is downloaded, right-click on the folder and select "Extract All". If offered a choice of location to save the unzipped folder, save it to your desktop.  
+
+On your desktop:  
+
+
+* `r emo::ji("folder")` Desktop
+  * `r emo::ji("folder")` stats_course
+     * `r emo::ji("folder")` data
+     * `r emo::ji("folder")` scripts
+     * `r emo::ji("folder")` outputs
+     * `r emo::ji("folder")` learning_materials
+
+
+</details>
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install R packages</summary>  
+  
+Now, go into the "stats_course" folder, and click into the subfolders "scripts" and "backup". There you will see a file named "packages_to_install_stats.R". Double click, and if necessary select that you want to open the file using *RStudio*. The file should open in RStudio. 
+
+Read the instructions written at the top of the script. You should highlight ALL the text in the script and then press the "Run" button located near the top-center of RStudio. Alternatively, you can highlight all the text and then press the keys Ctrl and Enter.  
+
+This script will spend several minutes to install most of the R packages that you need for this course.  
+
+</details>
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Create a new RStudio project</summary>  
+  
+
+1) Open RStudio (ensure that you open *RStudio* and not just *R*).  
+
+2) In RStudio click *File -> New Project*. In the pop-up window, select **"Existing directory"**.  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/create_project.png")
+```
+
+3) Click "browse" and select the "stats_course" folder on your desktop, containing the course materials, which you downloaded earlier. Then click "Create project".  
+
+Voila! This will be the project for all of your work in this course.  
+
+
+</details>
+
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises online</summary>  
+  
+Begin the course exercises using the links in the "Modules" section below. You will need an Applied Epi account (link provided by instructor in welcome email, or use [this link](community.appliedepi.org)).  
+
+* Turn off any VPN  
+* If you see "Error 403: Forbidden" notify your instructor to give you access to the exercises. After access is given, you will need to clear your cache, or re-open the exercise in a private/incognito window for today.  
+* If your internet connection is too weak, see the steps below to access the exercises offline.  
+
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Offline access to course exercises</summary>  
+
+The offline versions of the exercises are available in the folder "stats_course/learning_materials/backup_exercises/"
+
+<!-- A further backup method is described below, but will require permissions from an instructor: -->
+
+<!-- **Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:** -->
+
+<!-- >`remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)` -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/install_exercises.png") -->
+<!-- ``` -->
+
+<!-- Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:* -->
+
+<!--   * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution. Proceed to the backup steps below. -->
+<!--   * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error. -->
+<!--   * If prompted to update some R packages, select "All" to update all of the packages. If you continue to be prompted for package updates, you can select "None" and continue without further updates. -->
+
+<!-- **Backup option:** -->
+
+<!-- **Go to the "Tools" menu of RStudio, and select "Install packages".** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_tools_menu.png") -->
+<!-- ``` -->
+
+<!-- **In the pop-up window, select "zip" from the first drop-down menu.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "50%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_drop_down.png") -->
+<!-- ``` -->
+
+<!-- **Another window should appear to select a file (if not, select "Browse"). Navigate to the folder "Desktop/intro_courses/learning_materials/backup_r_packages".** Note the 8 zipped folders here - each one is an R package. Select the first one "basket", press "Open", then click "Install". R will run a brief command to install this package. **Repeat this step to install each of the 8 zipped folders.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_package_select.png") -->
+<!-- ``` -->
+
+<!-- If continuing to experience errors, you may need to restart R, and then run the following command:   -->
+
+<!-- >`install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))`   -->
+
+<!-- Your instructor can continue to troubleshoot with you.  -->
+
+<!-- Now, the course exercises will appear *within your RStudio* offline. Each course module has a corresponding exercise, which can be accessed through the "Tutorials" pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).   -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "100%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gif") -->
+<!-- ``` -->
+
+<!-- 1) Click on the "Tutorial" tab in the upper-right RStudio pane (which also contains a tab holding your "Environment").   -->
+<!--   * Scroll down and review the listed exercises. If you do not see any "Applied Epi" exercises listed, close and re-open RStudio. They may take a minute to appear.   -->
+
+<!-- 2) Select the exercise, for example: "Applied Epi - R setup, syntax, data import"   -->
+<!--   * The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.   -->
+<!--   * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.   -->
+<!--   * You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.   -->
+
+
+</details>
+
+
+:::
+
+
+
+::: {.tutorial}
+**Module 1: Welcome and basic regression**
+
+- [Slides: Exploring data and basic hypothesis testing](https://appliedepi.github.io/slides/stats/course_intro/course_intro.html)  
+
+- [Slides: Regression - univariable and stratified](https://appliedepi.github.io/slides/stats/basic_regression/basic_regression.html)  
+
+- [Exercise 1]() 
 
 :::
 
 
 
 
-<!--chapter:end:pages/content_02_modules_ru.Rmd-->
+
+::: {.tutorial}
+**Module 2: Multivariable regression**
+
+
+- [Slides: Variable selection and multivariable regression](https://appliedepi.github.io/slides/stats/multi_regression/multivariable_regression.html)  
+
+- [Exercise 2]()  
+
+:::
+
+
+
+
+::: {.tutorial}
+**Final case study**
+
+- [Slides: Final case study](https://appliedepi.github.io/slides/stats/final_exercise/final_exercise.html) 
+
+- *Case study materials*: See the folder "stats_course/learning_materials/covid_case_study" for the Word document report to replicate, the datasets, and a tips sheet.  
+
+:::
+
+
+<!--chapter:end:pages/stats_modules_en.Rmd-->
 

@@ -1,5 +1,5 @@
 
-# Modules de cours (francais) {} 
+# Cours d'introduction (francais) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -23,6 +23,108 @@ Vous trouverez ci-dessous une liste de chacun des modules inclus dans le cours. 
 
 
 
+
+::: {.tutorial}
+**Préparation au cours**
+Suivez ces instructions étape par étape pour installer le logiciel, télécharger les fichiers du cours, configurer un projet RStudio, et pour télécharger et commencer les exercices interactifs du cours.  
+
+**Cliquez sur chacune des étapes ci-dessous pour développer les instructions.**  
+
+<!--
+NOTE : tout ce qui se trouve à l'intérieur de la balise details sera réduit et effectivement
+caché à l'utilisateur
+-->
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Installation du logiciel</summary>  
+  
+Veuillez avoir les logiciels suivants installés sur votre ordinateur **avant le début du cours**.  
+
+Consultez ce [guide d'installation](https://appliedepi.org/files/install_guide.pdf) pour obtenir des conseils.  
+
+1) [R](https://cran.r-project.org/bin/windows/base/) (version la plus récente)
+2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (version la plus récente)
+3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (nécessaire uniquement pour les machines Windows)
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Télécharger les fichiers du cours</summary>.  
+  
+Téléchargez le dossier de cours zippé sur [**ce lien**](https://appliedepi.org/files/intro_course.zip).  
+
+**Dézippez/extractez le dossier et enregistrez-le sur le bureau de votre ordinateur (pas sur un disque partagé).** 
+
+Pour "dézipper" un dossier une fois qu'il est téléchargé, cliquez avec le bouton droit de la souris sur le dossier et sélectionnez "Extraire tout". Si vous avez le choix de l'emplacement où enregistrer le dossier dézippé, enregistrez-le sur votre bureau.  
+
+Sur votre bureau :  
+
+* `r emo::ji("folder")` Bureau
+  * `r emo::ji("folder")` intro_course
+     * `r emo::ji("folder")` data
+     * `r emo::ji("folder")` scripts
+     * `r emo::ji("folder")` outputs
+     * `r emo::ji("folder")` learning_materials
+     * `r emo::ji("document")` surveillance_linelist_20141201.csv  
+
+</details>
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Installer les paquets R</summary>  
+  
+Maintenant, allez dans le dossier "intro_course", et cliquez dans les sous-dossiers "scripts" et "backup". Vous y trouverez un fichier nommé "packages_to_install.R". Double-cliquez, et si nécessaire, sélectionnez que vous voulez ouvrir le fichier en utilisant *RStudio*. Le fichier devrait s'ouvrir dans RStudio. 
+
+Lisez les instructions écrites en haut du script. Vous devez mettre en surbrillance TOUT le texte du script, puis appuyer sur le bouton "Run" situé près du centre supérieur de RStudio. Vous pouvez également mettre tout le texte en surbrillance, puis appuyer sur les touches Ctrl et Entrée.  
+
+Ce script prendra plusieurs minutes pour installer la plupart des paquets R dont vous avez besoin pour ce cours.  
+
+</details>
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Créer un nouveau projet RStudio</summary>  
+  
+
+1) Ouvrez RStudio (assurez-vous d'ouvrir *RStudio* et pas seulement *R*).  
+
+2) Dans RStudio, cliquez sur *File -> New Project*. Dans la fenêtre pop-up, sélectionnez **"Existing directory (Dossier existant) "**.  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/create_project.png")
+```
+
+3) Cliquez sur "browse" et sélectionnez le dossier "intro_course" sur votre bureau, contenant le matériel de cours, que vous avez téléchargé plus tôt. Puis cliquez sur "Créer un projet".  
+
+Voilà ! Ce sera le projet pour tout votre travail dans ce cours.  
+
+
+</details>
+
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration : underline'>Accéder aux exercices du cours en ligne</summary>.  
+  
+Commencez les exercices du cours en utilisant les liens dans la section "Modules" ci-dessous. Vous aurez besoin d'un compte Applied Epi (lien fourni par l'instructeur dans le courriel de bienvenue, ou utilisez [ce lien] (community.appliedepi.org)).  
+
+* Désactivez tout "VPN"  
+* Si vous voyez "Error 403 : Forbidden", demandez à votre instructeur de vous donner accès aux exercices. Une fois l'accès accordé, vous devrez vider votre cache, ou rouvrir l'exercice dans une fenêtre privée/incognito pour aujourd'hui.  
+* Si votre connexion internet est trop faible, voir les étapes ci-dessous pour accéder aux exercices hors ligne.  
+
+
+</details>
+
+
+
+
+:::
+
+
+
 ::: {.tutorial}
 **Module 1 : Introduction à la syntaxe R**
 
@@ -30,7 +132,7 @@ Nous vous souhaitons la bienvenue au cours, passons en revue la logistique du co
 
 Ensuite, nous nous plongeons dans une démonstration de codage pour vous présenter R et RStudio. Nous abordons les bases de l'interaction avec R et RStudio, la syntaxe R et l'exécution des commandes, ainsi que les fonctions et les packages R.  
 
-- [Slides: Bienvenue, logistique du cours, RStudio, et syntaxe R de base](https://appliedepi.github.io/slides/intro/fr/module_1/module_1.html)  
+- [Diapositives: Bienvenue, logistique du cours, RStudio, et syntaxe R de base](https://appliedepi.github.io/slides/intro/fr/module_1/module_1.html)  
 
 - [Exercise: Configuration de R, syntaxe de base, fonctions et packages](http://exercises.appliedepi.org/app/basics_fr) 
 
@@ -56,7 +158,7 @@ Nous couvrons les stratégies de gestion des fichiers, la façon de travailler a
 
 
 ::: {.tutorial}
-**Nettoyage des données - partie 1**
+**Module 3: Nettoyage des données - partie 1**
 
 Maintenant que nous avons importé notre liste de lignes de surveillance, nous passons en revue les étapes de "nettoyage des données" qui peuvent s'avérer nécessaires et la manière de les exécuter dans R. En cours de route, nous introduisons les principes fondamentaux des "données ordonnées".  
 

@@ -1,7 +1,7 @@
 ---
 knit: "bookdown::render_book"
-title: "Introduction to R for applied epidemiology"  
-description: "Training materials for intro R course in applied epidemiology and public health"
+title: "Applied Epi courses"  
+description: "Training materials for R courses in applied epidemiology and public health"
 author: "Applied Epi"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -21,14 +21,12 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-## Course website for Introduction to R for applied epidemiology {.unnumbered}
+## Home page for Applied Epi R courses {.unnumbered}
 
-**This website :**
+**See the table of contents on the right to access the course materials**
 
--   Hosts the course materials for Applied Epi's "Introduction to R for applied epidemiology" course (see table of contents on right)  
--   Provides problem-based instruction to assist epidemiologists transitioning to R  
--   Offers content accessible in settings with low internet-connectivity via offline
-    versions  
+**Note: Access to exercises is only available to registered participants in Applied Epi courses.**  
+
 
 
 
@@ -41,9 +39,9 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 **[Applied Epi](https://appliedepi.org/) is a nonprofit organization that supports frontline public health practitioners through accessible tools, training, and support.**  
 
-We are a global team of 150 applied epidemiologists and public health practitioners with extensive ground-level experience.  
+We are a global team of 170 applied epidemiologists and public health practitioners with extensive ground-level experience.  
 
-Our free [Epidemiologist R Handbook](https://epiRhandbook.com) is a vital resource for over **175,000 people**.  
+Our free [Epidemiologist R Handbook](https://epiRhandbook.com) is a vital resource for over **250,000 people**.  
 
 :::
 
@@ -125,14 +123,17 @@ Your encouragement and feedback is most welcome:
 
 Please note that all of our case study training materials use *fake example data* in which no person is identifiable and the actual values have been scrambled.  
 
-Authors and contributors to this course curriculum from **Applied Epi** include:  
+Authors and contributors to curricula from **Applied Epi** include:  
 
 * Neale Batra  
 * Arran Hamlet  
+* Adam Vaughan  
 * Mathilde Mousset  
 * Alex Spina  
 * Paula Blomquist  
 * Amy Mikhail  
+* Olivia Boyd  
+* Mara Kont  
 
 * The Fulton County Board of Health graciously provided example data (anonymized and scrambled) for a case study.  
 * The {outbreaks} package formed the basis for the fake dataset in the Ebola case study.  
