@@ -1541,10 +1541,12 @@ The offline versions of the exercises are available in the folder "stats_course/
 
 - [Slides: Exploring data and basic hypothesis testing](https://appliedepi.github.io/slides/stats/course_intro/course_intro.html)  
 
-- [Slides: Regression - univariable and stratified](https://appliedepi.github.io/slides/stats/basic_regression/basic_regression.html)  
+- [Exercise 1: Exploratory and hypothesis testing](https://exercises.appliedepi.org/app/stats1) 
 
-- [Exercise 1]() 
 
+- [Slides: Regression - univariate and stratified](https://appliedepi.github.io/slides/stats/basic_regression/basic_regression.html)  
+
+- [Exercise 2: Univariate and stratefied logistic regression](https://exercises.appliedepi.org/app/stats2)  
 :::
 
 
@@ -1554,10 +1556,12 @@ The offline versions of the exercises are available in the folder "stats_course/
 ::: {.tutorial}
 **Module 2: Multivariable regression**
 
-
 - [Slides: Variable selection and multivariable regression](https://appliedepi.github.io/slides/stats/multi_regression/multivariable_regression.html)  
 
-- [Exercise 2]()  
+
+- [Exercise 3: Multivariable regression](https://exercises.appliedepi.org/app/stats3)
+
+**Final exercise** Please see the materials in the stats_course/learning_materials folder.  
 
 :::
 
