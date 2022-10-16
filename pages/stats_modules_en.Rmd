@@ -201,7 +201,7 @@ The offline versions of the exercises are available in the folder "stats_course/
 
 - [Slides: Regression - univariate and stratified](https://appliedepi.github.io/slides/stats/basic_regression/basic_regression.html)  
 
-- [Exercise 2: Univariate and stratefied logistic regression](http://exercises.appliedepi.org/app/stats2)  
+- [Exercise 2: Univariate and stratified logistic regression](http://exercises.appliedepi.org/app/stats2)  
 :::
 
 

@@ -23,7 +23,7 @@ rmd_files: [
 
   # Stats course
   "pages/cat_stats.Rmd",
-  "pages/stats_modules_en.Rmd",
+  "pages/stats_modules_en.Rmd"
   #"pages/content_03_support.Rmd",                     # Our basic course
 
   # Russian modules
