@@ -2,4 +2,5 @@ our-educational-approach
 intro-course-english
 cours-dintroduction-francais
 вводный-курс-русский-язык
+curso-de-introducción-español
 stats-course-english

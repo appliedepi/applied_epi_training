@@ -20,6 +20,8 @@ rmd_files: [
   "pages/intro_modules_en.Rmd",
   "pages/intro_modules_fr.Rmd",
   "pages/intro_modules_ru.Rmd",
+  "pages/intro_modules_es.Rmd",
+
 
   # Stats course
   "pages/cat_stats.Rmd",

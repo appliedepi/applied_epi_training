@@ -1339,6 +1339,438 @@ knitr::include_graphics("images/intro_course_images/create_project.png")
 
 <!--chapter:end:pages/intro_modules_ru.Rmd-->
 
+
+# Curso de introducción (español) {} 
+
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
+```
+
+<!-- ======================================================= -->
+## Overview {.unnumbered}
+
+```{r, out.width = "50%", fig.align = "center", echo=F}
+knitr::include_graphics("images/support-help-moz.jpg")
+```
+[*Image: Neale Batra*]{style="float:right"}
+
+
+
+
+<!-- ======================================================= -->
+## Modulos {.unnumbered}  
+
+A continuación encontrará una lista de cada uno de los módulos incluidos en el curso. Por favor, siga su camino de forma sistemática, de acuerdo con el calendario del curso. Al hacer clic en el enlace de un ejercicio, se abrirá una ventana con el ejercicio interactivo. 
+
+
+::: {.tutorial}
+**Preparación previa al curso**
+
+Siga estas instrucciones paso a paso para instalar el software, descargar los archivos del curso, configurar un proyecto de RStudio y descargar y comenzar los ejercicios interactivos del curso.  
+
+**Haga clic en cada uno de los pasos para ampliar las instrucciones**.  
+
+Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
+
+
+<!--
+NOTE: everything inside the details tag will be collapsed and effectively
+hidden from the user
+-->
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Instalar el software</summary>  
+
+Por favor, tenga el siguiente software instalado en su ordenador **antes del comienzo del curso**.  
+
+Consulte esta [guía de instalación](https://appliedepi.org/files/install_guide.pdf) para obtener consejos.  
+
+1) [R](https://cran.r-project.org/bin/windows/base/) (versión más reciente)
+2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (versión más reciente)
+3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (sólo necesario para máquinas Windows)
+
+Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Descargar los archivos del curso</summary>  
+  
+Descargue la carpeta del curso comprimida en [**este enlace**](https://appliedepi.org/files/intro_course.zip).  
+
+**Descomprima/extraiga la carpeta y guárdela en el escritorio de su ordenador (no en una unidad compartida). 
+
+Para "descomprimir" una carpeta una vez descargada, haga clic con el botón derecho en la carpeta y seleccione "Extraer todo". Si se le ofrece la opción de guardar la carpeta descomprimida, guárdela en su escritorio.  
+
+En tu escritorio:  
+
+
+* `r emo::ji("folder")` Escritorio
+  * `r emo::ji("folder")` intro_course
+     * `r emo::ji("folder")` data
+     * `r emo::ji("folder")` scripts
+     * `r emo::ji("folder")` outputs
+     * `r emo::ji("folder")` learning_materials
+     * `r emo::ji("document")` surveillance_linelist_20141201.csv
+
+<!-- `r emo::ji("warning")` You may also have some other files. Just leave them.   -->
+
+
+<!-- * `r emo::ji("folder")` intro_course   -->
+<!--      * `r emo::ji("folder")` data -->
+<!--           * `r emo::ji("folder")` clean   -->
+<!--           * `r emo::ji("folder")` raw   -->
+<!--           * `r emo::ji("folder")` pop   -->
+<!--           * `r emo::ji("folder")` shp   -->
+<!--      * `r emo::ji("folder")` scripts -->
+<!--      * `r emo::ji("folder")` outputs   -->
+<!--      * `r emo::ji("folder")` learning_materials   -->
+<!--           * `r emo::ji("folder")` covid_case_study   -->
+<!--           * `r emo::ji("folder")` backup_r_packages   -->
+<!--      * `r emo::ji("document")` surveillance_linelist_20141201.csv -->
+
+<!-- `r emo::ji("warning")` You may also have some other files. Just leave them.   -->
+
+</details>
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Instalar los paquetes de R</summary>  
+  
+Ahora, ve a la carpeta "intro_course", y haz clic en las subcarpetas "scripts" y "backup". Allí verás un archivo llamado "packages_to_install.R". Haz doble clic, y si es necesario selecciona que quieres abrir el archivo usando *RStudio*. El archivo debería abrirse en RStudio. 
+
+Lea las instrucciones escritas en la parte superior del script. Debe resaltar TODO el texto del script y luego pulsar el botón "Ejecutar" situado cerca de la parte superior central de RStudio. Alternativamente, puede resaltar todo el texto y luego presionar las teclas Ctrl y Enter.  
+
+Este script tardará varios minutos en instalar la mayoría de los paquetes de R que necesita para este curso.  
+
+</details>
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Cree un nuevo proyecto de RStudio</summary>  
+  
+
+1) Abra RStudio (asegúrese de abrir *RStudio* y no sólo *R*).  
+
+2) En RStudio haga clic en *Archivo -> Nuevo proyecto*. En la ventana emergente, selecciona **"Directorio existente"**.  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/create_project.png")
+```
+
+3) Haz clic en "browse" y selecciona la carpeta "intro_course" de tu escritorio, que contiene los materiales del curso, que descargaste anteriormente. A continuación, haga clic en "Create project".  
+
+Ya está. Este será el proyecto para todo su trabajo en este curso.  
+
+
+</details>
+
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Acceda a los ejercicios del curso en línea</summary>  
+  
+Comience los ejercicios del curso utilizando los enlaces de la sección "Módulos" más abajo. Necesitará una cuenta de Applied Epi (enlace proporcionado por el instructor en el correo electrónico de bienvenida, o utilice [este enlace](community.appliedepi.org)).  
+
+* Desactive cualquier VPN  
+* Si ve el "Error 403: Forbidden" notifique a su instructor para que le dé acceso a los ejercicios. Después de que se le dé acceso, tendrá que borrar su caché, o volver a abrir el ejercicio en una ventana privada/de incógnito para hoy.  
+* Si su conexión a Internet es demasiado débil, vea los pasos siguientes para acceder a los ejercicios sin conexión.  
+
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Acceso sin conexión a los ejercicios del curso</summary>  
+
+Las versiones offline de los ejercicios están disponibles en la carpeta "intro_course/learning_materials/backup_exercises/SPANISH"
+
+<!-- A further backup method is described below, but will require permissions from an instructor: -->
+
+<!-- **Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:** -->
+
+<!-- >`remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)` -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/install_exercises.png") -->
+<!-- ``` -->
+
+<!-- Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:* -->
+
+<!--   * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution. Proceed to the backup steps below. -->
+<!--   * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error. -->
+<!--   * If prompted to update some R packages, select "All" to update all of the packages. If you continue to be prompted for package updates, you can select "None" and continue without further updates. -->
+
+<!-- **Backup option:** -->
+
+<!-- **Go to the "Tools" menu of RStudio, and select "Install packages".** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_tools_menu.png") -->
+<!-- ``` -->
+
+<!-- **In the pop-up window, select "zip" from the first drop-down menu.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "50%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_drop_down.png") -->
+<!-- ``` -->
+
+<!-- **Another window should appear to select a file (if not, select "Browse"). Navigate to the folder "Desktop/intro_courses/learning_materials/backup_r_packages".** Note the 8 zipped folders here - each one is an R package. Select the first one "basket", press "Open", then click "Install". R will run a brief command to install this package. **Repeat this step to install each of the 8 zipped folders.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_package_select.png") -->
+<!-- ``` -->
+
+<!-- If continuing to experience errors, you may need to restart R, and then run the following command:   -->
+
+<!-- >`install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))`   -->
+
+<!-- Your instructor can continue to troubleshoot with you.  -->
+
+<!-- Now, the course exercises will appear *within your RStudio* offline. Each course module has a corresponding exercise, which can be accessed through the "Tutorials" pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).   -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "100%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gif") -->
+<!-- ``` -->
+
+<!-- 1) Click on the "Tutorial" tab in the upper-right RStudio pane (which also contains a tab holding your "Environment").   -->
+<!--   * Scroll down and review the listed exercises. If you do not see any "Applied Epi" exercises listed, close and re-open RStudio. They may take a minute to appear.   -->
+
+<!-- 2) Select the exercise, for example: "Applied Epi - R setup, syntax, data import"   -->
+<!--   * The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.   -->
+<!--   * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.   -->
+<!--   * You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.   -->
+
+
+</details>
+
+
+:::
+
+
+
+::: {.tutorial}
+**Module 1: Introduction to R Syntax**
+
+We welcome you to the course, review course logistics, detail the support resources available to you.  
+
+Next, we dive into a coding demonstration to introduce you to R and RStudio. We cover the basics of how to interact with R and RStudio, R syntax and running commands, and we cover R functions and packages.  
+
+- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/slides/intro/es/module_1/module_1.html)  
+
+- [Exercise: R setup, basic syntax, functions, and packages](http://exercises.appliedepi.org/app/basics_es) 
+
+:::
+
+
+
+
+
+::: {.tutorial}
+**Module 2: File management, Data import, and inspecting a dataset**
+
+We cover file management strategies, how to work within an RStudio project, and introduce our recommended packages functions used to import and review data. Using these functions, we import the case study's Ebola surveillance linelist, and begin to inspect it.  
+
+- [Slides: RStudio projects, importing data, filepaths](https://appliedepi.github.io/slides/intro/es/module_2/module_2.html)  
+- [Exercise: File management and data import](http://exercises.appliedepi.org/app/files_import_es)  
+
+:::
+
+
+
+
+
+
+::: {.tutorial}
+**Module 3: Data cleaning - part 1**
+
+Now that we have imported our surveillance linelist, we review which "data cleaning" steps might be necessary and how to execute these in R. Along the way, we introduce the core principles of "tidy data".  
+
+Through data cleaning, we teach you the core R functions for handling data, including for standardizing and editing column names, de-duplicating and filtering rows, selecting and modifying columns, re-coding values, and more.  
+
+Together, we write a sequence of "pipes" to clean the linelist step-by-step in a clear, reproducible manner... so that our dataset is ready for preliminary analysis!  
+
+- [Slides: Tidy data and data cleaning](https://appliedepi.github.io/slides/intro/es/module_3/module_3.html)  
+  
+- [Exercise: Cleaning data - part 1](http://exercises.appliedepi.org/app/cleaning_es)  
+
+:::
+
+
+
+
+::: {.tutorial}
+**Module 4: Data cleaning - part 2**
+
+We continue writing our data cleaning code, covering more advanced re-coding, filtering rows, exporting data, and some additional practice exercises.  
+
+- [Slides: Data cleaning part 2](https://appliedepi.github.io/slides/intro/es/module_4/module_4.html)  
+
+- [Exercise: Cleaning data part 2](http://exercises.appliedepi.org/app/cleaning2_es)  
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 5: Grouping data and summary tables**
+
+Informative tables are the bedrock of epidemiological and public health practice. In this module we introduce three tools to produce tables of summary statistics: {dplyr} for flexibility, {janitor} for speed, and {gtsummary} for beauty.  
+
+Finally, we explore {flextable}, which can be used to customize tables produced by any of the above approaches: adding colors and highlights, and saving tables to Word, PNG, HTML, etc.  
+
+- [Slides: Grouping and summarizing data](https://appliedepi.github.io/slides/intro/es/module_5/module_5.html)   
+  
+
+- [Exercise: Grouping data and summary tables](http://exercises.appliedepi.org/app/grouping_summaries_es)  
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 6: Data visualization with {ggplot2}**
+
+Using the {ggplot2} package to maximum effect depends upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this by introducing the syntax logically and using public health examples - so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, box/violin plots, and line plots.  
+
+We also teach you to write text labels that automatically update with refreshed data (very useful for epidemiological reports!), use colors that are colorblind-friendly, and more.  
+
+- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/slides/intro/es/module_6-1/module_6-1.html)  
+
+- [Exercise: ggplot basics](http://exercises.appliedepi.org/app/ggplot_basics) 
+
+- [Slides: Scales, themes, and labels](https://appliedepi.github.io/slides/intro/es/module_6-2/module_6-2.html)  
+
+- [Exercise: Scales, themes, and lables](https://exercises.appliedepi.org/app/ggplot_scales_themes_es) 
+
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 7: Transforming data: joins, pivots, and factors**
+
+Public health analytics rarely involves just one data set, so now we practice joining data by adding hospital, laboratory, and case investigation data to our surveillance linelist. We ingrain best practices for conducting joins, and prepare you for doing data transformations independently.  
+
+In the second part of this module, we address *pivoting*, which in R means transforming data between "long" and "wide" formats. This is particularly relevant in public health, where each format has distinct benefits.  
+
+Along the way, we introduce the uses of the "factor" class (R's version of ordered levels in a variable) by constructing a timeline visualization of some patients' pathways through the surveillance/medical system.  
+
+- [Slides: Joining data](https://appliedepi.github.io/slides/intro/es/module_7-1/module_7-1.html)  
+- [Exercise: Joining data](http://exercises.appliedepi.org/app/joining_es)
+
+- [Slides: Pivoting data](https://appliedepi.github.io/slides/intro/es/module_7-2/module_7-2.html)  
+
+- [Exercise: Pivoting data](http://exercises.appliedepi.org/app/pivoting_es)  
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 8: Data visualization for public health**
+
+In this second data visualization module we encourage you to practice learning R independently by reading function documentation (a necessary skill once you leave the class!). We still support you, and give live coding demonstrations for all the topics, as usual.  
+
+We cover the various ways to define "epiweeks" using R, and our recommended approach including a cheatsheet.  
+
+We then tackle visualizations that are central to descriptive epidemiology: the intricacies of crafting an accurate epidemic curve, conveying patterns across three variables using a heat plot, and creating age/sex pyramids to describe demographics. If there is time, we finish with a demonstration of R's GIS/geospatial capabilities.  
+
+- [Exercise: Data visualization for public health](http://exercises.appliedepi.org/app/ggplot_heat_epicurves_pyramids_es)  
+
+- GIS demo R script can be found in your course folder at: *"intro_course/scripts/backup/5_gis_demo.R"*  
+
+- Your instructor will provide our "cheatsheet" on epidemic weeks and making epicurves  
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+::: {.tutorial}
+**Module 9: Reports with R Markdown**
+
+In this module, we take the R code on the Ebola case study that you have been writing throughout the course and convert it into a reproducible, automated report (e.g. Word, PDF, HTML, etc.).  
+
+We teach you the variations in syntax to produce documents that update when incoming data is refreshed and that can be used to inform public health partners and stakeholders.  
+
+- [Slides: R Markdown and routine reports](https://appliedepi.github.io/slides/intro/es/module_9/module_9.html)  
+  
+- [Exercise: R Markdown](http://exercises.appliedepi.org/app/rmarkdown_es)  
+
+:::
+
+
+
+
+
+
+::: {.tutorial}
+**Module 10: Final Exercise, and peer code review**
+In this last module, your put your skills to the test by writing an R Markdown report using a new dataset - a COVID-19 case linelist.  
+
+Unlike with the Ebola case study, you will not have solution code available to you. Instead, you will be given a Word document to reproduce by writing an R Markdown script. This will require data cleaning, creating common epidemiological plots, joining datasets, and creating descriptive tables.  
+
+If there is time, we perform "peer code reviews" which simultaneously improving your coding skills and teach you how to review others' code. Before closing, we touch upon how to find your particular community of R users and resources available to you for further learning.  
+
+- *Exercise materials*: See the folder "intro_course/learning_materials/covid_case_study" for the Word document report to replicate, the datasets, and a tips sheet.  
+
+:::
+
+
+
+
+<!--chapter:end:pages/intro_modules_es.Rmd-->
+
 # (PART) Statistics & Regression {.unnumbered}
 
 <!--chapter:end:pages/cat_stats.Rmd-->
