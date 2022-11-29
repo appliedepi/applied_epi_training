@@ -216,19 +216,8 @@ The offline versions of the exercises are available in the folder "stats_course/
 
 - [Exercise 3: Multivariable regression](http://exercises.appliedepi.org/app/stats3)
 
-**Final exercise** Please see the materials in the stats_course/learning_materials folder.  
-
 :::
 
 
 
-
-::: {.tutorial}
-**Final case study**
-
-- [Slides: Final case study](https://appliedepi.github.io/slides/stats/final_exercise/final_exercise.html) 
-
-- *Case study materials*: See the folder "stats_course/learning_materials/covid_case_study" for the Word document report to replicate, the datasets, and a tips sheet.  
-
-:::
 
