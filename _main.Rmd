@@ -996,7 +996,7 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 ```
 
 <!-- ======================================================= -->
-## Обзор {.unnumbered}
+## Огляд {.unnumbered}
 
 ```{r, out.width = "50%", fig.align = "center", echo=F}
 knitr::include_graphics("images/support-help-moz.jpg")
