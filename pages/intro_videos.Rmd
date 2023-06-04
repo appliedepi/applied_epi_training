@@ -1,0 +1,25 @@
+
+# Videos {} 
+
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
+```
+
+<!-- ======================================================= -->
+## Overview {.unnumbered}
+
+```{r, out.width = "50%", fig.align = "center", echo=F}
+knitr::include_graphics("images/support-help-moz.jpg")
+```
+[*Image: Neale Batra*]{style="float:right"}
+
+
+
+
+<!-- ======================================================= -->
+## Videos {.unnumbered}  
+
+# This embed from Google Drive works, but exposes the URL
+To avoid URL exposure, we could host the video directly on our server? And call it somehow differently? Or perhaps store locally in repo (too large) and call with more simple src code (see Yihui)
+<iframe src="https://drive.google.com/file/d/1AuvtNoA2-Wnm4kjs-bDL_8JENI_dqHD6/preview" width="640" height="480" allow="autoplay"></iframe>

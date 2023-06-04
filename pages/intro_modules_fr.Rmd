@@ -53,7 +53,7 @@ Consultez ce [guide d'installation](https://appliedepi.org/files/install_guide.p
 
 <details markdown=1><summary markdown="span" style='text-decoration : underline'>Télécharger les fichiers du cours</summary>.  
   
-Téléchargez le dossier de cours zippé sur [**ce lien**](https://appliedepi.org/files/intro_course.zip).  
+Téléchargez le dossier de cours zippé sur [**ce lien**](https://appliedepi.org/files/intro_course_fr.zip).  
 
 **Dézippez/extractez le dossier et enregistrez-le sur le bureau de votre ordinateur (pas sur un disque partagé).** 
 
