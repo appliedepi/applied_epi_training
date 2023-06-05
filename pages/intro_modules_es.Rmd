@@ -144,7 +144,7 @@ Comience los ejercicios del curso utilizando los enlaces de la sección "Módulo
 
 <details markdown=1><summary markdown="span" style='text-decoration: underline'>Acceso sin conexión a los ejercicios del curso</summary>  
 
-Las versiones offline de los ejercicios están disponibles en la carpeta "intro_course/learning_materials/backup_exercises/SPANISH"
+Si necesita materiales fuera de línea, póngase en contacto con su instructor.
 
 <!-- A continuación se describe un método de copia de seguridad adicional, pero requerirá permisos de un instructor: -->
 

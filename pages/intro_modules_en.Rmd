@@ -143,7 +143,7 @@ Begin the course exercises using the links in the "Modules" section below. You w
 
 <details markdown=1><summary markdown="span" style='text-decoration: underline'>Offline access to course exercises</summary>  
 
-The offline versions of the exercises are available in the folder "intro_course/learning_materials/backup_exercises/"
+If you require offline access, please contact your instructor.
 
 <!-- A further backup method is described below, but will require permissions from an instructor: -->
 
