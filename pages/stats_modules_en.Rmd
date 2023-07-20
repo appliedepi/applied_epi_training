@@ -222,6 +222,7 @@ The offline versions of the exercises are available in the folder "stats_course/
 
 ::: {.tutorial}
 **Module 3 (Extra): Survival and Cox regression analysis**
+- [Slides: Survival and Cox regression analysis](https://appliedepi.github.io/slides/stats/survival/survival.html)  
 
 - [Exercise: Survival and Cox regression analysis](http://exercises.appliedepi.org/app/stats4)
 
