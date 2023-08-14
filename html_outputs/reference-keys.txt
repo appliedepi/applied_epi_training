@@ -1,7 +1,8 @@
 our-educational-approach
-intro-course-english
-cours-dintroduction-francais
-вступний-курс-українська
-вводный-курс-русский-язык
-curso-de-introducción-español
-stats-course-english
+intro-course-en
+cours-dintroduction-fr
+вступний-курс-ua
+вводный-курс-ru
+curso-de-introducción-es
+stats-course-en
+gis-course-en

@@ -25,12 +25,12 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 **See the table of contents on the right to access the course materials**
 
-**Note: Access to exercises is only available to registered participants in Applied Epi courses.**  
+*Access to exercises is only available to participants in Applied Epi courses.*  
 
 
 
 
-## About Applied Epi  {.unnumbered}
+## About {.unnumbered}
 
 
 :::: {style="display: flex;"}
@@ -41,7 +41,7 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 We are a global team of 170 applied epidemiologists and public health practitioners with extensive ground-level experience.  
 
-Our free [Epidemiologist R Handbook](https://epiRhandbook.com) is a vital resource for over **250,000 people**.  
+Our free [Epidemiologist R Handbook](https://epiRhandbook.com) is a vital resource for over **450,000 people worldwide**.  
 
 :::
 
@@ -107,13 +107,7 @@ knitr::include_graphics("images/QA_icon.png")
 </form>
 
 
-Your encouragement and feedback is most welcome:
-
 -   Email [**contact\@appliedepi.org**](mailto:contact@appliedepi.org) or [**join our contact list**](https://forms.gle/9awNd8syypTSYUsn7)  
--   Tweet [**\@epiRhandbook**](https://twitter.com/epirhandbook) or
-    [**\@appliedepi**](https://twitter.com/appliedepi)
--   Submit issues to our [**Github
-    repository**](https://github.com/appliedepi/applied_epi_training)
 
 
 
@@ -121,33 +115,15 @@ Your encouragement and feedback is most welcome:
 <!-- ======================================================= -->
 ## Acknowledgements {.unnumbered}  
 
-Please note that all of our case study training materials use *fake example data* in which no person is identifiable and the actual values have been scrambled.  
+Please note that all of our training materials use *fake example data* in which no person is identifiable and the actual values have been scrambled.  
 
 Authors and contributors to curricula from **Applied Epi** include:  
 
-* Neale Batra  
-* Arran Hamlet  
-* Adam Vaughan  
-* Mathilde Mousset  
-* Alex Spina  
-* Paula Blomquist  
-* Amy Mikhail  
-* Olivia Boyd  
-* Mara Kont  
-
-* The Fulton County Board of Health graciously provided example data (anonymized and scrambled) for a case study.  
+* Neale Batra, Arran Hamlet, Adam Vaughan, Mathilde Mousset, Olivia Boyd, Alex Spina, Paula Blomquist, Amy Mikhail, and Mara Kont  
 * The {outbreaks} package formed the basis for the fake dataset in the Ebola case study.  
-
-**Website design**: Neale Batra, Alex Spina  
-**Illustrations**: Calder Fong, Canva  
+* The Fulton County Board of Health provided example data (anonymized and scrambled) for a case study  
+* Illustrations are by Calder Fong or Canva  
 
 ## Terms of Use {.unnumbered}
 
-These materials are restricted to people enrolled in this live course. If you want to offer or use any of these materials in another training course, please contact us first to discuss.  
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a>
-Applied Epi Incorporated, 2022 <br />This work is licensed by Applied
-Epi Incorporated under a
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
-Commons Attribution-NonCommercial-ShareAlike 4.0 International
-License</a>.
+These materials are currently restricted to people enrolled in this live course. If you want to offer or use any of these materials in another training course, please contact us first to discuss.  

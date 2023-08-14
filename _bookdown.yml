@@ -26,20 +26,12 @@ rmd_files: [
 
   # Stats course
   "pages/cat_stats.Rmd",
-  "pages/stats_modules_en.Rmd"
+  "pages/stats_modules_en.Rmd",
   #"pages/content_03_support.Rmd",                     # Our basic course
 
-  # Russian modules
-  #"pages/cat_content_ru.Rmd",
-  #"pages/content_01_precourse_ru.Rmd",
-  #"pages/content_02_modules_ru.Rmd"
-  #"pages/content_03_support.Rmd",                     # Our basic course
-
-  # Self-paced tutorials
-  #"pages/cat_tutorials.Rmd",                        # start of new section (sepparator)
-  #"pages/tutorials_01_intro-to-R-en.Rmd",             #
-  #"pages/tutorials_02_intro-to-R-fr.Rmd",             #
-
+  # GIS course
+  "pages/cat_gis.Rmd",
+  "pages/gis_modules_en.Rmd"
 
   # Case studies
   #"pages/cat_case-studies.Rmd",                       # start of new section (sepparator)

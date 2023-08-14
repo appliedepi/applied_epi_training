@@ -25,12 +25,12 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 **See the table of contents on the right to access the course materials**
 
-**Note: Access to exercises is only available to registered participants in Applied Epi courses.**  
+*Access to exercises is only available to participants in Applied Epi courses.*  
 
 
 
 
-## About Applied Epi  {.unnumbered}
+## About {.unnumbered}
 
 
 :::: {style="display: flex;"}
@@ -41,7 +41,7 @@ knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png
 
 We are a global team of 170 applied epidemiologists and public health practitioners with extensive ground-level experience.  
 
-Our free [Epidemiologist R Handbook](https://epiRhandbook.com) is a vital resource for over **250,000 people**.  
+Our free [Epidemiologist R Handbook](https://epiRhandbook.com) is a vital resource for over **450,000 people worldwide**.  
 
 :::
 
@@ -107,13 +107,7 @@ knitr::include_graphics("images/QA_icon.png")
 </form>
 
 
-Your encouragement and feedback is most welcome:
-
 -   Email [**contact\@appliedepi.org**](mailto:contact@appliedepi.org) or [**join our contact list**](https://forms.gle/9awNd8syypTSYUsn7)  
--   Tweet [**\@epiRhandbook**](https://twitter.com/epirhandbook) or
-    [**\@appliedepi**](https://twitter.com/appliedepi)
--   Submit issues to our [**Github
-    repository**](https://github.com/appliedepi/applied_epi_training)
 
 
 
@@ -121,36 +115,18 @@ Your encouragement and feedback is most welcome:
 <!-- ======================================================= -->
 ## Acknowledgements {.unnumbered}  
 
-Please note that all of our case study training materials use *fake example data* in which no person is identifiable and the actual values have been scrambled.  
+Please note that all of our training materials use *fake example data* in which no person is identifiable and the actual values have been scrambled.  
 
 Authors and contributors to curricula from **Applied Epi** include:  
 
-* Neale Batra  
-* Arran Hamlet  
-* Adam Vaughan  
-* Mathilde Mousset  
-* Alex Spina  
-* Paula Blomquist  
-* Amy Mikhail  
-* Olivia Boyd  
-* Mara Kont  
-
-* The Fulton County Board of Health graciously provided example data (anonymized and scrambled) for a case study.  
+* Neale Batra, Arran Hamlet, Adam Vaughan, Mathilde Mousset, Olivia Boyd, Alex Spina, Paula Blomquist, Amy Mikhail, and Mara Kont  
 * The {outbreaks} package formed the basis for the fake dataset in the Ebola case study.  
-
-**Website design**: Neale Batra, Alex Spina  
-**Illustrations**: Calder Fong, Canva  
+* The Fulton County Board of Health provided example data (anonymized and scrambled) for a case study  
+* Illustrations are by Calder Fong or Canva  
 
 ## Terms of Use {.unnumbered}
 
-These materials are restricted to people enrolled in this live course. If you want to offer or use any of these materials in another training course, please contact us first to discuss.  
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a>
-Applied Epi Incorporated, 2022 <br />This work is licensed by Applied
-Epi Incorporated under a
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
-Commons Attribution-NonCommercial-ShareAlike 4.0 International
-License</a>.
+These materials are currently restricted to people enrolled in this live course. If you want to offer or use any of these materials in another training course, please contact us first to discuss.  
 
 <!--chapter:end:index.Rmd-->
 
@@ -215,7 +191,7 @@ Our self-paced tutorials are intended for larger audiences and therefore cannot 
 <!--chapter:end:pages/cat_intro.Rmd-->
 
 
-# Intro course (English) {} 
+# Intro course (EN) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -643,7 +619,7 @@ If there is time, we perform "peer code reviews" which simultaneously improving 
 <!--chapter:end:pages/intro_modules_en.Rmd-->
 
 
-# Cours d'introduction (francais) {} 
+# Cours d'introduction (FR) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -988,7 +964,7 @@ S'il reste du temps, nous effectuons des "revues de code par les pairs" qui amé
 <!--chapter:end:pages/intro_modules_fr.Rmd-->
 
 
-# Вступний курс (Українська) {} 
+# Вступний курс (UA) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -1342,7 +1318,7 @@ knitr::include_graphics("images/intro_course_images/create_project.png")
 <!--chapter:end:pages/intro_modules_ua.Rmd-->
 
 
-# Вводный курс (русский язык) {} 
+# Вводный курс (RU) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -1694,7 +1670,7 @@ knitr::include_graphics("images/intro_course_images/create_project.png")
 <!--chapter:end:pages/intro_modules_ru.Rmd-->
 
 
-# Curso de introducción (español) {} 
+# Curso de introducción (ES) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -2117,7 +2093,7 @@ Si hay tiempo, realizaremos "revisiones de código por pares" que simultáneamen
 <!--chapter:end:pages/cat_stats.Rmd-->
 
 
-# Stats course (English) {} 
+# Stats course (EN) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
@@ -2348,4 +2324,229 @@ The offline versions of the exercises are available in the folder "stats_course/
 
 
 <!--chapter:end:pages/stats_modules_en.Rmd-->
+
+# (PART) Intro to GIS {.unnumbered}
+
+<!--chapter:end:pages/cat_gis.Rmd-->
+
+
+# GIS course (EN) {} 
+
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(xfun::relative_path("images/index/applied_epi_banner.png"))
+```
+
+<!-- ======================================================= -->
+## Overview {.unnumbered}
+
+```{r, out.width = "50%", fig.align = "center", echo=F}
+knitr::include_graphics("images/support-help-moz.jpg")
+```
+[*Image: Neale Batra*]{style="float:right"}
+
+
+
+
+<!-- ======================================================= -->
+## Modules {.unnumbered}  
+
+Below is a list of each of the modules included in the course. Please work your way through them systemically - in accordance with the course timetable. Clicking on an exercise link will prompt a login, then launch a window with the interactive exercise. 
+
+
+::: {.tutorial}
+**Pre-course preparation**
+
+Follow these step-by-step instructions to install software, download the course files, setup an RStudio project, and to download and begin the course's interactive exercises.  
+
+**Click on each of the steps below to expand the instructions**  
+
+
+<!--
+NOTE: everything inside the details tag will be collapsed and effectively
+hidden from the user
+-->
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install software</summary>  
+  
+Please have the following software installed on your computer **prior to the start of the course**.  
+
+See this [installation guide](https://appliedepi.org/files/install_guide.pdf) for tips.  
+
+1) [R](https://cran.r-project.org/bin/windows/base/) (most recent version)
+2) [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (most recent version)
+3) [RTools](https://cran.r-project.org/bin/windows/Rtools/) (only needed for Windows machines)
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Download course files</summary>  
+  
+Download the zipped course folder at [**this link**](https://appliedepi.org/files/gis_course.zip).  
+
+**Unzip/extract the folder and save it on your computer's desktop (not on a shared drive).** 
+
+To "unzip" a folder once it is downloaded, right-click on the folder and select "Extract All". If offered a choice of location to save the unzipped folder, save it to your desktop.  
+
+On your desktop:  
+
+
+* `r emo::ji("folder")` Desktop
+  * `r emo::ji("folder")` stats_course
+     * `r emo::ji("folder")` data
+     * `r emo::ji("folder")` scripts
+     * `r emo::ji("folder")` outputs
+     * `r emo::ji("folder")` learning_materials
+
+
+</details>
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Install R packages</summary>  
+  
+Now, go into the "stats_course" folder, and click into the subfolders "scripts" and "backup". There you will see a file named "packages_to_install_stats.R". Double click, and if necessary select that you want to open the file using *RStudio*. The file should open in RStudio. 
+
+Read the instructions written at the top of the script. You should highlight ALL the text in the script and then press the "Run" button located near the top-center of RStudio. Alternatively, you can highlight all the text and then press the keys Ctrl and Enter.  
+
+This script will spend several minutes to install most of the R packages that you need for this course.  
+
+</details>
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Create a new RStudio project</summary>  
+  
+
+1) Open RStudio (ensure that you open *RStudio* and not just *R*).  
+
+2) In RStudio click *File -> New Project*. In the pop-up window, select **"Existing directory"**.  
+
+```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
+knitr::include_graphics("images/intro_course_images/create_project.png")
+```
+
+3) Click "browse" and select the "gis_course" folder on your desktop, containing the course materials, which you downloaded earlier. Then click "Create project".  
+
+Voila! This will be the project for all of your work in this course.  
+
+
+</details>
+
+
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Access the course exercises online</summary>  
+  
+Begin the course exercises using the links in the "Modules" section below. You will need an Applied Epi account (link provided by instructor in welcome email, or use [this link](community.appliedepi.org)).  
+
+* Turn off any VPN  
+* If you see "Error 403: Forbidden" notify your instructor to give you access to the exercises. After access is given, you will need to clear your cache, or re-open the exercise in a private/incognito window for today.  
+* If your internet connection is too weak, see the steps below to access the exercises offline.  
+
+
+</details>
+
+
+
+
+<details markdown=1><summary markdown="span" style='text-decoration: underline'>Offline access to course exercises</summary>  
+
+The offline versions of the exercises are available in the folder "stats_course/learning_materials/backup_exercises/"
+
+<!-- A further backup method is described below, but will require permissions from an instructor: -->
+
+<!-- **Copy and paste this command into your R Console as shown below, then press the "Enter" key to run the command:** -->
+
+<!-- >`remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)` -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/install_exercises.png") -->
+<!-- ``` -->
+
+<!-- Text will begin to appear in the Console, below the command. Do not worry, R is simply downloading the tutorials from the internet and printing updates. *Watch the print-out for any questions that R may ask you:* -->
+
+<!--   * If you encounter an error referencing HTTP or "proxy", then downloading from Github may be blocked by your institution. Proceed to the backup steps below. -->
+<!--   * If you see a printed warning about needing "RTools", do not worry. This is simply a warning message and the install should proceed without error. -->
+<!--   * If prompted to update some R packages, select "All" to update all of the packages. If you continue to be prompted for package updates, you can select "None" and continue without further updates. -->
+
+<!-- **Backup option:** -->
+
+<!-- **Go to the "Tools" menu of RStudio, and select "Install packages".** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_tools_menu.png") -->
+<!-- ``` -->
+
+<!-- **In the pop-up window, select "zip" from the first drop-down menu.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "50%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_drop_down.png") -->
+<!-- ``` -->
+
+<!-- **Another window should appear to select a file (if not, select "Browse"). Navigate to the folder "Desktop/intro_courses/learning_materials/backup_r_packages".** Note the 8 zipped folders here - each one is an R package. Select the first one "basket", press "Open", then click "Install". R will run a brief command to install this package. **Repeat this step to install each of the 8 zipped folders.** -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "75%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/zip_package_select.png") -->
+<!-- ``` -->
+
+<!-- If continuing to experience errors, you may need to restart R, and then run the following command:   -->
+
+<!-- >`install.packages(c("tibble", "cli", "magrittr", "tidyr", "cli", "rlang", "tibble", "dplyr", "cachem", "fastmap"))`   -->
+
+<!-- Your instructor can continue to troubleshoot with you.  -->
+
+<!-- Now, the course exercises will appear *within your RStudio* offline. Each course module has a corresponding exercise, which can be accessed through the "Tutorials" pane in RStudio (upper-left). The gif below introduces you to the exercise environment (you do not need to follow the steps shown right now).   -->
+
+<!-- ```{r, eval = TRUE, echo = FALSE, out.width = "100%"} -->
+<!-- knitr::include_graphics("images/intro_course_images/exercise_demo_short_words.gif") -->
+<!-- ``` -->
+
+<!-- 1) Click on the "Tutorial" tab in the upper-right RStudio pane (which also contains a tab holding your "Environment").   -->
+<!--   * Scroll down and review the listed exercises. If you do not see any "Applied Epi" exercises listed, close and re-open RStudio. They may take a minute to appear.   -->
+
+<!-- 2) Select the exercise, for example: "Applied Epi - R setup, syntax, data import"   -->
+<!--   * The exercise will load. Once you see the Applied Epi logo appear in the Tutorials pane, you can begin the exercise.   -->
+<!--   * To see the sidebar in the exercise, you may need to adjust the Tutorials pane to be wider. You can also adjust the zoom from the "View" menu.   -->
+<!--   * You can view the exercise in this pane, or click the small icon in the upper-left to pop-out into a separate window.   -->
+
+
+</details>
+
+
+:::
+
+
+
+::: {.tutorial}
+**Module 1**
+
+- [Slides](https://appliedepi.github.io/slides/gis/gis1/slides_gis1.html)  
+
+- [Exercise: Exploratory and hypothesis testing](http://exercises.appliedepi.org/app/gis1) 
+
+:::
+
+
+
+
+
+::: {.tutorial}
+**Module 2**
+
+- [Slides](https://appliedepi.github.io/slides/gis/gis2/slides_gis2.html)  
+
+
+- [Exercise](http://exercises.appliedepi.org/app/gis2)
+
+:::
+
+
+
+
+<!--chapter:end:pages/gis_modules_en.Rmd-->
 

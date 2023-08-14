@@ -1,5 +1,5 @@
 
-# Cours d'introduction (francais) {} 
+# Cours d'introduction (FR) {} 
 
 
 ```{r, out.width = "100%", fig.align = "center", echo=F}
