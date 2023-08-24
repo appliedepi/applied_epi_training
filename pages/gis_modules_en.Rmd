@@ -64,7 +64,7 @@ On your desktop:
 
 
 * `r emo::ji("folder")` Desktop
-  * `r emo::ji("folder")` stats_course
+  * `r emo::ji("folder")` gis_course
      * `r emo::ji("folder")` data
      * `r emo::ji("folder")` scripts
      * `r emo::ji("folder")` outputs
@@ -76,7 +76,7 @@ On your desktop:
 
 <details markdown=1><summary markdown="span" style='text-decoration: underline'>Install R packages</summary>  
   
-Now, go into the "stats_course" folder, and click into the subfolders "scripts" and "backup". There you will see a file named "packages_to_install_stats.R". Double click, and if necessary select that you want to open the file using *RStudio*. The file should open in RStudio. 
+Now, go into the "gis_course" folder, and click into the subfolders "scripts" and "backup". There you will see a file named "packages_to_install_gis.R". Double click, and if necessary select that you want to open the file using *RStudio*. The file should open in RStudio. 
 
 Read the instructions written at the top of the script. You should highlight ALL the text in the script and then press the "Run" button located near the top-center of RStudio. Alternatively, you can highlight all the text and then press the keys Ctrl and Enter.  
 
@@ -125,7 +125,7 @@ Begin the course exercises using the links in the "Modules" section below. You w
 
 <details markdown=1><summary markdown="span" style='text-decoration: underline'>Offline access to course exercises</summary>  
 
-The offline versions of the exercises are available in the folder "stats_course/learning_materials/backup_exercises/"
+The offline versions of the exercises may be available upon request.
 
 <!-- A further backup method is described below, but will require permissions from an instructor: -->
 
@@ -192,11 +192,13 @@ The offline versions of the exercises are available in the folder "stats_course/
 
 
 ::: {.tutorial}
-**Module 1**
+**Module 1 - Basemaps, shapefiles and geometries**
+
+Click the links below to access the materials  
 
 - [Slides](https://appliedepi.github.io/slides/gis/gis1/slides_gis1.html)  
 
-- [Exercise: Exploratory and hypothesis testing](http://exercises.appliedepi.org/app/gis1) 
+- [Exercise 1](http://exercises.appliedepi.org/app/gis1) 
 
 :::
 
@@ -205,13 +207,25 @@ The offline versions of the exercises are available in the folder "stats_course/
 
 
 ::: {.tutorial}
-**Module 2**
+**Module 2 - Intro to spatial analysis and interactive maps**
 
-- [Slides](https://appliedepi.github.io/slides/gis/gis2/slides_gis2.html)  
+Click the links below to access the materials  
+
+- [Slides 2](https://appliedepi.github.io/slides/gis/gis2/slides_gis2.html)  
 
 
-- [Exercise](http://exercises.appliedepi.org/app/gis2)
+- [Exercise 2](http://exercises.appliedepi.org/app/gis2)
 
+
+**Final COVID-19 Case Study**  
+
+- [Slides 3](https://appliedepi.github.io/slides/gis/gis3/slides_gis3.html) 
+
+- [Exercise 3](http://exercises.appliedepi.org/app/gis3)
+
+**Closing - Where to go from here**  
+
+- [Slides 4](https://appliedepi.github.io/slides/gis/gis4/slides_gis4.html)
 :::
 
 
