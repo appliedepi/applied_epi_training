@@ -1021,7 +1021,7 @@ knitr::include_graphics("images/support-help-moz.jpg")
 <details markdown=1><summary markdown="span" style='text-decoration: underline'>Завантажити файли курсу</summary>  
   
 
-Скачайте заархівовану папку курсу [**цим посиланням**](https://appliedepi.org/files/intro_course.zip).  
+Скачайте заархівовану папку курсу [**цим посиланням**](https://appliedepi.org/files/intro_course_ua.zip).  
 
 **Розархівуйте/розпакуйте папку та збережіть її на робочому столі комп'ютера (не на спільному диску)**. 
 
