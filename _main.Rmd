@@ -1710,7 +1710,7 @@ oculto para el usuario
 
 <details markdown=1><summary markdown="span" style='text-decoration: underline'>Instalar el software</summary>  
 
-Por favor, tenga el siguiente software instalado en su ordenador **antes del comienzo del curso**.  
+Por favor, tenga los siguientes programas instalados en su computadora **antes del comienzo del curso**.  
 
 Consulte esta [guía de instalación](https://appliedepi.org/files/install_guide.pdf) para obtener ayuda.  
 
@@ -1726,9 +1726,9 @@ Consulte esta [guía de instalación](https://appliedepi.org/files/install_guide
 
 <details markdown=1><summary markdown="span" style='text-decoration: underline'>Descargar los archivos del curso</summary>  
   
-Descargue la carpeta del curso comprimida en [**este enlace**](https://appliedepi.org/files/intro_course_es.zip).  
+Descargue los archivos para el curso en [**este enlace**](https://appliedepi.org/files/intro_course_es.zip).  
 
-**Descomprima/extraiga la carpeta y guárdela en el escritorio de su ordenador (no en una unidad compartida). 
+**Descomprima/extraiga la carpeta y guárdela en el escritorio de su computadora (no en una unidad compartida). 
 
 Para "descomprimir" una carpeta una vez descargada, haga clic con el botón derecho en la carpeta y seleccione "Extraer todo". Si se le ofrece la opción de guardar la carpeta descomprimida, guárdela en su escritorio.  
 
@@ -1768,7 +1768,7 @@ En tu escritorio:
   
 Ahora, vaya a la carpeta "intro_course", y haz clic en las subcarpetas "scripts" y "backup". Allí verás un archivo llamado "packages_to_install.R". Haz doble clic, y si es necesario selecciona que quieres abrir el archivo usando *RStudio*. El archivo debería abrirse en RStudio. 
 
-Lea las instrucciones escritas en la parte superior del script. Debe resaltar TODO el texto del script y luego pulsar el botón "Ejecutar" situado cerca de la parte superior central de RStudio. Alternativamente, puede resaltar todo el texto y luego presionar las teclas Ctrl y Enter.  
+Lea las instrucciones escritas en la parte superior del script. Debe resaltar TODO el texto del script (Ctrl+A) y luego pulsar el botón "Ejecutar" situado cerca de la parte superior central de RStudio. Alternativamente, puede resaltar todo el texto y luego presionar las teclas Ctrl + Enter.  
 
 Este script tardará varios minutos en instalar la mayoría de los paquetes de R que necesita para este curso.  
 
@@ -1900,9 +1900,9 @@ A continuación, veremos en una demostración de codificación para presentarle 
 
 
 ::: {.tutorial}
-**Módulo 2: Administración de archivos, importación de datos e inspección de un conjunto de datos**
+**Módulo 2: Administración de archivos, importación de datos e inspección de un conjunto de datos (dataframe)**
 
-Cubriremos estrategias de administración de archivos, cómo trabajar dentro de un proyecto RStudio e introducimos nuestras funciones de paquetes recomendados utilizados para importar y revisar datos. Usando estas funciones, importamos el listado de vigilancia del Ébola del estudio de caso y comenzamos a revisar.  
+Cubriremos estrategias de administración de archivos, cómo trabajar dentro de un proyecto RStudio e introducimos las funciones de los paquetes recomendados para importar y revisar datos. Usando estas funciones, importamos el listado de vigilancia del Ébola del estudio de caso y comenzamos a revisar los datos.  
 
 - [Diapositivas: proyectos RStudio, importación de datos, rutas de archivos](https://appliedepi.github.io/slides/intro/es/module_2/module_2.html)  
 - [Ejercicio: Gestión de ficheros e importación de datos](http://exercises.appliedepi.org/app/files_import_es)  
@@ -1917,11 +1917,11 @@ Cubriremos estrategias de administración de archivos, cómo trabajar dentro de 
 ::: {.tutorial}
 **Módulo 3: Limpieza de datos - parte 1**
 
-Ahora que hemos importado nuestra lista de líneas de vigilancia, revisaremos qué pasos de "limpieza de datos" podrían ser necesarios y cómo ejecutarlos en R. En el camino, presentamos los principios básicos de "datos ordenados" (tidy data).  
+Ahora que hemos importado nuestra base de datos de vigilancia, revisaremos qué pasos de "limpieza de datos" podrían ser necesarios y cómo ejecutarlos en R. En el camino, presentamos los principios básicos de "datos ordenados" (tidy data).  
 
-A través de la limpieza de datos, le enseñaremos las funciones principales de R para manejar datos, incluso para estandarizar y  editar nombres de columnas, deduplicar y filtrar filas, seleccionar y modificar columnas, recodificar valores y más.  
+A través de la limpieza de datos, le enseñaremos las funciones principales de R para manejar datos, incluso para estandarizar y  editar nombres de columnas, de-duplicar y filtrar filas, seleccionar y modificar columnas, recodificar valores y más.  
 
-Juntos, escribiremos una secuencia de "pipe" para limpiar listado de casos paso  a paso de una manera clara y reproducible... ¡Para que nuestro conjunto de datos esté listo para el análisis preliminar!  
+Juntos, escribiremos una secuencia de "pipe" (en cadena) para hacer limpieza de la base de datos de los casos paso a paso de una manera clara y reproducible... ¡Para que nuestro dataframe esté listo para el análisis preliminar!  
 
 - [Diapositivas: Datos ordenados y limpieza de datos](https://appliedepi.github.io/slides/intro/es/module_3/module_3.html)  
   
@@ -1935,7 +1935,7 @@ Juntos, escribiremos una secuencia de "pipe" para limpiar listado de casos paso 
 ::: {.tutorial}
 **Módulo 4: Limpieza de datos - parte 2**
 
-Continuaremos escribiendo nuestro código de limpieza de datos, cubriendo una recodificación más avanzada, el filtrado de filas, la exportación de datos y algunos ejercicios de práctica adicionales.  
+Continuaremos escribiendo nuestro código de limpieza de datos, cubriendo una re-codificación más avanzada, el filtrado de filas, la exportación de datos y algunos ejercicios de práctica adicionales.  
 
 - [Diapositivas: Limpieza de datos parte 2](https://appliedepi.github.io/slides/intro/es/module_4/module_4.html)  
 
@@ -1947,9 +1947,9 @@ Continuaremos escribiendo nuestro código de limpieza de datos, cubriendo una re
 ::: {.tutorial}
 **Módulo 5: Agrupación de datos y tablas resumen**
 
-Las tablas resumenes son la base de la práctica epidemiológica y de salud pública. En este módulo presentamos tres herramientas para producir tablas de estadísticas de resumen: {dplyr} para flexibilidad, {conserje} para velocidad y {gtsummary} para belleza.  
+Las tablas resúmenes son la base de la práctica epidemiológica y de salud pública. En este módulo presentamos tres herramientas para producir tablas de estadísticas de resumen: {dplyr} para flexibilidad, {janitor} para velocidad y {gtsummary} para estetica de presentación.  
 
-Finalmente, exploraremos {flextable}, que se puede usar para personalizar tablas producidas por cualquiera de los enfoques anteriores: agregar colores y resaltados, y exportar las tablas en formatod de  Word, PNG, HTML, etc.  
+Finalmente, exploraremos {flextable}, que se puede usar para personalizar tablas producidas por cualquiera de los enfoques anteriores: agregar colores y resaltados, y exportar las tablas en formato de  Word, PNG, HTML, etc.  
 
 - [Diapositivas: Agrupar y resumir datos](https://appliedepi.github.io/slides/intro/es/module_5/module_5.html)   
   
@@ -1999,9 +1999,9 @@ También le enseñamos a escribir etiquetas de texto que se actualizan automáti
 
 
 ::: {.tutorial}
-**Módulo 7: Transformación de datos: uniones, pivotes y factores**
+**Módulo 7: Transformación de datos: uniones, transformación de estructura de datos y factores**
 
-El análisis de salud pública rara vez involucra un solo conjunto de datos, por lo que ahora practicamos la unión de datos agregando datos de hospitales, laboratorios e investigaciones de casos a nuestra listado de casos de vigilancia. Incorporamos las mejores prácticas  para realizar uniones y lo preparamos para realizar transformaciones de datos de forma independiente.  
+El análisis de salud pública rara vez involucra un solo set de datos, por lo que ahora practicamos la unión de datos agregando datos de hospitales, laboratorios e investigaciones de casos a nuestra listado de casos de vigilancia. Incorporamos las mejores prácticas  para realizar uniones y lo preparamos para realizar transformaciones de datos de forma independiente.  
 
 En la segunda parte de este módulo, abordamos *pivoting*, que en R significa transformar datos entre formatos "largos" y "anchos". Esto es particularmente relevante en salud pública, donde cada formato tiene beneficios distintos.  
 
@@ -2032,7 +2032,7 @@ En el camino, introducimos los usos de la clase "factor" (la versión de R de lo
 
 En este segundo módulo de visualización de datos, lo alentamos a practicar el aprendizaje de R de forma independiente leyendo la documentación de la función (¡una habilidad necesaria una vez que salga de la clase!). Todavía lo apoyaremos y daremos demostraciones de codificación en vivo para todos los temas, como de costumbre.  
 
-Cubriremos las diversas formas de definir "episemanas" usando R, y nuestro enfoque recomendado incluye una hoja de consejos.  
+Cubriremos las diversas formas de definir "semanas epidemiológicas" usando R, y nuestro enfoque recomendado incluye una hoja de consejos.  
 
 Luego abordamos visualizaciones que son fundamentales para la epidemiología descriptiva: las complejidades de elaborar una curva epidémica precisa, transmitir patrones a través de tres variables utilizando un diagrama de calor y crear pirámides de edad / sexo para describir la demografía. Si hay tiempo, terminaremos con una demostración de las capacidades GIS/geoespaciales de R.  
 
@@ -2074,9 +2074,9 @@ Le enseñaremos las variaciones en la sintaxis para producir documentos que se a
 
 ::: {.tutorial}
 **Módulo 10: Ejercicio final y revisión del código por pares**
-En este último módulo, pone a prueba sus habilidades escribiendo un informe de R Markdown utilizando un nuevo conjunto de datos: una lista de casos de COVID-19.  
+En este último módulo, pone a prueba sus habilidades escribiendo un informe de R Markdown utilizando nueva base de datos: un listado de casos de COVID-19.  
 
-A diferencia del estudio de caso del Ébola, no tendrá un código de solución disponible para usted. En su lugar, se le dará un documento de Word para reproducir escribiendo un script R Markdown. Esto requerirá la limpieza de datos, la creación de gráficos epidemiológicos comunes, la unión de conjuntos de datos y la creación de tablas descriptivas.  
+A diferencia del estudio de caso del Ébola, no tendrá un código de solución disponible. En su lugar, se le dará un documento de Word para reproducir escribiendo un script R Markdown. Esto requerirá la limpieza de datos, la creación de gráficos epidemiológicos, la unión de conjuntos de datos y la creación de tablas descriptivas.  
 
 Si hay tiempo, realizaremos "revisiones de código por pares" que simultáneamente mejoran sus habilidades de codificación y le enseñan cómo revisar el código de otros. Antes de terminar, abordamos cómo encontrar su comunidad particular de  usuarios de R y los recursos disponibles para que pueda seguir aprendiendo.  
 
