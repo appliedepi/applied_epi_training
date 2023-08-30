@@ -220,6 +220,7 @@ Next, we dive into a coding demonstration to introduce you to R and RStudio. We 
 
 - [Exercise: R setup, basic syntax, functions, and packages](http://exercises.appliedepi.org/app/basics) 
 
+- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod1)
 :::
 
 
@@ -232,8 +233,10 @@ Next, we dive into a coding demonstration to introduce you to R and RStudio. We 
 We cover file management strategies, how to work within an RStudio project, and introduce our recommended packages functions used to import and review data. Using these functions, we import the case study's Ebola surveillance linelist, and begin to inspect it.  
 
 - [Slides: RStudio projects, importing data, filepaths](https://appliedepi.github.io/slides/intro/en/module_2/module_2.html)  
+
 - [Exercise: File management and data import](http://exercises.appliedepi.org/app/files_import)  
 
+- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod2)
 :::
 
 
@@ -254,6 +257,8 @@ Together, we write a sequence of "pipes" to clean the linelist step-by-step in a
   
 - [Exercise: Cleaning data - part 1](http://exercises.appliedepi.org/app/cleaning)  
 
+- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod3)
+
 :::
 
 
@@ -268,6 +273,7 @@ We continue writing our data cleaning code, covering more advanced re-coding, fi
 
 - [Exercise: Cleaning data part 2](http://exercises.appliedepi.org/app/cleaning2)  
 
+- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod4)
 :::
 
 
@@ -292,6 +298,8 @@ Finally, we explore {flextable}, which can be used to customize tables produced 
   
 
 - [Exercise: Grouping data and summary tables](http://exercises.appliedepi.org/app/grouping_summaries)  
+
+- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod5)
 
 :::
 
@@ -318,7 +326,9 @@ We also teach you to write text labels that automatically update with refreshed 
 
 - [Slides: Scales, themes, and labels](https://appliedepi.github.io/slides/intro/en/module_6-2/module_6-2.html)  
 
-- [Exercise: Scales, themes, and lables](https://exercises.appliedepi.org/app/ggplot_scales_themes) 
+- [Exercise: Scales, themes, and lables](https://exercises.appliedepi.org/app/ggplot_scales_themes)  
+
+- [Video: Lectures, Demos, Debrief](https://files.appliedepi.org/media/mod6)
 
 
 :::
@@ -345,11 +355,14 @@ In the second part of this module, we address *pivoting*, which in R means trans
 Along the way, we introduce the uses of the "factor" class (R's version of ordered levels in a variable) by constructing a timeline visualization of some patients' pathways through the surveillance/medical system.  
 
 - [Slides: Joining data](https://appliedepi.github.io/slides/intro/en/module_7-1/module_7-1.html)  
+
 - [Exercise: Joining data](http://exercises.appliedepi.org/app/joining)
 
 - [Slides: Pivoting data](https://appliedepi.github.io/slides/intro/en/module_7-2/module_7-2.html)  
 
 - [Exercise: Pivoting data](http://exercises.appliedepi.org/app/pivoting)  
+
+- [Video: Lectures, Demos, Debrief](https://files.appliedepi.org/media/mod7)
 
 :::
 
@@ -379,6 +392,8 @@ We then tackle visualizations that are central to descriptive epidemiology: the 
 
 - Your instructor will provide our "cheatsheet" on epidemic weeks and making epicurves  
 
+- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod8)
+
 :::
 
 
@@ -402,6 +417,8 @@ We teach you the variations in syntax to produce documents that update when inco
   
 - [Exercise: R Markdown](http://exercises.appliedepi.org/app/rmarkdown)  
 
+- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod9)
+
 :::
 
 
@@ -418,6 +435,8 @@ Unlike with the Ebola case study, you will not have solution code available to y
 If there is time, we perform "peer code reviews" which simultaneously improving your coding skills and teach you how to review others' code. Before closing, we touch upon how to find your particular community of R users and resources available to you for further learning.  
 
 - *Exercise materials*: See the folder "intro_course/learning_materials/covid_case_study" for the Word document report to replicate, the datasets, and a tips sheet.  
+
+- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod10)
 
 :::
 

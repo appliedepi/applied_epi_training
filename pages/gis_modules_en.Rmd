@@ -192,7 +192,7 @@ The offline versions of the exercises may be available upon request.
 
 
 ::: {.tutorial}
-**Module 1 - Basemaps, shapefiles and geometries**
+**Module 1 - Shapefiles, basemaps, join, and visualizing spatial data**
 
 Click the links below to access the materials  
 
