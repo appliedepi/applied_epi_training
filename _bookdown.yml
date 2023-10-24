@@ -31,7 +31,12 @@ rmd_files: [
 
   # GIS course
   "pages/cat_gis.Rmd",
-  "pages/gis_modules_en.Rmd"
+  "pages/gis_modules_en.Rmd",
+
+
+  # Rmd course
+  "pages/cat_rmd.Rmd",
+  "pages/rmd_modules_en.Rmd"
 
   # Case studies
   #"pages/cat_case-studies.Rmd",                       # start of new section (sepparator)

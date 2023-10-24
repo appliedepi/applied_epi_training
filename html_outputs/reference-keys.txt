@@ -6,3 +6,4 @@ cours-dintroduction-fr
 curso-de-introducción-es
 stats-course-en
 gis-course-en
+advanced-r-markdown-course-en
