@@ -208,6 +208,11 @@ knitr::include_graphics("images/support-help-moz.jpg")
 
 
 
+## Course tutoring
+
+As an enrolled participant, you can book 20-minute calls with an instructor (1-on-1) using **[this booking link](https://calendly.com/applied-epi/course-support-en)**. These calls are for questions about the course materials (not other personal/work projects). You may book these during your course period, and one week following.  
+
+
 
 <!-- ======================================================= -->
 ## Modules {.unnumbered}  
@@ -653,6 +658,9 @@ knitr::include_graphics("images/support-help-moz.jpg")
 [*Image: Neale Batra*]{style="float:right"}
 
 
+## Tutorat de cours
+
+En tant que participant inscrit, vous pouvez réserver des appels de 20 minutes avec un instructeur (1 contre 1) en utilisant **[ce lien de réservation](https://calendly.com/applied-epi/course-support-fr)**. Ces appels sont destinés à répondre à des questions sur le matériel de cours (et non sur d'autres projets personnels/professionnels). Vous pouvez réserver ces appels pendant votre période de cours et une semaine après.  
 
 
 <!-- ======================================================= -->
@@ -1705,7 +1713,9 @@ knitr::include_graphics("images/support-help-moz.jpg")
 [*Image: Neale Batra*]{style="float:right"}
 
 
+## Tutoría del curso
 
+Como participante inscrito, puede reservar llamadas de 20 minutos con un instructor (1 a 1) utilizando **[este enlace de reserva](https://calendly.com/applied-epi/course-support-es)**. Estas llamadas son para preguntas sobre los materiales del curso (no sobre otros proyectos personales o de trabajo). Puede reservarlas durante el periodo del curso y una semana después.  
 
 <!-- ======================================================= -->
 ## Modulos {.unnumbered}  

@@ -16,6 +16,11 @@ knitr::include_graphics("images/support-help-moz.jpg")
 
 
 
+## Course tutoring
+
+As an enrolled participant, you can book 20-minute calls with an instructor (1-on-1) using **[this booking link](https://calendly.com/applied-epi/course-support-en)**. These calls are for questions about the course materials (not other personal/work projects). You may book these during your course period, and one week following.  
+
+
 
 <!-- ======================================================= -->
 ## Modules {.unnumbered}  

@@ -15,7 +15,9 @@ knitr::include_graphics("images/support-help-moz.jpg")
 [*Image: Neale Batra*]{style="float:right"}
 
 
+## Tutoría del curso
 
+Como participante inscrito, puede reservar llamadas de 20 minutos con un instructor (1 a 1) utilizando **[este enlace de reserva](https://calendly.com/applied-epi/course-support-es)**. Estas llamadas son para preguntas sobre los materiales del curso (no sobre otros proyectos personales o de trabajo). Puede reservarlas durante el periodo del curso y una semana después.  
 
 <!-- ======================================================= -->
 ## Modulos {.unnumbered}  
