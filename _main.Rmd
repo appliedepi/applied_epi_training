@@ -660,7 +660,7 @@ knitr::include_graphics("images/support-help-moz.jpg")
 
 ## Tutorat de cours
 
-En tant que participant inscrit, vous pouvez réserver des appels de 20 minutes avec un instructeur (1 contre 1) en utilisant **[ce lien de réservation](https://calendly.com/applied-epi/course-support-fr)**. Ces appels sont destinés à répondre à des questions sur le matériel de cours (et non sur d'autres projets personnels/professionnels). Vous pouvez réserver ces appels pendant votre période de cours et une semaine après.  
+En tant que participant inscrit, vous pouvez réserver des appels de 20 minutes avec un instructeur (1 contre 1) en utilisant **[ce lien de réservation](https://calendly.com/applied-epi/soutien-pour-course)**. Ces appels sont destinés à répondre à des questions sur le matériel de cours (et non sur d'autres projets personnels/professionnels). Vous pouvez réserver ces appels pendant votre période de cours et une semaine après.  
 
 
 <!-- ======================================================= -->
