@@ -443,6 +443,8 @@ If there is time, we perform "peer code reviews" which simultaneously improving 
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod10)
 
+Consider posting your R code questions in our [Community Forum](http://community.appliedepi.org). Get free answers from experts and other epidemiologists! Here is a video on **how to [post an effective R code question](https://www.youtube.com/watch?v=XIc-VHFeUl8)**.  
+
 :::
 
 
