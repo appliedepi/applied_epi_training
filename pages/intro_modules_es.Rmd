@@ -308,7 +308,7 @@ También le enseñamos a escribir etiquetas de texto que se actualizan automáti
 
 - [Diapositivas: Visualización de datos con ggplot2](https://appliedepi.github.io/slides/intro/es/module_6-1/module_6-1.html)  
 
-- [Ejercicio: conceptos básicos de ggplot ](http://exercises.appliedepi.org/app/ggplot_basics) 
+- [Ejercicio: conceptos básicos de ggplot ](http://exercises.appliedepi.org/app/ggplot_basics_es) 
 
 - [Diapositivas: Escalas, temas y etiquetas](https://appliedepi.github.io/slides/intro/es/module_6-2/module_6-2.html)  
 
