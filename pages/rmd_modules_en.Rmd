@@ -172,11 +172,11 @@ The offline versions of the exercises are available in the folder "stats_course/
 
 
 ::: {.tutorial}
-**Module 1**
+**Module 1: R Markdown review and advanced tips**
 
-- [Slides 1](https://appliedepi.github.io/slides/rmd/course_rmd/slides1.html)  
+- [Slides 1: R Markdown review and advanced tips](https://appliedepi.github.io/slides/rmd/rmd1/rmd1.html)  
 
-- [Exercise 1](http://exercises.appliedepi.org/app/rmd1) 
+- [Exercise 1: R Markdown review and advanced tips](http://exercises.appliedepi.org/app/rmd1) 
 
 
 :::
@@ -186,12 +186,12 @@ The offline versions of the exercises are available in the folder "stats_course/
 
 
 ::: {.tutorial}
-**Module 2**
+**Module 2: Looping reports and flexdashboards**
 
-- [Slides 2](https://appliedepi.github.io/slides/rmd/course_rmd/slides2.html)  
+- [Slides 2: Looping reports and flexdashboards](https://appliedepi.github.io/slides/rmd/rmd2/rmd2.html)  
 
 
-- [Exercise 2](http://exercises.appliedepi.org/app/rmd2)
+- [Exercise 2: Looping reports and flexdashboards](http://exercises.appliedepi.org/app/rmd2)
 
 :::
 
@@ -200,9 +200,14 @@ The offline versions of the exercises are available in the folder "stats_course/
 ::: {.tutorial}
 **Module 3**  
 
-- [Slides 3](https://appliedepi.github.io/slides/rmd/course_rmd/slides3.html)  
+- [Slides 3: Making slide decks](https://appliedepi.github.io/slides/rmd/rmd3/rmd3.html)  
 
-- [Exercise 3](http://exercises.appliedepi.org/app/rmd3)
+- [Exercise 3: Making slide decks](http://exercises.appliedepi.org/app/rmd3)
+
+- **Demo:** Hosting HTML slides on Github Pages  
+
+- [Slides 4: Briefing on hosting infrastructure](https://appliedepi.github.io/slides/rmd/rmd4/rmd4.html)  
+
 
 :::
 
