@@ -262,11 +262,11 @@ On your desktop:
 
 * `r emo::ji("folder")` Desktop
   * `r emo::ji("folder")` intro_course
-     * `r emo::ji("folder")` data
-     * `r emo::ji("folder")` scripts
-     * `r emo::ji("folder")` outputs
+     * `r emo::ji("folder")` module1
+     * `r emo::ji("folder")` ebola
+     * `r emo::ji("folder")` covid
      * `r emo::ji("folder")` learning_materials
-     * `r emo::ji("document")` surveillance_linelist_20141201.csv
+     * `r emo::ji("document")` packages_to_install.R
 
 <!-- `r emo::ji("warning")` You may also have some other files. Just leave them.   -->
 
@@ -291,31 +291,11 @@ On your desktop:
 
 <details markdown=1><summary markdown="span" style='text-decoration: underline'>Install R packages</summary>  
   
-Now, go into the "intro_course" folder, and click into the subfolders "scripts" and "backup". There you will see a file named "packages_to_install.R". Double click, and if necessary select that you want to open the file using *RStudio*. The file should open in RStudio. 
+Now, go into the "intro_course" folder, and click the file named "packages_to_install.R". Double click, and if necessary select that you want to open the file using *RStudio*. The file should open in RStudio. 
 
 Read the instructions written at the top of the script. You should highlight ALL the text in the script and then press the "Run" button located near the top-center of RStudio. Alternatively, you can highlight all the text and then press the keys Ctrl and Enter.  
 
 This script will spend several minutes to install most of the R packages that you need for this course.  
-
-</details>
-
-
-
-<details markdown=1><summary markdown="span" style='text-decoration: underline'>Create a new RStudio project</summary>  
-  
-
-1) Open RStudio (ensure that you open *RStudio* and not just *R*).  
-
-2) In RStudio click *File -> New Project*. In the pop-up window, select **"Existing directory"**.  
-
-```{r, eval = TRUE, echo = FALSE, out.width = "50%"}
-knitr::include_graphics("images/intro_course_images/create_project.png")
-```
-
-3) Click "browse" and select the "intro_course" folder on your desktop, containing the course materials, which you downloaded earlier. Then click "Create project".  
-
-Voila! This will be the project for all of your work in this course.  
-
 
 </details>
 
@@ -411,13 +391,16 @@ If you require offline access, please contact your instructor.
 
 We welcome you to the course, review course logistics, detail the support resources available to you.  
 
-Next, we dive into a coding demonstration to introduce you to R and RStudio. We cover the basics of how to interact with R and RStudio, R syntax and running commands, and we cover R functions and packages.  
+Next, we dive into a coding demonstration to introduce you to R and RStudio. We cover the basics of how to interact with R and RStudio, R syntax and running commands, and we cover R functions and packages. Finally, we import a basic dataset into R and do some exploratory analysis.  
 
-- [Slides: Welcome, course logistics, RStudio, and basic R syntax](https://appliedepi.github.io/slides/intro/en/module_1/module_1.html)  
+- [Slides: Course logistics, RStudio, basic R syntax](https://appliedepi.github.io/slides/intro/full_text/intro1/intro1.html)  
 
-- [Exercise: R setup, basic syntax, functions, and packages](http://exercises.appliedepi.org/app/basics) 
+- [Exercise: R setup, basic syntax, functions, and packages](http://exercises.appliedepi.org/app/intro1) 
 
-- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod1)
+- [Video: Module 1 Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod1)  
+
+- [Video: Data import and tidy data](https://files.appliedepi.org/media/mod2)  
+
 :::
 
 
@@ -425,34 +408,17 @@ Next, we dive into a coding demonstration to introduce you to R and RStudio. We 
 
 
 ::: {.tutorial}
-**Module 2: File management, Data import, and inspecting a dataset**
+**Module 2: Data cleaning - part 1**
 
-We cover file management strategies, how to work within an RStudio project, and introduce our recommended packages functions used to import and review data. Using these functions, we import the case study's Ebola surveillance linelist, and begin to inspect it.  
-
-- [Slides: RStudio projects, importing data, filepaths](https://appliedepi.github.io/slides/intro/en/module_2/module_2.html)  
-
-- [Exercise: File management and data import](http://exercises.appliedepi.org/app/files_import)  
-
-- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod2)
-:::
-
-
-
-
-
-
-::: {.tutorial}
-**Module 3: Data cleaning - part 1**
-
-Now that we have imported our surveillance linelist, we review which "data cleaning" steps might be necessary and how to execute these in R. Along the way, we introduce the core principles of "tidy data".  
+We begin working on the Ebola case linelist, which we will use for the next 7 modules. We review which "data cleaning" steps might be necessary and how to execute these in R. Along the way, we introduce the core principles of "tidy data".  
 
 Through data cleaning, we teach you the core R functions for handling data, including for standardizing and editing column names, de-duplicating and filtering rows, selecting and modifying columns, re-coding values, and more.  
 
 Together, we write a sequence of "pipes" to clean the linelist step-by-step in a clear, reproducible manner... so that our dataset is ready for preliminary analysis!  
 
-- [Slides: Tidy data and data cleaning](https://appliedepi.github.io/slides/intro/en/module_3/module_3.html)  
+- [Slides: Tidy data and data cleaning](https://appliedepi.github.io/slides/intro/full_text/intro2/intro2.html)  
   
-- [Exercise: Cleaning data - part 1](http://exercises.appliedepi.org/app/cleaning)  
+- [Exercise: Cleaning data - part 1](http://exercises.appliedepi.org/app/intro2)  
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod3)
 
@@ -462,13 +428,13 @@ Together, we write a sequence of "pipes" to clean the linelist step-by-step in a
 
 
 ::: {.tutorial}
-**Module 4: Data cleaning - part 2**
+**Module 3: Data cleaning - part 2**
 
 We continue writing our data cleaning code, covering more advanced re-coding, filtering rows, exporting data, and some additional practice exercises.  
 
-- [Slides: Data cleaning part 2](https://appliedepi.github.io/slides/intro/en/module_4/module_4.html)  
+- [Slides: Data cleaning part 2](https://appliedepi.github.io/slides/intro/full_text/intro3/intro3.html)  
 
-- [Exercise: Cleaning data part 2](http://exercises.appliedepi.org/app/cleaning2)  
+- [Exercise: Cleaning data part 2](http://exercises.appliedepi.org/app/intro3)  
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod4)
 :::
@@ -485,18 +451,18 @@ We continue writing our data cleaning code, covering more advanced re-coding, fi
 
 
 ::: {.tutorial}
-**Module 5: Grouping data and summary tables**
+**Module 4: Grouping data and summary tables**
 
 Informative tables are the bedrock of epidemiological and public health practice. In this module we introduce three tools to produce tables of summary statistics: {dplyr} for flexibility, {janitor} for speed, and {gtsummary} for beauty.  
 
 Finally, we explore {flextable}, which can be used to customize tables produced by any of the above approaches: adding colors and highlights, and saving tables to Word, PNG, HTML, etc.  
 
-- [Slides: Grouping and summarizing data](https://appliedepi.github.io/slides/intro/en/module_5/module_5.html)   
+- [Slides: Grouping and summarizing data](https://appliedepi.github.io/slides/intro/full_text/intro4/intro4.html)   
   
-
-- [Exercise: Grouping data and summary tables](http://exercises.appliedepi.org/app/grouping_summaries)  
+- [Exercise: Grouping data and summary tables](http://exercises.appliedepi.org/app/intro4)  
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod5)
+
 
 :::
 
@@ -511,19 +477,21 @@ Finally, we explore {flextable}, which can be used to customize tables produced 
 
 
 ::: {.tutorial}
-**Module 6: Data visualization with {ggplot2}**
+**Module 5: Data visualization with {ggplot2}**
 
 Using the {ggplot2} package to maximum effect depends upon understanding how to apply its "grammar of graphics" to build a plot layer-by-layer. We tackle this by introducing the syntax logically and using public health examples - so that you build upon previous knowledge to construct informative and colorful bar plots, scatter plots, histograms, box/violin plots, and line plots.  
 
 We also teach you to write text labels that automatically update with refreshed data (very useful for epidemiological reports!), use colors that are colorblind-friendly, and more.  
 
-- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/slides/intro/en/module_6-1/module_6-1.html)  
+- [Slides: Data visualization with ggplot2](https://appliedepi.github.io/slides/intro/full_text/intro5_1/intro5_1.html)  
 
-- [Exercise: ggplot basics](http://exercises.appliedepi.org/app/ggplot_basics) 
+- [Exercise: ggplot basics](http://exercises.appliedepi.org/app/intro5_1) 
 
-- [Slides: Scales, themes, and labels](https://appliedepi.github.io/slides/intro/en/module_6-2/module_6-2.html)  
+*Part 2:*  
 
-- [Exercise: Scales, themes, and lables](https://exercises.appliedepi.org/app/ggplot_scales_themes)  
+- [Slides: Scales, themes, and labels](https://appliedepi.github.io/slides/intro/full_text/intro5_2/intro5_2.html)  
+
+- [Exercise: Scales, themes, and lables](https://exercises.appliedepi.org/app/intro5_2)  
 
 - [Video: Lectures, Demos, Debrief](https://files.appliedepi.org/media/mod6)
 
@@ -534,6 +502,23 @@ We also teach you to write text labels that automatically update with refreshed 
 
 
 
+
+
+
+::: {.tutorial}
+**Module 6: Reports with R Markdown**
+
+In this module, we take your R code and convert it into a reproducible, automated report (e.g. Word, PDF, HTML, etc.).  
+
+We teach you the tips and tricks to produce documents beautiful documents that update when incoming data are refreshed to inform public health partners and stakeholders.  
+
+- [Slides: R Markdown and routine reports](https://appliedepi.github.io/slides/intro/full_text/intro6/intro6.html)  
+  
+- [Exercise: R Markdown](http://exercises.appliedepi.org/app/intro6)  
+
+- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod9)
+
+:::
 
 
 
@@ -551,13 +536,15 @@ In the second part of this module, we address *pivoting*, which in R means trans
 
 Along the way, we introduce the uses of the "factor" class (R's version of ordered levels in a variable) by constructing a timeline visualization of some patients' pathways through the surveillance/medical system.  
 
-- [Slides: Joining data](https://appliedepi.github.io/slides/intro/en/module_7-1/module_7-1.html)  
+- [Slides: Joining data](https://appliedepi.github.io/slides/intro/full_text/intro7_1/intro7_1.html)  
 
-- [Exercise: Joining data](http://exercises.appliedepi.org/app/joining)
+- [Exercise: Joining data](http://exercises.appliedepi.org/app/intro7_1)
 
-- [Slides: Pivoting data](https://appliedepi.github.io/slides/intro/en/module_7-2/module_7-2.html)  
+*Part 2:*  
 
-- [Exercise: Pivoting data](http://exercises.appliedepi.org/app/pivoting)  
+- [Slides: Pivoting data](https://appliedepi.github.io/slides/intro/full_text/intro7_2/intro7_2.html)  
+
+- [Exercise: Pivoting data](http://exercises.appliedepi.org/app/intro7_2)  
 
 - [Video: Lectures, Demos, Debrief](https://files.appliedepi.org/media/mod7)
 
@@ -583,9 +570,11 @@ We cover the various ways to define "epiweeks" using R, and our recommended appr
 
 We then tackle visualizations that are central to descriptive epidemiology: the intricacies of crafting an accurate epidemic curve, conveying patterns across three variables using a heat plot, and creating age/sex pyramids to describe demographics. If there is time, we finish with a demonstration of R's GIS/geospatial capabilities.  
 
-- [Exercise: Data visualization for public health](http://exercises.appliedepi.org/app/ggplot_heat_epicurves_pyramids)  
+- There are no slides for module 8  
 
-- GIS demo R script can be found in your course folder at: *"intro_course/scripts/backup/5_gis_demo.R"*  
+- [Exercise: Data visualization for public health](http://exercises.appliedepi.org/app/intro8)  
+
+- GIS demo R script can be found in your course folder at: *"intro_course/ebola/scripts/backup/8_gis_demo.R"*  
 
 - Your instructor will provide our "cheatsheet" on epidemic weeks and making epicurves  
 
@@ -603,42 +592,43 @@ We then tackle visualizations that are central to descriptive epidemiology: the 
 
 
 
-::: {.tutorial}
-**Module 9: Reports with R Markdown**
-
-In this module, we take the R code on the Ebola case study that you have been writing throughout the course and convert it into a reproducible, automated report (e.g. Word, PDF, HTML, etc.).  
-
-We teach you the variations in syntax to produce documents that update when incoming data is refreshed and that can be used to inform public health partners and stakeholders.  
-
-- [Slides: R Markdown and routine reports](https://appliedepi.github.io/slides/intro/en/module_9/module_9.html)  
-  
-- [Exercise: R Markdown](http://exercises.appliedepi.org/app/rmarkdown)  
-
-- [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod9)
-
-:::
-
-
-
 
 
 
 ::: {.tutorial}
-**Module 10: Final Exercise, and peer code review**
-In this last module, your put your skills to the test by writing an R Markdown report using a new dataset - a COVID-19 case linelist.  
+**Module 9: COVID-19 skill application to a new outbreak**
+In this module, put your skills to the test by writing an R Markdown report using a new dataset - a COVID-19 case linelist.  
 
 Unlike with the Ebola case study, you will not have solution code available to you. Instead, you will be given a Word document to reproduce by writing an R Markdown script. This will require data cleaning, creating common epidemiological plots, joining datasets, and creating descriptive tables.  
 
-If there is time, we perform "peer code reviews" which simultaneously improving your coding skills and teach you how to review others' code. Before closing, we touch upon how to find your particular community of R users and resources available to you for further learning.  
+- [Slides: ](https://appliedepi.github.io/slides/intro/full_text/intro9/intro9.html)  
 
-- *Exercise materials*: See the folder "intro_course/learning_materials/covid_case_study" for the Word document report to replicate, the datasets, and a tips sheet.  
+
+- [Exercise: COVID-19 exercise](http://exercises.appliedepi.org/app/intro9)
+
+- *Exercise materials*: See the folder "intro_course/covid/" for the Word document report to replicate and the datasets.  
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod10)
 
-Consider posting your R code questions in our [Community Forum](http://community.appliedepi.org). Get free answers from experts and other epidemiologists! Here is a video on **how to [post an effective R code question](https://www.youtube.com/watch?v=XIc-VHFeUl8)**.  
 
 :::
 
+
+
+
+
+::: {.tutorial}
+**Module 10: Next steps and Getting Help**  
+
+In this final module, we teach you how to effectively get help from online forums by creating a "minimal, reproducible example (reprex)" of a coding problem. Working on a new dataset, you will post an R code question in our [Community Forum](http://community.appliedepi.org).  
+
+For this module, we recommend that you bring a dataset from your work to work on. Be aware that you will need to share a small portion (a few rows and columns) of the data publicly on the forum, to demonstrate a coding challenge. We also offer practice datasets that you can use instead.  
+
+- [Slides: ](https://appliedepi.github.io/slides/intro/full_text/intro10/intro10.html)  
+
+- [Exercise: Reprex and next steps](http://exercises.appliedepi.org/app/intro10)
+
+:::
 
 
 
