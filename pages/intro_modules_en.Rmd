@@ -291,6 +291,8 @@ Using the {ggplot2} package to maximum effect depends upon understanding how to 
 
 We also teach you to write text labels that automatically update with refreshed data (very useful for epidemiological reports!), use colors that are colorblind-friendly, and more.  
 
+*Part 1:*  
+
 - [Slides: Data visualization with ggplot2](https://appliedepi.github.io/slides/intro/full_text/intro5_1/intro5_1.html)  
 
 - [Exercise: ggplot basics](http://exercises.appliedepi.org/app/intro5_1) 
@@ -344,6 +346,8 @@ In the second part of this module, we address *pivoting*, which in R means trans
 
 Along the way, we introduce the uses of the "factor" class (R's version of ordered levels in a variable) by constructing a timeline visualization of some patients' pathways through the surveillance/medical system.  
 
+*Part 1:*  
+
 - [Slides: Joining data](https://appliedepi.github.io/slides/intro/full_text/intro7_1/intro7_1.html)  
 
 - [Exercise: Joining data](http://exercises.appliedepi.org/app/intro7_1)
@@ -382,8 +386,6 @@ We then tackle visualizations that are central to descriptive epidemiology: the 
 
 - [Exercise: Data visualization for public health](http://exercises.appliedepi.org/app/intro8)  
 
-- GIS demo R script can be found in your course folder at: *"intro_course/ebola/scripts/backup/8_gis_demo.R"*  
-
 - Your instructor will provide our "cheatsheet" on epidemic weeks and making epicurves  
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod8)
@@ -410,7 +412,6 @@ In this module, put your skills to the test by writing an R Markdown report usin
 Unlike with the Ebola case study, you will not have solution code available to you. Instead, you will be given a Word document to reproduce by writing an R Markdown script. This will require data cleaning, creating common epidemiological plots, joining datasets, and creating descriptive tables.  
 
 - [Slides: ](https://appliedepi.github.io/slides/intro/full_text/intro9/intro9.html)  
-
 
 - [Exercise: COVID-19 exercise](http://exercises.appliedepi.org/app/intro9)
 
