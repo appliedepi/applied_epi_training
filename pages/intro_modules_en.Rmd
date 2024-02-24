@@ -203,7 +203,7 @@ Next, we dive into a coding demonstration to introduce you to R and RStudio. We 
 
 - [Slides: Course logistics, RStudio, basic R syntax](https://appliedepi.github.io/slides/intro/full_text/intro1/intro1.html)  
 
-- [Exercise: R setup, basic syntax, functions, and packages](http://exercises.appliedepi.org/app/intro1) 
+- [Exercise: R setup, basic syntax, functions, and packages](http://start-exercise.appliedepi.org/app/intro1) 
 
 - [Video: Module 1 Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod1)  
 
@@ -226,7 +226,7 @@ Together, we write a sequence of "pipes" to clean the linelist step-by-step in a
 
 - [Slides: Tidy data and data cleaning](https://appliedepi.github.io/slides/intro/full_text/intro2/intro2.html)  
   
-- [Exercise: Cleaning data - part 1](http://exercises.appliedepi.org/app/intro2)  
+- [Exercise: Cleaning data - part 1](http://start-exercise.appliedepi.org/app/intro2)  
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod3)
 
@@ -242,7 +242,7 @@ We continue writing our data cleaning code, covering more advanced re-coding, fi
 
 - [Slides: Data cleaning part 2](https://appliedepi.github.io/slides/intro/full_text/intro3/intro3.html)  
 
-- [Exercise: Cleaning data part 2](http://exercises.appliedepi.org/app/intro3)  
+- [Exercise: Cleaning data part 2](http://start-exercise.appliedepi.org/app/intro3)  
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod4)
 :::
@@ -267,7 +267,7 @@ Finally, we explore {flextable}, which can be used to customize tables produced 
 
 - [Slides: Grouping and summarizing data](https://appliedepi.github.io/slides/intro/full_text/intro4/intro4.html)   
   
-- [Exercise: Grouping data and summary tables](http://exercises.appliedepi.org/app/intro4)  
+- [Exercise: Grouping data and summary tables](http://start-exercise.appliedepi.org/app/intro4)  
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod5)
 
@@ -295,13 +295,13 @@ We also teach you to write text labels that automatically update with refreshed 
 
 - [Slides: Data visualization with ggplot2](https://appliedepi.github.io/slides/intro/full_text/intro5_1/intro5_1.html)  
 
-- [Exercise: ggplot basics](http://exercises.appliedepi.org/app/intro5_1) 
+- [Exercise: ggplot basics](http://start-exercise.appliedepi.org/app/intro5_1) 
 
 *Part 2:*  
 
 - [Slides: Scales, themes, and labels](https://appliedepi.github.io/slides/intro/full_text/intro5_2/intro5_2.html)  
 
-- [Exercise: Scales, themes, and lables](https://exercises.appliedepi.org/app/intro5_2)  
+- [Exercise: Scales, themes, and lables](https://start-exercise.appliedepi.org/app/intro5_2)  
 
 - [Video: Lectures, Demos, Debrief](https://files.appliedepi.org/media/mod6)
 
@@ -324,7 +324,7 @@ We teach you the tips and tricks to produce documents beautiful documents that u
 
 - [Slides: R Markdown and routine reports](https://appliedepi.github.io/slides/intro/full_text/intro6/intro6.html)  
   
-- [Exercise: R Markdown](http://exercises.appliedepi.org/app/intro6)  
+- [Exercise: R Markdown](http://start-exercise.appliedepi.org/app/intro6)  
 
 - [Video: Lecture, Demo, Debrief](https://files.appliedepi.org/media/mod9)
 
@@ -350,13 +350,13 @@ Along the way, we introduce the uses of the "factor" class (R's version of order
 
 - [Slides: Joining data](https://appliedepi.github.io/slides/intro/full_text/intro7_1/intro7_1.html)  
 
-- [Exercise: Joining data](http://exercises.appliedepi.org/app/intro7_1)
+- [Exercise: Joining data](http://start-exercise.appliedepi.org/app/intro7_1)
 
 *Part 2:*  
 
 - [Slides: Pivoting data](https://appliedepi.github.io/slides/intro/full_text/intro7_2/intro7_2.html)  
 
-- [Exercise: Pivoting data](http://exercises.appliedepi.org/app/intro7_2)  
+- [Exercise: Pivoting data](http://start-exercise.appliedepi.org/app/intro7_2)  
 
 - [Video: Lectures, Demos, Debrief](https://files.appliedepi.org/media/mod7)
 
@@ -384,7 +384,7 @@ We then tackle visualizations that are central to descriptive epidemiology: the 
 
 - There are no slides for module 8  
 
-- [Exercise: Data visualization for public health](http://exercises.appliedepi.org/app/intro8)  
+- [Exercise: Data visualization for public health](http://start-exercise.appliedepi.org/app/intro8)  
 
 - Your instructor will provide our "cheatsheet" on epidemic weeks and making epicurves  
 
@@ -413,7 +413,7 @@ Unlike with the Ebola case study, you will not have solution code available to y
 
 - [Slides: ](https://appliedepi.github.io/slides/intro/full_text/intro9/intro9.html)  
 
-- [Exercise: COVID-19 exercise](http://exercises.appliedepi.org/app/intro9)
+- [Exercise: COVID-19 exercise](http://start-exercise.appliedepi.org/app/intro9)
 
 - *Exercise materials*: See the folder "intro_course/covid/" for the Word document report to replicate and the datasets.  
 
@@ -435,7 +435,7 @@ For this module, we recommend that you bring a dataset from your work to work on
 
 - [Slides: ](https://appliedepi.github.io/slides/intro/full_text/intro10/intro10.html)  
 
-- [Exercise: Reprex and next steps](http://exercises.appliedepi.org/app/intro10)
+- [Exercise: Reprex and next steps](http://start-exercise.appliedepi.org/app/intro10)
 
 :::
 
