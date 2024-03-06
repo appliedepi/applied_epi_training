@@ -198,7 +198,7 @@ Click the links below to access the materials
 
 - [Slides](https://appliedepi.github.io/slides/gis/gis1/slides_gis1.html)  
 
-- [Exercise 1](http://exercises.appliedepi.org/app/gis1) 
+- [Exercise 1](http://start-exercise.appliedepi.org/app/gis1) 
 
 :::
 
@@ -214,14 +214,14 @@ Click the links below to access the materials
 - [Slides 2](https://appliedepi.github.io/slides/gis/gis2/slides_gis2.html)  
 
 
-- [Exercise 2](http://exercises.appliedepi.org/app/gis2)
+- [Exercise 2](http://start-exercise.appliedepi.org/app/gis2)
 
 
 **Final COVID-19 Case Study**  
 
 - [Slides 3](https://appliedepi.github.io/slides/gis/gis3/slides_gis3.html) 
 
-- [Exercise 3](http://exercises.appliedepi.org/app/gis3)
+- [Exercise 3](http://start-exercise.appliedepi.org/app/gis3)
 
 **Closing - Where to go from here**  
 
