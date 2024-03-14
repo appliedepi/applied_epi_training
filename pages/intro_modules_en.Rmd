@@ -429,9 +429,9 @@ Unlike with the Ebola case study, you will not have solution code available to y
 ::: {.tutorial}
 **Module 10: Next steps and Getting Help**  
 
-In this final module, we teach you how to effectively get help from online forums by creating a "minimal, reproducible example (reprex)" of a coding problem. Working on a new dataset, you will post an R code question in our [Community Forum](http://community.appliedepi.org).  
+In this final module, we teach you how to troubleshoot error messages, read function documentation, and how to effectively get help from online forums by creating a "minimal, reproducible example (reprex)" of a coding problem. You will post R code questions in our [Community Forum](http://community.appliedepi.org).  
 
-For this module, we recommend that you bring a dataset from your work to work on. Be aware that you will need to share a small portion (a few rows and columns) of the data publicly on the forum, to demonstrate a coding challenge. We also offer practice datasets that you can use instead.  
+For this module, you are welcome to bring a dataset from your work. If you work efficiently, there may be time for you to use it to post a question in the forum. Be aware that if you do this, you will need to share a small portion (a few rows and columns) of the data publicly on the forum, to demonstrate a coding challenge. We also offer practice datasets that you can use instead.  
 
 - [Slides: ](https://appliedepi.github.io/slides/intro/full_text/intro10/intro10.html)  
 
